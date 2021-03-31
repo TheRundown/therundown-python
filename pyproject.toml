@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rundown"
+version = "0.1.0"
+description = ""
+authors = ["Jeremy Morrison <jeremy.morrison36@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+black = "^20.8b1"
+flake8 = "^3.9.0"
+pytest-cov = "^2.11.1"
+vcrpy = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
