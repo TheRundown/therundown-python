@@ -37,3 +37,8 @@ jobs:
           command: |
             poetry run flake8 --max-line-length 88 --per-file-ignores="__init__.py:F401"
             poetry run pytest -v --cov rundown
+
+workflows:
+  build-and-test-workflow:
+    jobs:
+      - build-and-test
