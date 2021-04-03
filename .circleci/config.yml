@@ -32,11 +32,13 @@ jobs:
             - /home/circleci/.cache/pypoetry/virtualenvs
 
       # Run linter and test suite with code coverage report.
+      # `--vcr-record=none` - do not make any get requests from test suite. Use only
+      # recorded API calls.
       - run:
           name: Run Tests
           command: |
             poetry run flake8 --max-line-length 88 --per-file-ignores="__init__.py:F401"
-            poetry run pytest -v --cov rundown
+            poetry run pytest -v --cov rundown --vcr-record=none
 
 workflows:
   build-and-test-workflow:
