@@ -1,4 +1,4 @@
-from typing import Union
+from typing import Union, List, Dict
 from enum import Enum
 
 import requests
@@ -10,7 +10,7 @@ class _RapidAPIAuth:
     def __init__(self, api_key: str):
         self.api_key = api_key
         self.api_host = "therundown-therundown-v1.p.rapidapi.com"
-        self.api_url = "https://therundown-therundown-v1.p.rapidapi.com/"
+        self.api_url = "https://therundown-therundown-v1.p.rapidapi.com"
         self.headers = {
             "x-rapidapi-key": self.api_key,
             "x-rapidapi-host": self.api_host,
@@ -78,3 +78,31 @@ class Rundown:
 
         self.odds_type = OddsType(odds_type.lower())
         self.timezone = timezone
+
+    def _build_url(self, *segments: Union[str, int]) -> str:
+        """Build URL without query parameters."""
+        base_url = self._auth.api_url
+        return f"{base_url}/{'/'.join([str(s) for s in segments])}"
+
+    def _clean_params(self, **params):
+        """Disallow parameters that have `None` as their value."""
+        return {k: v for k, v in params.items() if v is not None}
+
+    def _get(self, url: str, **params: Union[str, int, List[str]]) -> requests.Response:
+        """Make get request."""
+        res = self._session.get(url, params=params)
+        # TODO: handle 404 not found - should never happen if called through methods.
+        return res
+
+    def _build_url_and_get_json(
+        self, *segments: Union[str, int], **params: Union[str, int, List[str]]
+    ) -> Dict:
+        """Build URL from segments and make get request to API.
+
+        Returns:
+            [type]: [description]
+        """
+        url = self._build_url(*segments)
+        params = self._clean_params(**params)
+        res = self._get(url, **params)
+        return res.json()
