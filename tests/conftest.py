@@ -15,20 +15,30 @@ def vcr_config():
 
 
 def patched_build_url_and_get_json(request, original_fn):
+    JSON_DIR = "tests/json"
+
+    def build_file_name():
+        """Match file name from pytest-vcr."""
+        path_segments = request.node.nodeid.split("::")
+        class_name = path_segments[-2]
+        node_name = path_segments[-1]
+        return f"{JSON_DIR}/{class_name}.{node_name}.json"
+        pass
+
     # Save request JSON body to file with same name as test cassette.
-    def _patched(*segments, **params):
+    def patched(*segments, **params):
         data = original_fn(*segments, **params)
-        with open(f"tests/json/{request.node.name}.json", "w") as f:
+        with open(build_file_name(), "w") as f:
             json.dump(data, f, indent=2)
 
         return data
 
-    return _patched
+    return patched
 
 
 @pytest.fixture
 def rundown(request, monkeypatch):
-    r = Rundown(os.getenv("RAPIDAPI_KEY"))
+    r = Rundown(os.getenv("RAPIDAPI_KEY"), timezone="America/Phoenix")
     original_fn = r._build_url_and_get_json
     # Patch method in order to save JSON data along with VCR cassette.
     monkeypatch.setattr(
