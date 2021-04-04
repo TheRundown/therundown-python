@@ -121,7 +121,7 @@ class Rundown:
         lines_type: str,
         date_: str,
         offset: Optional[int] = None,
-        *include: Union[int, str],
+        *include: str,
     ):
         offset = self._validate_offset(offset)
         data = self._build_url_and_get_json(
@@ -192,7 +192,7 @@ class Rundown:
         sport_id: int,
         date_: str,
         offset: Optional[int] = None,
-        *include: Union[int, str],
+        *include: str,
     ):
         """Get events by sport by date.
 
@@ -219,7 +219,7 @@ class Rundown:
         sport_id: int,
         date_: str,
         offset: Optional[int] = None,
-        *include: Union[int, str],
+        *include: str,
     ):
         """Get events with opening lines by sport by date.
 
@@ -246,7 +246,7 @@ class Rundown:
         sport_id: int,
         date_: str,
         offset: Optional[int] = None,
-        *include: Union[int, str],
+        *include: str,
     ):
         """Get events with closing lines by sport by date.
 
