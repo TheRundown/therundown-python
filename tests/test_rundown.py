@@ -120,7 +120,7 @@ class TestRundown:
     )
     @pytest.mark.vcr()
     def test_opening_lines(self, rundown, sport_id, date_, offset, include):
-        data = rundown.opening_lines(sport_id, date_, offset, include)
+        data = rundown.opening_lines(sport_id, date_, offset, *include)
         assert len(data) > 0
 
     @pytest.mark.parametrize(
@@ -134,5 +134,5 @@ class TestRundown:
     )
     @pytest.mark.vcr()
     def test_closing_lines(self, rundown, sport_id, date_, offset, include):
-        data = rundown.closing_lines(sport_id, date_, offset, include)
+        data = rundown.closing_lines(sport_id, date_, offset, *include)
         assert len(data) > 0
