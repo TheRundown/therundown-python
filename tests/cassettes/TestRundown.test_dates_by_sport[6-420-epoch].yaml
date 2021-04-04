@@ -15,12 +15,12 @@ interactions:
       x-rapidapi-key:
       - DUMMY
     method: GET
-    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/6/dates?offset=-420&format=epoch
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/6/dates?offset=420&format=epoch
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWSkksSS1Wsoo2NDM0NzU3NzIw0AEzLSwMoEwzCxAbyDQyMLIwADJjawFZgvQo
-        NwAAAA==
+        H4sIAAAAAAAAA6tWSkksSS1Wsoo2NDM0NzE3sjAw0AExTY3MYEwzYwsTMNPIwMjYAMiMrQUAPGh+
+        JzcAAAA=
     headers:
       Access-Control-Allow-Headers:
       - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
@@ -29,28 +29,28 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 63a6770e2fdd42d2-LAX
+      - 63a8be18ee2754e7-LAX
       Connection:
       - keep-alive
       Content-Encoding:
       - gzip
       Content-Length:
-      - '61'
+      - '62'
       Content-Type:
       - application/json
       Date:
-      - Sun, 04 Apr 2021 00:36:54 GMT
+      - Sun, 04 Apr 2021 07:14:55 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=YLGlh%2B0f0ofM7lTLF0dMkE0lGFieuZPaNNvvixJnVLCdGPjM5nuxdgRTcX5tJ2CDIIkb2dXteoI2dhZ6%2BcEwWSWcmwFi1JynWNRRuYpM"}],"group":"cf-nel"}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=N2nywI3Jm8qusdsPi6fnhNhm1iT%2FF8%2BMj1anMJ8VoDXK39OnCUojIeYgNy5YzenznKDnGAgLlgh%2F7H698%2Bz5Jh0nb4SANriPKEcI0L6L"}],"max_age":604800,"group":"cf-nel"}'
       Server:
       - RapidAPI-1.2.8
       Set-Cookie:
-      - __cfduid=dcda0eb0a52eb25f04193c26e1d4467911617496614; expires=Tue, 04-May-21
-        00:36:54 GMT; path=/; domain=.therundown.io; HttpOnly; SameSite=Lax
+      - __cfduid=dd3dd20cf7e2f0fd35d5cba7fb54e53fe1617520495; expires=Tue, 04-May-21
+        07:14:55 GMT; path=/; domain=.therundown.io; HttpOnly; SameSite=Lax
       Vary:
       - Accept-Encoding
       X-RapidAPI-Region:
@@ -60,13 +60,13 @@ interactions:
       X-RateLimit-requests-Limit:
       - '10000'
       X-RateLimit-requests-Remaining:
-      - '9997'
+      - '9961'
       X-RateLimit-requests-Reset:
-      - '82948'
+      - '59067'
       alt-svc:
       - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
       cf-request-id:
-      - 093be8bcdc000042d2ab83a000000001
+      - 093d552390000054e7b8af4000000001
     status:
       code: 200
       message: OK
