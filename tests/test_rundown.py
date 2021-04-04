@@ -63,3 +63,8 @@ class TestRundown:
     def test_patched_build_url_and_get_json(self, rundown, segments, params):
         data = rundown._build_url_and_get_json(*segments, **params)
         assert len(data) > 0
+
+    @pytest.mark.vcr()
+    def test_sports(self, rundown):
+        data = rundown.sports()
+        assert len(data) > 0

@@ -106,3 +106,14 @@ class Rundown:
         params = self._clean_params(**params)
         res = self._get(url, **params)
         return res.json()
+
+    def sports(self):
+        """Get available sports.
+
+        GET /sports
+
+        Returns:
+            list of resources.Sport
+        """
+        data = self._build_url_and_get_json("sports")
+        return data
