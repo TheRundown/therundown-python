@@ -1,0 +1,246 @@
+{
+  "teams": [
+    {
+      "team_id": 1767,
+      "name": "AFC",
+      "mascot": "AFC",
+      "abbreviation": "AFC"
+    },
+    {
+      "team_id": 89,
+      "name": "Arizona",
+      "mascot": "Cardinals",
+      "abbreviation": "ARI",
+      "record": "2-2"
+    },
+    {
+      "team_id": 85,
+      "name": "Atlanta",
+      "mascot": "Falcons",
+      "abbreviation": "ATL",
+      "record": "0-4"
+    },
+    {
+      "team_id": 65,
+      "name": "Baltimore",
+      "mascot": "Ravens",
+      "abbreviation": "BAL",
+      "record": "3-1"
+    },
+    {
+      "team_id": 61,
+      "name": "Buffalo",
+      "mascot": "Bills",
+      "abbreviation": "BUF",
+      "record": "4-0"
+    },
+    {
+      "team_id": 86,
+      "name": "Carolina",
+      "mascot": "Panthers",
+      "abbreviation": "CAR",
+      "record": "2-2"
+    },
+    {
+      "team_id": 81,
+      "name": "Chicago",
+      "mascot": "Bears",
+      "abbreviation": "CHI",
+      "record": "3-1"
+    },
+    {
+      "team_id": 66,
+      "name": "Cincinnati",
+      "mascot": "Bengals",
+      "abbreviation": "CIN",
+      "record": "1-2-1"
+    },
+    {
+      "team_id": 67,
+      "name": "Cleveland",
+      "mascot": "Browns",
+      "abbreviation": "CLE",
+      "record": "3-1"
+    },
+    {
+      "team_id": 77,
+      "name": "Dallas",
+      "mascot": "Cowboys",
+      "abbreviation": "DAL",
+      "record": "1-3"
+    },
+    {
+      "team_id": 73,
+      "name": "Denver",
+      "mascot": "Broncos",
+      "abbreviation": "DEN",
+      "record": "1-3"
+    },
+    {
+      "team_id": 82,
+      "name": "Detroit",
+      "mascot": "Lions",
+      "abbreviation": "DET",
+      "record": "1-3"
+    },
+    {
+      "team_id": 83,
+      "name": "Green Bay",
+      "mascot": "Packers",
+      "abbreviation": "GB",
+      "record": "4-0"
+    },
+    {
+      "team_id": 69,
+      "name": "Houston",
+      "mascot": "Texans",
+      "abbreviation": "HOU",
+      "record": "0-4"
+    },
+    {
+      "team_id": 70,
+      "name": "Indianapolis",
+      "mascot": "Colts",
+      "abbreviation": "IND",
+      "record": "3-1"
+    },
+    {
+      "team_id": 71,
+      "name": "Jacksonville",
+      "mascot": "Jaguars",
+      "abbreviation": "JAX",
+      "record": "1-3"
+    },
+    {
+      "team_id": 74,
+      "name": "Kansas City",
+      "mascot": "Chiefs",
+      "abbreviation": "KC",
+      "record": "14-2"
+    },
+    {
+      "team_id": 75,
+      "name": "Las Vegas",
+      "mascot": "Raiders",
+      "abbreviation": "LAS",
+      "record": "2-2"
+    },
+    {
+      "team_id": 76,
+      "name": "Los Angeles",
+      "mascot": "Chargers",
+      "abbreviation": "LAC",
+      "record": "1-3"
+    },
+    {
+      "team_id": 90,
+      "name": "Los Angeles",
+      "mascot": "Rams",
+      "abbreviation": "LAR",
+      "record": "3-1"
+    },
+    {
+      "team_id": 62,
+      "name": "Miami",
+      "mascot": "Dolphins",
+      "abbreviation": "MIA",
+      "record": "1-3"
+    },
+    {
+      "team_id": 84,
+      "name": "Minnesota",
+      "mascot": "Vikings",
+      "abbreviation": "MIN",
+      "record": "1-3"
+    },
+    {
+      "team_id": 63,
+      "name": "New England",
+      "mascot": "Patriots",
+      "abbreviation": "NE",
+      "record": "2-2"
+    },
+    {
+      "team_id": 87,
+      "name": "New Orleans",
+      "mascot": "Saints",
+      "abbreviation": "NO",
+      "record": "2-2"
+    },
+    {
+      "team_id": 64,
+      "name": "New York",
+      "mascot": "Jets",
+      "abbreviation": "NYJ",
+      "record": "0-4"
+    },
+    {
+      "team_id": 78,
+      "name": "New York",
+      "mascot": "Giants",
+      "abbreviation": "NYG",
+      "record": "0-4"
+    },
+    {
+      "team_id": 1766,
+      "name": "NFC",
+      "mascot": "NFC",
+      "abbreviation": "NFC"
+    },
+    {
+      "team_id": 79,
+      "name": "Philadelphia",
+      "mascot": "Eagles",
+      "abbreviation": "PHI",
+      "record": "1-2-1"
+    },
+    {
+      "team_id": 68,
+      "name": "Pittsburgh",
+      "mascot": "Steelers",
+      "abbreviation": "PIT",
+      "record": "12-4"
+    },
+    {
+      "team_id": 91,
+      "name": "San Francisco",
+      "mascot": "49ers",
+      "abbreviation": "SF",
+      "record": "2-2"
+    },
+    {
+      "team_id": 92,
+      "name": "Seattle",
+      "mascot": "Seahawks",
+      "abbreviation": "SEA",
+      "record": "4-0"
+    },
+    {
+      "team_id": 88,
+      "name": "Tampa Bay",
+      "mascot": "Buccaneers",
+      "abbreviation": "TB",
+      "record": "11-5"
+    },
+    {
+      "team_id": 2754,
+      "name": "TBD",
+      "mascot": "TBD",
+      "abbreviation": "TBD"
+    },
+    {
+      "team_id": 72,
+      "name": "Tennessee",
+      "mascot": "Titans",
+      "abbreviation": "TEN",
+      "record": "11-5"
+    },
+    {
+      "team_id": 80,
+      "name": "Washington",
+      "mascot": "Football Team",
+      "abbreviation": "WSH",
+      "record": "1-3"
+    }
+  ]
+}

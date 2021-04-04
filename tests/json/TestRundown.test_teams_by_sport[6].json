@@ -1,0 +1,251 @@
+{
+  "teams": [
+    {
+      "team_id": 118,
+      "name": "Anaheim",
+      "mascot": "Ducks",
+      "abbreviation": "ANA",
+      "record": "11-21-6"
+    },
+    {
+      "team_id": 121,
+      "name": "Arizona",
+      "mascot": "Coyotes",
+      "abbreviation": "ARI",
+      "record": "17-15-5"
+    },
+    {
+      "team_id": 1771,
+      "name": "Atlantic",
+      "mascot": "Atlantic",
+      "abbreviation": "Atlantic"
+    },
+    {
+      "team_id": 98,
+      "name": "Boston",
+      "mascot": "Bruins",
+      "abbreviation": "BOS",
+      "record": "19-10-5"
+    },
+    {
+      "team_id": 99,
+      "name": "Buffalo",
+      "mascot": "Sabres",
+      "abbreviation": "BUF",
+      "record": "8-23-6"
+    },
+    {
+      "team_id": 113,
+      "name": "Calgary",
+      "mascot": "Flames",
+      "abbreviation": "CAL",
+      "record": "16-19-3"
+    },
+    {
+      "team_id": 103,
+      "name": "Carolina",
+      "mascot": "Hurricanes",
+      "abbreviation": "CAR",
+      "record": "24-9-3"
+    },
+    {
+      "team_id": 1768,
+      "name": "Central",
+      "mascot": "Central",
+      "abbreviation": "Central"
+    },
+    {
+      "team_id": 108,
+      "name": "Chicago",
+      "mascot": "Blackhawks",
+      "abbreviation": "CHI",
+      "record": "17-17-5"
+    },
+    {
+      "team_id": 114,
+      "name": "Colorado",
+      "mascot": "Avalanche",
+      "abbreviation": "COL",
+      "record": "25-8-4"
+    },
+    {
+      "team_id": 109,
+      "name": "Columbus",
+      "mascot": "Blue Jackets",
+      "abbreviation": "CBJ",
+      "record": "14-17-8"
+    },
+    {
+      "team_id": 119,
+      "name": "Dallas",
+      "mascot": "Stars",
+      "abbreviation": "DAL",
+      "record": "13-12-10"
+    },
+    {
+      "team_id": 110,
+      "name": "Detroit",
+      "mascot": "Red Wings",
+      "abbreviation": "DET",
+      "record": "12-22-5"
+    },
+    {
+      "team_id": 115,
+      "name": "Edmonton",
+      "mascot": "Oilers",
+      "abbreviation": "EDM",
+      "record": "23-14-1"
+    },
+    {
+      "team_id": 104,
+      "name": "Florida",
+      "mascot": "Panthers",
+      "abbreviation": "FLA",
+      "record": "25-9-4"
+    },
+    {
+      "team_id": 120,
+      "name": "Los Angeles",
+      "mascot": "Kings",
+      "abbreviation": "LAK",
+      "record": "14-16-6"
+    },
+    {
+      "team_id": 1770,
+      "name": "Metropolitan",
+      "mascot": "Metro",
+      "abbreviation": "Metro"
+    },
+    {
+      "team_id": 116,
+      "name": "Minnesota",
+      "mascot": "Wild",
+      "abbreviation": "MIN",
+      "record": "23-11-2"
+    },
+    {
+      "team_id": 100,
+      "name": "Montreal",
+      "mascot": "Canadiens",
+      "abbreviation": "MON",
+      "record": "16-9-9"
+    },
+    {
+      "team_id": 111,
+      "name": "Nashville",
+      "mascot": "Predators",
+      "abbreviation": "NSH",
+      "record": "20-18-1"
+    },
+    {
+      "team_id": 93,
+      "name": "New Jersey",
+      "mascot": "Devils",
+      "abbreviation": "NJ",
+      "record": "13-16-6"
+    },
+    {
+      "team_id": 94,
+      "name": "New York",
+      "mascot": "Islanders",
+      "abbreviation": "NYI",
+      "record": "24-10-4"
+    },
+    {
+      "team_id": 95,
+      "name": "New York",
+      "mascot": "Rangers",
+      "abbreviation": "NYR",
+      "record": "17-15-5"
+    },
+    {
+      "team_id": 101,
+      "name": "Ottawa",
+      "mascot": "Senators",
+      "abbreviation": "OTT",
+      "record": "13-21-4"
+    },
+    {
+      "team_id": 1769,
+      "name": "Pacific",
+      "mascot": "Pacific",
+      "abbreviation": "Pacific"
+    },
+    {
+      "team_id": 96,
+      "name": "Philadelphia",
+      "mascot": "Flyers",
+      "abbreviation": "PHI",
+      "record": "17-14-5"
+    },
+    {
+      "team_id": 97,
+      "name": "Pittsburgh",
+      "mascot": "Penguins",
+      "abbreviation": "PIT",
+      "record": "24-12-2"
+    },
+    {
+      "team_id": 122,
+      "name": "San Jose",
+      "mascot": "Sharks",
+      "abbreviation": "SJ",
+      "record": "17-16-4"
+    },
+    {
+      "team_id": 112,
+      "name": "St. Louis",
+      "mascot": "Blues",
+      "abbreviation": "STL",
+      "record": "16-15-6"
+    },
+    {
+      "team_id": 105,
+      "name": "Tampa Bay",
+      "mascot": "Lightning",
+      "abbreviation": "TB",
+      "record": "26-9-2"
+    },
+    {
+      "team_id": 2758,
+      "name": "TBD",
+      "mascot": "TBD",
+      "abbreviation": "TBD"
+    },
+    {
+      "team_id": 102,
+      "name": "Toronto",
+      "mascot": "Maple Leafs",
+      "abbreviation": "TOR",
+      "record": "24-10-3"
+    },
+    {
+      "team_id": 117,
+      "name": "Vancouver",
+      "mascot": "Canucks",
+      "abbreviation": "VAN",
+      "record": "16-18-3"
+    },
+    {
+      "team_id": 361,
+      "name": "Vegas",
+      "mascot": "Golden Knights",
+      "abbreviation": "LAS",
+      "record": "24-10-2"
+    },
+    {
+      "team_id": 106,
+      "name": "Washington",
+      "mascot": "Capitals",
+      "abbreviation": "WSH",
+      "record": "24-9-4"
+    },
+    {
+      "team_id": 107,
+      "name": "Winnipeg",
+      "mascot": "Jets",
+      "abbreviation": "WPG",
+      "record": "22-13-3"
+    }
+  ]
+}

@@ -154,3 +154,14 @@ class Rundown:
         """
         data = self._build_url_and_get_json("affiliates")
         return data
+
+    def teams_by_sport(self, sport_id: int):
+        """Get teams for the league referenced by sport id.
+
+        GET /sports/<sport-id>/teams
+
+        Returns:
+            list of resource.Team
+        """
+        data = self._build_url_and_get_json("sports", sport_id, "teams")
+        return data

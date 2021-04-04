@@ -88,3 +88,9 @@ class TestRundown:
     def test_sportsbooks(self, rundown):
         data = rundown.sportsbooks()
         assert len(data) > 0
+
+    @pytest.mark.parametrize("sport_id", [2, 6])
+    @pytest.mark.vcr()
+    def test_teams_by_sport(self, sport_id, rundown):
+        data = rundown.teams_by_sport(sport_id)
+        assert len(data) > 0

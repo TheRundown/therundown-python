@@ -1,0 +1,88 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      x-rapidapi-host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/6/teams
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA32WW2/jNhCF/4qg56iw5IusvPkSb+I4thGpMRZFUUwsRiJCkwZFJUgX+9873u2G
+        1/bNpozPR2dmzvBbrAicuvj6j28/Pv1F6/g6TadXMYcTia/jGYeW0FN8FZ+gOwqFR8v++NrhATw/
+        S/JGQVHBL7/czvBQkqOQyIjTNMnSZBJ/vzLJWarJkv4tOJjkhfgQioTYj3cWO0/ScTJ22HluwBUD
+        rujRpBtnLv7XEwtYaBfmolP4SwM2lz3lAaXzXWkpLZJ04CotCg3uX16ACZNcAgJD5N9XJnmaZEPP
+        3nT4SV4Aa0B+mOQVw0cB8mK2sTRPEpQ9dNADEy0Fo3bpbnsp6RF4mP9o8rNR4uPziXZ7QbiSwKzO
+        +Dxy2f8+cMQasBZlNZbDcwbH1xbeQ128uPU6Lfc6LR1pvGBCQm3xZ2+A/XRsSQC/s6zOxsk0Gbni
+        C5Pen577zlbfk2iNb0BUSP98bekfXfRPXf36H5bAGFj8UoEMgJdOkwyTNMPedskDTSZKCqpM9COp
+        owPlTQh/U1n4LMky3/fxJ/2mPgnuzOSOMhKSfrN8sExH6WiL67qu6QpLSmurvfeYD20QvtrMnIoW
+        XkUz7cpGdNGMN4QRy/T7sCub2b1bzYk39Hmu8Q8X0884nQosa36c+/yfx47JE02jHAdaKMuKA2V1
+        gHS3dT3GBeB6bAjF6kniDDlwqCkJxerDzsKjC0VSuMJ1/G+ha98oY8SqoSQ1KBEq4ra8tdQPknTq
+        dkihA3BL3qM1dgOx4nWJQBaCr93B8WpYjCz2VyFfTfJdh3lSB9tv+9XKK8xW3DdO/xXj/6U/AvZj
+        mG3ldnjrDrTrO6Xg3eqVkvD/cHxXVY4reFtw5yaf6KDaw5G+2AtdHznwXw9sF3Rf71vKoCbs3FJL
+        7op9BI3Y+0th5C31XOOpUt1zL5vWUkt4E74z7O8qt4aZNztZ9skvgUdr0VnNXbYgQ/usXLvKJ57N
+        qYFWv0Ub0VNv44TQlXdtGHvhNNC9V8HpDNEcrKHZ0KZVHNPP51dzy5XLyDumZPlYL/pqvjTBP796
+        yKWrT797JeRlpVixCWdGog2Bl8D7Vzv3WoOj595rUt0WT3gnEP0bkU7mha/TTzM38TCSHPpwoofv
+        iTT2Hv8iWE14dM8vDgd3S+nL9xJbD80BMxXr5OzcBZxx14Ri7+Bk6iiwGAfaHbwXcHomjQlfB684
+        h/0XC4zXkOHFmT+//wNDS3G7zgwAAA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 63a7d3ccca180513-LAX
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '934'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 04 Apr 2021 04:34:58 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"max_age":604800,"report_to":"cf-nel"}'
+      Report-To:
+      - '{"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=EuRae%2FpbT5XFaRDf2AaHfBKv3%2B85%2FvEjtqQ5M6MBKKawNZG2uW6lroZt%2FoDxco7PTCg55uayoq2Eo6fqVa6JeA08G9Z2dKYDaIAowl19"}],"max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Set-Cookie:
+      - __cfduid=dd5ecdcfeec8838469886bc52ff3cfd6c1617510898; expires=Tue, 04-May-21
+        04:34:58 GMT; path=/; domain=.therundown.io; HttpOnly; SameSite=Lax
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9992'
+      X-RateLimit-requests-Reset:
+      - '68664'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 093cc2b40300000513259e3000000001
+    status:
+      code: 200
+      message: OK
+version: 1
