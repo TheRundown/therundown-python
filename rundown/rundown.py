@@ -3,7 +3,7 @@ from enum import Enum
 
 import requests
 
-from rundown.utils import utc_offset
+from rundown.utils import utc_shift
 
 
 class _RapidAPIAuth:
@@ -109,6 +109,11 @@ class Rundown:
         res = self._get(url, **params)
         return res.json()
 
+    def _validate_offset(self, offset: int):
+        """Determine offset by parameter or self.timezone, with parameter precedence."""
+        if offset is None:
+            offset = utc_shift(self.timezone)
+        return offset
     def sports(self):
         """Get available sports.
 
@@ -127,17 +132,18 @@ class Rundown:
 
         GET /sports/<sport-id>/dates
 
-        If offset is provided, it takes precedence over self.timezone, otherwise dates
-        will be in timezone self.timezone.
-
-        If format == 'epoch', offset and timezone are ignored, and dates will be in
-        epoch format.
+        Args:
+            sport_id: ID for the league of interest.
+            offset: Amount to offset UTC by in minutes. If offset is provided, it takes
+                precedence over self.timezone, otherwise dates will be in timezone
+                self.timezone.
+            format: 'date' or 'epoch'. If format == 'epoch', offset and timezone are
+                ignored, and dates will be in epoch format.
 
         Returns:
             list of Python datetime objects, or ints (if format=='epoch')
         """
-        if offset is None:
-            offset = utc_offset(self.timezone)
+        offset = self._validate_offset(offset)
 
         data = self._build_url_and_get_json(
             "sports", sport_id, "dates", offset=offset, format=format
