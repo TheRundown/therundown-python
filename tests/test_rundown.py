@@ -83,3 +83,8 @@ class TestRundown:
     def test_dates_by_sport(self, rundown, sport_id, offset, format):
         data = rundown.dates_by_sport(sport_id, offset, format)
         assert len(data) > 0
+
+    @pytest.mark.vcr()
+    def test_sportsbooks(self, rundown):
+        data = rundown.sportsbooks()
+        assert len(data) > 0

@@ -143,3 +143,14 @@ class Rundown:
             "sports", sport_id, "dates", offset=offset, format=format
         )
         return data
+
+    def sportsbooks(self):
+        """Get available sportsbooks.
+
+        GET /affiliates
+
+        Returns:
+            list of resources.Sportsbook
+        """
+        data = self._build_url_and_get_json("affiliates")
+        return data
