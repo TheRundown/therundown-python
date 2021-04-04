@@ -73,9 +73,9 @@ class TestRundown:
         "sport_id, offset, format",
         [
             (6, None, "date"),
-            (6, -420, "date"),
+            (6, 420, "date"),
             (6, 0, "date"),
-            (6, -420, "epoch"),
+            (6, 420, "epoch"),
             (2, None, "epoch"),
         ],
     )
@@ -93,4 +93,46 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_teams_by_sport(self, sport_id, rundown):
         data = rundown.teams_by_sport(sport_id)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "sport_id, date_, offset, include",
+        [
+            (6, "2021-04-03", None, []),  # completed
+            (6, "2021-04-03", None, ["all_periods", "scores"]),
+            (6, "2021-04-04", None, []),  # future events
+            (6, "2021-04-04", None, ["all_periods", "scores"]),
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_events_by_date(self, rundown, sport_id, date_, offset, include):
+        data = rundown.events_by_date(sport_id, date_, offset, *include)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "sport_id, date_, offset, include",
+        [
+            (6, "2021-04-03", None, []),  # completed
+            (6, "2021-04-03", None, ["all_periods", "scores"]),
+            (6, "2021-04-04", None, []),  # future events
+            (6, "2021-04-04", None, ["all_periods", "scores"]),
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_opening_lines(self, rundown, sport_id, date_, offset, include):
+        data = rundown.opening_lines(sport_id, date_, offset, include)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "sport_id, date_, offset, include",
+        [
+            (6, "2021-04-03", None, []),  # completed
+            (6, "2021-04-03", None, ["all_periods", "scores"]),
+            (6, "2021-04-04", None, []),  # future events
+            (6, "2021-04-04", None, ["all_periods", "scores"]),
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_closing_lines(self, rundown, sport_id, date_, offset, include):
+        data = rundown.closing_lines(sport_id, date_, offset, include)
         assert len(data) > 0

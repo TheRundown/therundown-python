@@ -1,0 +1,4898 @@
+{
+  "meta": {
+    "delta_last_id": "11eb-9518-bcd9adaa-87b6-56e1dd81d769"
+  },
+  "events": [
+    {
+      "event_id": "b9ccf18be2253f2d9d489a2156191fdb",
+      "event_uuid": "11eb-955e-cf298000-8c5b-d96184eef2d6",
+      "sport_id": 6,
+      "event_date": "2021-04-04T16:00:00Z",
+      "rotation_number_away": 25,
+      "rotation_number_home": 26,
+      "score": {
+        "event_id": "b9ccf18be2253f2d9d489a2156191fdb",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Amalie Arena",
+        "venue_location": "Tampa, FL",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "NBC",
+        "event_status_detail": "4/4 - 12:00 PM EDT"
+      },
+      "teams": [
+        {
+          "team_id": 6806,
+          "team_normalized_id": 110,
+          "name": "Detroit Red Wings",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 6513,
+          "team_normalized_id": 105,
+          "name": "Tampa Bay Lightning",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 110,
+          "name": "Detroit",
+          "mascot": "Red Wings",
+          "abbreviation": "DET",
+          "ranking": 0,
+          "record": "12-22-5",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 105,
+          "name": "Tampa Bay",
+          "mascot": "Lightning",
+          "abbreviation": "TB",
+          "ranking": 0,
+          "record": "26-9-2",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Detroit at Tampa Bay - 2021-04-04",
+        "attendance": "0"
+      },
+      "lines": {
+        "20": {
+          "line_id": 14215944,
+          "moneyline": {
+            "line_id": 14215944,
+            "moneyline_away": 300,
+            "moneyline_away_delta": 5,
+            "moneyline_home": -391,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T06:53:45.398Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 105,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "12": {
+          "line_id": 14215797,
+          "moneyline": {
+            "line_id": 14215797,
+            "moneyline_away": 300,
+            "moneyline_away_delta": 15,
+            "moneyline_home": -400,
+            "moneyline_home_delta": -30,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T00:45:25.532Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 105,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://www.bodog.eu/"
+          }
+        },
+        "19": {
+          "line_id": 14215799,
+          "moneyline": {
+            "line_id": 14215799,
+            "moneyline_away": 300,
+            "moneyline_away_delta": -5,
+            "moneyline_home": -375,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T05:28:51.442Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 118,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -139,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -107,
+            "total_over_money_delta": 0,
+            "total_under_money": -114,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "6": {
+          "line_id": 14215813,
+          "moneyline": {
+            "line_id": 14215813,
+            "moneyline_away": 317,
+            "moneyline_away_delta": -9,
+            "moneyline_home": -365,
+            "moneyline_home_delta": 10,
+            "moneyline_draw": -365,
+            "moneyline_draw_delta": 10,
+            "date_updated": "2021-04-04T04:52:00.857Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 109,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "https://betonline.ag/"
+          }
+        },
+        "14": {
+          "line_id": 14215965,
+          "moneyline": {
+            "line_id": 14215965,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "https://sports.intertops.eu/"
+          }
+        },
+        "9": {
+          "line_id": 14215802,
+          "moneyline": {
+            "line_id": 14215802,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "https://www.betcris.com/en/sportsbook"
+          }
+        },
+        "2": {
+          "line_id": 14215801,
+          "moneyline": {
+            "line_id": 14215801,
+            "moneyline_away": 300,
+            "moneyline_away_delta": 15,
+            "moneyline_home": -400,
+            "moneyline_home_delta": -30,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T00:46:01.381Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 105,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "15": {
+          "line_id": 14215806,
+          "moneyline": {
+            "line_id": 14215806,
+            "moneyline_away": 306,
+            "moneyline_away_delta": -8,
+            "moneyline_home": -376,
+            "moneyline_home_delta": 8,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:52:22.08Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 103,
+            "total_over_money_delta": 0,
+            "total_under_money": -123,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 15,
+            "affiliate_name": "TigerGaming",
+            "affiliate_url": "https://sportsbook.tigergaming.com/"
+          }
+        },
+        "3": {
+          "line_id": 14215798,
+          "moneyline": {
+            "line_id": 14215798,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "1": {
+          "line_id": 14215796,
+          "moneyline": {
+            "line_id": 14215796,
+            "moneyline_away": 310,
+            "moneyline_away_delta": 15,
+            "moneyline_home": -370,
+            "moneyline_home_delta": -15,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T19:18:09.287Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 105,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://www.5dimes.eu/"
+          }
+        },
+        "11": {
+          "line_id": 14215807,
+          "moneyline": {
+            "line_id": 14215807,
+            "moneyline_away": 317,
+            "moneyline_away_delta": -9,
+            "moneyline_home": -365,
+            "moneyline_home_delta": 10,
+            "moneyline_draw": -365,
+            "moneyline_draw_delta": 10,
+            "date_updated": "2021-04-04T04:54:11.756Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 109,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "16": {
+          "line_id": 14215950,
+          "moneyline": {
+            "line_id": 14215950,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "7": {
+          "line_id": 14215803,
+          "moneyline": {
+            "line_id": 14215803,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "4": {
+          "line_id": 14215800,
+          "moneyline": {
+            "line_id": 14215800,
+            "moneyline_away": 317,
+            "moneyline_away_delta": -9,
+            "moneyline_home": -365,
+            "moneyline_home_delta": 10,
+            "moneyline_draw": -365,
+            "moneyline_draw_delta": 10,
+            "date_updated": "2021-04-04T04:53:06.067Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 109,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "https://www.sportsbetting.ag/"
+          }
+        },
+        "10": {
+          "line_id": 14215804,
+          "moneyline": {
+            "line_id": 14215804,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        }
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "b6f5e7f571f39b9dcca59579c59a876e",
+      "event_uuid": "11eb-9577-f476b800-82c4-53741172d924",
+      "sport_id": 6,
+      "event_date": "2021-04-04T19:00:00Z",
+      "rotation_number_away": 27,
+      "rotation_number_home": 28,
+      "score": {
+        "event_id": "b6f5e7f571f39b9dcca59579c59a876e",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Prudential Center",
+        "venue_location": "Newark, NJ",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "4/4 - 3:00 PM EDT"
+      },
+      "teams": [
+        {
+          "team_id": 6656,
+          "team_normalized_id": 106,
+          "name": "Washington Capitals",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 6650,
+          "team_normalized_id": 93,
+          "name": "New Jersey Devils",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 106,
+          "name": "Washington",
+          "mascot": "Capitals",
+          "abbreviation": "WSH",
+          "ranking": 0,
+          "record": "24-9-4",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 93,
+          "name": "New Jersey",
+          "mascot": "Devils",
+          "abbreviation": "NJ",
+          "ranking": 0,
+          "record": "13-16-6",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Washington at New Jersey - 2021-04-04",
+        "attendance": "0"
+      },
+      "lines": {
+        "3": {
+          "line_id": 14215808,
+          "moneyline": {
+            "line_id": 14215808,
+            "moneyline_away": -161,
+            "moneyline_away_delta": 7,
+            "moneyline_home": 145,
+            "moneyline_home_delta": -6,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:51:26.484Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 156,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -174,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 104,
+            "total_over_money_delta": 0,
+            "total_under_money": -117,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "14": {
+          "line_id": 14215966,
+          "moneyline": {
+            "line_id": 14215966,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -165.0001,
+            "moneyline_home": 145,
+            "moneyline_home_delta": 144.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:42:59.043Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -170,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "https://sports.intertops.eu/"
+          }
+        },
+        "18": {
+          "line_id": 14216398,
+          "moneyline": {
+            "line_id": 14216398,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -165,
+            "moneyline_home": 145,
+            "moneyline_home_delta": 145,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T22:53:24.725Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -170,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "https://www.youwager.eu/sportsbook"
+          }
+        },
+        "7": {
+          "line_id": 14215811,
+          "moneyline": {
+            "line_id": 14215811,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -10,
+            "moneyline_home": 144,
+            "moneyline_home_delta": 9,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T19:17:27.399Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": -105,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "6": {
+          "line_id": 14215814,
+          "moneyline": {
+            "line_id": 14215814,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 149,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 149,
+            "moneyline_draw_delta": 5,
+            "date_updated": "2021-04-03T21:19:38.807Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -170,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 102,
+            "total_over_money_delta": 0,
+            "total_under_money": -113,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "https://betonline.ag/"
+          }
+        },
+        "2": {
+          "line_id": 14215816,
+          "moneyline": {
+            "line_id": 14215816,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 145,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T20:24:07.218Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -170,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "20": {
+          "line_id": 14215945,
+          "moneyline": {
+            "line_id": 14215945,
+            "moneyline_away": -171,
+            "moneyline_away_delta": -6,
+            "moneyline_home": 145,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T21:03:39.297Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -121,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "12": {
+          "line_id": 14215815,
+          "moneyline": {
+            "line_id": 14215815,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 145,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T20:24:41.578Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -170,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://www.bodog.eu/"
+          }
+        },
+        "9": {
+          "line_id": 14215810,
+          "moneyline": {
+            "line_id": 14215810,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -10,
+            "moneyline_home": 144,
+            "moneyline_home_delta": 9,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T19:20:49.326Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": -105,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "https://www.betcris.com/en/sportsbook"
+          }
+        },
+        "15": {
+          "line_id": 14215823,
+          "moneyline": {
+            "line_id": 14215823,
+            "moneyline_away": -167,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 147,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T21:22:24.635Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -170,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": -104,
+            "total_over_money_delta": 0,
+            "total_under_money": -116,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 15,
+            "affiliate_name": "TigerGaming",
+            "affiliate_url": "https://sportsbook.tigergaming.com/"
+          }
+        },
+        "1": {
+          "line_id": 14215805,
+          "moneyline": {
+            "line_id": 14215805,
+            "moneyline_away": -160,
+            "moneyline_away_delta": 5,
+            "moneyline_home": 150,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T03:36:08.567Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 155,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -165,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://www.5dimes.eu/"
+          }
+        },
+        "16": {
+          "line_id": 14215951,
+          "moneyline": {
+            "line_id": 14215951,
+            "moneyline_away": -159,
+            "moneyline_away_delta": -159.0001,
+            "moneyline_home": 147,
+            "moneyline_home_delta": 146.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T05:17:09.886Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 159,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -171,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 106,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "11": {
+          "line_id": 14215809,
+          "moneyline": {
+            "line_id": 14215809,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 149,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 149,
+            "moneyline_draw_delta": 5,
+            "date_updated": "2021-04-03T21:23:02.101Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 152,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -168,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 102,
+            "total_over_money_delta": 0,
+            "total_under_money": -113,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "4": {
+          "line_id": 14215837,
+          "moneyline": {
+            "line_id": 14215837,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 149,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 149,
+            "moneyline_draw_delta": 5,
+            "date_updated": "2021-04-03T21:19:34.626Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -170,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 102,
+            "total_over_money_delta": 0,
+            "total_under_money": -113,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "https://www.sportsbetting.ag/"
+          }
+        },
+        "10": {
+          "line_id": 14215812,
+          "moneyline": {
+            "line_id": 14215812,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -10,
+            "moneyline_home": 144,
+            "moneyline_home_delta": 9,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T19:18:10.557Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": -105,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "19": {
+          "line_id": 14215817,
+          "moneyline": {
+            "line_id": 14215817,
+            "moneyline_away": -165,
+            "moneyline_away_delta": -15,
+            "moneyline_home": 140,
+            "moneyline_home_delta": 10,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:46:36.629Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 150,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -182,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        }
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "c88297c8f9218e4bf7cca1123f704a0c",
+      "event_uuid": "11eb-9588-b7ff8800-82ee-e58ca56fa47b",
+      "sport_id": 6,
+      "event_date": "2021-04-04T21:00:00Z",
+      "rotation_number_away": 29,
+      "rotation_number_home": 30,
+      "score": {
+        "event_id": "c88297c8f9218e4bf7cca1123f704a0c",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "BB&T Center",
+        "venue_location": "Sunrise, FL",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "4/4 - 5:00 PM EDT"
+      },
+      "teams": [
+        {
+          "team_id": 6509,
+          "team_normalized_id": 109,
+          "name": "Columbus Blue Jackets",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 6512,
+          "team_normalized_id": 104,
+          "name": "Florida Panthers",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 109,
+          "name": "Columbus",
+          "mascot": "Blue Jackets",
+          "abbreviation": "CBJ",
+          "ranking": 0,
+          "record": "14-16-8",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 104,
+          "name": "Florida",
+          "mascot": "Panthers",
+          "abbreviation": "FLA",
+          "ranking": 0,
+          "record": "24-9-4",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Columbus at Florida - 2021-04-04",
+        "attendance": "0"
+      },
+      "lines": {
+        "3": {
+          "line_id": 14215819,
+          "moneyline": {
+            "line_id": 14215819,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "2": {
+          "line_id": 14215821,
+          "moneyline": {
+            "line_id": 14215821,
+            "moneyline_away": 145,
+            "moneyline_away_delta": 144.9999,
+            "moneyline_home": -165,
+            "moneyline_home_delta": -165.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:54:49.601Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -105,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "1": {
+          "line_id": 14215818,
+          "moneyline": {
+            "line_id": 14215818,
+            "moneyline_away": 135,
+            "moneyline_away_delta": 135,
+            "moneyline_home": -155,
+            "moneyline_home_delta": -155,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:04:01.963Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -105,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://www.5dimes.eu/"
+          }
+        },
+        "14": {
+          "line_id": 14215967,
+          "moneyline": {
+            "line_id": 14215967,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "https://sports.intertops.eu/"
+          }
+        },
+        "20": {
+          "line_id": 14215946,
+          "moneyline": {
+            "line_id": 14215946,
+            "moneyline_away": 140,
+            "moneyline_away_delta": 139.9999,
+            "moneyline_home": -165,
+            "moneyline_home_delta": -165.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T03:31:05.772Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -105,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "15": {
+          "line_id": 14215824,
+          "moneyline": {
+            "line_id": 14215824,
+            "moneyline_away": 150,
+            "moneyline_away_delta": 3,
+            "moneyline_home": -170,
+            "moneyline_home_delta": -3,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T05:10:21.947Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -118,
+            "total_over_money_delta": 0,
+            "total_under_money": -102,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 15,
+            "affiliate_name": "TigerGaming",
+            "affiliate_url": "https://sportsbook.tigergaming.com/"
+          }
+        },
+        "11": {
+          "line_id": 14215859,
+          "moneyline": {
+            "line_id": 14215859,
+            "moneyline_away": 152,
+            "moneyline_away_delta": 3,
+            "moneyline_home": -168,
+            "moneyline_home_delta": -3,
+            "moneyline_draw": -168,
+            "moneyline_draw_delta": -3,
+            "date_updated": "2021-04-04T05:11:06.683Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": 104,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "6": {
+          "line_id": 14215850,
+          "moneyline": {
+            "line_id": 14215850,
+            "moneyline_away": 152,
+            "moneyline_away_delta": 3,
+            "moneyline_home": -168,
+            "moneyline_home_delta": -3,
+            "moneyline_draw": -168,
+            "moneyline_draw_delta": -3,
+            "date_updated": "2021-04-04T05:10:53.705Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": 104,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "https://betonline.ag/"
+          }
+        },
+        "12": {
+          "line_id": 14215827,
+          "moneyline": {
+            "line_id": 14215827,
+            "moneyline_away": 145,
+            "moneyline_away_delta": 144.9999,
+            "moneyline_home": -165,
+            "moneyline_home_delta": -165.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:54:50.955Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -105,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://www.bodog.eu/"
+          }
+        },
+        "4": {
+          "line_id": 14215839,
+          "moneyline": {
+            "line_id": 14215839,
+            "moneyline_away": 152,
+            "moneyline_away_delta": 3,
+            "moneyline_home": -168,
+            "moneyline_home_delta": -3,
+            "moneyline_draw": -168,
+            "moneyline_draw_delta": -3,
+            "date_updated": "2021-04-04T05:11:39.401Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": 104,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "https://www.sportsbetting.ag/"
+          }
+        },
+        "19": {
+          "line_id": 14215864,
+          "moneyline": {
+            "line_id": 14215864,
+            "moneyline_away": 138,
+            "moneyline_away_delta": 137.9999,
+            "moneyline_home": -162,
+            "moneyline_home_delta": -162.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T01:44:36.934Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -190,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 155,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -113,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "10": {
+          "line_id": 14215820,
+          "moneyline": {
+            "line_id": 14215820,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "16": {
+          "line_id": 14215952,
+          "moneyline": {
+            "line_id": 14215952,
+            "moneyline_away": 144,
+            "moneyline_away_delta": 143.9999,
+            "moneyline_home": -234,
+            "moneyline_home_delta": -234.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T07:21:35.181Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "7": {
+          "line_id": 14215830,
+          "moneyline": {
+            "line_id": 14215830,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "9": {
+          "line_id": 14215822,
+          "moneyline": {
+            "line_id": 14215822,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "https://www.betcris.com/en/sportsbook"
+          }
+        }
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "9064047884dd73ce16197261fde8fc0e",
+      "event_uuid": "11eb-9599-7b885800-8ab8-77b8aef46aeb",
+      "sport_id": 6,
+      "event_date": "2021-04-04T23:00:00Z",
+      "rotation_number_away": 31,
+      "rotation_number_home": 32,
+      "score": {
+        "event_id": "9064047884dd73ce16197261fde8fc0e",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "PNC Arena",
+        "venue_location": "Raleigh, NC",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "NBCSN",
+        "event_status_detail": "4/4 - 7:00 PM EDT"
+      },
+      "teams": [
+        {
+          "team_id": 6515,
+          "team_normalized_id": 119,
+          "name": "Dallas Stars",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 6665,
+          "team_normalized_id": 103,
+          "name": "Carolina Hurricanes",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 119,
+          "name": "Dallas",
+          "mascot": "Stars",
+          "abbreviation": "DAL",
+          "ranking": 0,
+          "record": "12-12-10",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 103,
+          "name": "Carolina",
+          "mascot": "Hurricanes",
+          "abbreviation": "CAR",
+          "ranking": 0,
+          "record": "24-8-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Dallas at Carolina - 2021-04-04",
+        "attendance": "0"
+      },
+      "lines": {
+        "19": {
+          "line_id": 14215866,
+          "moneyline": {
+            "line_id": 14215866,
+            "moneyline_away": 138,
+            "moneyline_away_delta": 137.9999,
+            "moneyline_home": -162,
+            "moneyline_home_delta": -162.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T01:39:20.951Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -195,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 160,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "3": {
+          "line_id": 14215828,
+          "moneyline": {
+            "line_id": 14215828,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "20": {
+          "line_id": 14215947,
+          "moneyline": {
+            "line_id": 14215947,
+            "moneyline_away": 135,
+            "moneyline_away_delta": 134.9999,
+            "moneyline_home": -160,
+            "moneyline_home_delta": -160.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T03:31:05.865Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -121,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "11": {
+          "line_id": 14215860,
+          "moneyline": {
+            "line_id": 14215860,
+            "moneyline_away": 144,
+            "moneyline_away_delta": 143.9999,
+            "moneyline_home": -160,
+            "moneyline_home_delta": -160.0001,
+            "moneyline_draw": -160,
+            "moneyline_draw_delta": -160.0001,
+            "date_updated": "2021-04-04T03:22:57.124Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 104,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "2": {
+          "line_id": 14215832,
+          "moneyline": {
+            "line_id": 14215832,
+            "moneyline_away": 135,
+            "moneyline_away_delta": 134.9999,
+            "moneyline_home": -155,
+            "moneyline_home_delta": -155.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:54:13.419Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -105,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "12": {
+          "line_id": 14215829,
+          "moneyline": {
+            "line_id": 14215829,
+            "moneyline_away": 135,
+            "moneyline_away_delta": 134.9999,
+            "moneyline_home": -155,
+            "moneyline_home_delta": -155.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:54:51.05Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -105,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://www.bodog.eu/"
+          }
+        },
+        "9": {
+          "line_id": 14215833,
+          "moneyline": {
+            "line_id": 14215833,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "https://www.betcris.com/en/sportsbook"
+          }
+        },
+        "4": {
+          "line_id": 14215841,
+          "moneyline": {
+            "line_id": 14215841,
+            "moneyline_away": 144,
+            "moneyline_away_delta": 143.9999,
+            "moneyline_home": -160,
+            "moneyline_home_delta": -160.0001,
+            "moneyline_draw": -160,
+            "moneyline_draw_delta": -160.0001,
+            "date_updated": "2021-04-04T03:19:30.352Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 104,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "https://www.sportsbetting.ag/"
+          }
+        },
+        "7": {
+          "line_id": 14215831,
+          "moneyline": {
+            "line_id": 14215831,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "15": {
+          "line_id": 14215838,
+          "moneyline": {
+            "line_id": 14215838,
+            "moneyline_away": 142,
+            "moneyline_away_delta": 141.9999,
+            "moneyline_home": -162,
+            "moneyline_home_delta": -162.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T03:23:26.99Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -102,
+            "total_over_money_delta": 0,
+            "total_under_money": -118,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 15,
+            "affiliate_name": "TigerGaming",
+            "affiliate_url": "https://sportsbook.tigergaming.com/"
+          }
+        },
+        "6": {
+          "line_id": 14215851,
+          "moneyline": {
+            "line_id": 14215851,
+            "moneyline_away": 144,
+            "moneyline_away_delta": 143.9999,
+            "moneyline_home": -160,
+            "moneyline_home_delta": -160.0001,
+            "moneyline_draw": -160,
+            "moneyline_draw_delta": -160.0001,
+            "date_updated": "2021-04-04T03:19:41.753Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 104,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "https://betonline.ag/"
+          }
+        },
+        "16": {
+          "line_id": 14215953,
+          "moneyline": {
+            "line_id": 14215953,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "10": {
+          "line_id": 14215826,
+          "moneyline": {
+            "line_id": 14215826,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "14": {
+          "line_id": 14215968,
+          "moneyline": {
+            "line_id": 14215968,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "https://sports.intertops.eu/"
+          }
+        },
+        "1": {
+          "line_id": 14215825,
+          "moneyline": {
+            "line_id": 14215825,
+            "moneyline_away": 135,
+            "moneyline_away_delta": 135,
+            "moneyline_home": -155,
+            "moneyline_home_delta": -155,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:05:21.232Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -105,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://www.5dimes.eu/"
+          }
+        }
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "7019bd292e0db90f665503016655165a",
+      "event_uuid": "11eb-95aa-3f112800-80e3-e2421508158f",
+      "sport_id": 6,
+      "event_date": "2021-04-05T01:00:00Z",
+      "rotation_number_away": 33,
+      "rotation_number_home": 34,
+      "score": {
+        "event_id": "7019bd292e0db90f665503016655165a",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Bell MTS Place",
+        "venue_location": "Winnipeg, MB",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams": [
+        {
+          "team_id": 39724,
+          "team_normalized_id": 117,
+          "name": "Vancouver Canucks",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 31158,
+          "team_normalized_id": 107,
+          "name": "Winnipeg Jets",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 117,
+          "name": "Vancouver",
+          "mascot": "Canucks",
+          "abbreviation": "VAN",
+          "ranking": 0,
+          "record": "16-18-3",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 107,
+          "name": "Winnipeg",
+          "mascot": "Jets",
+          "abbreviation": "WPG",
+          "ranking": 0,
+          "record": "22-13-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Vancouver at Winnipeg - 2021-04-05",
+        "attendance": "0"
+      },
+      "lines": {
+        "2": {
+          "line_id": 14216009,
+          "moneyline": {
+            "line_id": 14216009,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "20": {
+          "line_id": 14216012,
+          "moneyline": {
+            "line_id": 14216012,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "10": {
+          "line_id": 14216007,
+          "moneyline": {
+            "line_id": 14216007,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "6": {
+          "line_id": 14216015,
+          "moneyline": {
+            "line_id": 14216015,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "https://betonline.ag/"
+          }
+        },
+        "19": {
+          "line_id": 14216004,
+          "moneyline": {
+            "line_id": 14216004,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "4": {
+          "line_id": 14216006,
+          "moneyline": {
+            "line_id": 14216006,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "https://www.sportsbetting.ag/"
+          }
+        },
+        "16": {
+          "line_id": 14216011,
+          "moneyline": {
+            "line_id": 14216011,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "14": {
+          "line_id": 14216010,
+          "moneyline": {
+            "line_id": 14216010,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "https://sports.intertops.eu/"
+          }
+        },
+        "3": {
+          "line_id": 14216005,
+          "moneyline": {
+            "line_id": 14216005,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "9": {
+          "line_id": 14216008,
+          "moneyline": {
+            "line_id": 14216008,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "https://www.betcris.com/en/sportsbook"
+          }
+        },
+        "11": {
+          "line_id": 14216016,
+          "moneyline": {
+            "line_id": 14216016,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "7": {
+          "line_id": 14216013,
+          "moneyline": {
+            "line_id": 14216013,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "12": {
+          "line_id": 14216014,
+          "moneyline": {
+            "line_id": 14216014,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://www.bodog.eu/"
+          }
+        },
+        "15": {
+          "line_id": 14216003,
+          "moneyline": {
+            "line_id": 14216003,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-04-04T07:38:36Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 15,
+            "affiliate_name": "TigerGaming",
+            "affiliate_url": "https://sportsbook.tigergaming.com/"
+          }
+        }
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "ae60ae4380a3eb28d5be5123317013e9",
+      "event_uuid": "11eb-95aa-3f112800-8160-ae9e3ae76e37",
+      "sport_id": 6,
+      "event_date": "2021-04-05T01:00:00Z",
+      "rotation_number_away": 37,
+      "rotation_number_home": 38,
+      "score": {
+        "event_id": "ae60ae4380a3eb28d5be5123317013e9",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Honda Center",
+        "venue_location": "Anaheim, CA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "4/4 - 9:00 PM EDT"
+      },
+      "teams": [
+        {
+          "team_id": 6810,
+          "team_normalized_id": 121,
+          "name": "Arizona Coyotes",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 6812,
+          "team_normalized_id": 118,
+          "name": "Anaheim Ducks",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 121,
+          "name": "Arizona",
+          "mascot": "Coyotes",
+          "abbreviation": "ARI",
+          "ranking": 0,
+          "record": "17-15-5",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 118,
+          "name": "Anaheim",
+          "mascot": "Ducks",
+          "abbreviation": "ANA",
+          "ranking": 0,
+          "record": "11-21-6",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Arizona at Anaheim - 2021-04-05",
+        "attendance": "0"
+      },
+      "lines": {
+        "4": {
+          "line_id": 14215871,
+          "moneyline": {
+            "line_id": 14215871,
+            "moneyline_away": -127,
+            "moneyline_away_delta": -2,
+            "moneyline_home": 115,
+            "moneyline_home_delta": 2,
+            "moneyline_draw": 115,
+            "moneyline_draw_delta": 2,
+            "date_updated": "2021-04-04T07:10:12.701Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 185,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -215,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -130,
+            "total_over_money_delta": 0,
+            "total_under_money": 118,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "https://www.sportsbetting.ag/"
+          }
+        },
+        "2": {
+          "line_id": 14215863,
+          "moneyline": {
+            "line_id": 14215863,
+            "moneyline_away": -125,
+            "moneyline_away_delta": 5,
+            "moneyline_home": 105,
+            "moneyline_home_delta": -5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T00:46:01.593Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 180,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -220,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -135,
+            "total_over_money_delta": 0,
+            "total_under_money": 115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "11": {
+          "line_id": 14215861,
+          "moneyline": {
+            "line_id": 14215861,
+            "moneyline_away": -127,
+            "moneyline_away_delta": -1,
+            "moneyline_home": 115,
+            "moneyline_home_delta": 1,
+            "moneyline_draw": 115,
+            "moneyline_draw_delta": 1,
+            "date_updated": "2021-04-04T05:40:33.603Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 189,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -212,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -130,
+            "total_over_money_delta": 0,
+            "total_under_money": 118,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "3": {
+          "line_id": 14215853,
+          "moneyline": {
+            "line_id": 14215853,
+            "moneyline_away": -130,
+            "moneyline_away_delta": -1,
+            "moneyline_home": 116,
+            "moneyline_home_delta": 2,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T06:08:00.862Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 181,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -210,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": 119,
+            "total_over_money_delta": 0,
+            "total_under_money": -137,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "6": {
+          "line_id": 14215867,
+          "moneyline": {
+            "line_id": 14215867,
+            "moneyline_away": -127,
+            "moneyline_away_delta": -1,
+            "moneyline_home": 115,
+            "moneyline_home_delta": 1,
+            "moneyline_draw": 115,
+            "moneyline_draw_delta": 1,
+            "date_updated": "2021-04-04T05:38:52.219Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 185,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -215,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -130,
+            "total_over_money_delta": 0,
+            "total_under_money": 118,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "https://betonline.ag/"
+          }
+        },
+        "15": {
+          "line_id": 14215865,
+          "moneyline": {
+            "line_id": 14215865,
+            "moneyline_away": -131,
+            "moneyline_away_delta": -1,
+            "moneyline_home": 111,
+            "moneyline_home_delta": 1,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T05:38:50.35Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 185,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -215,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -134,
+            "total_over_money_delta": 0,
+            "total_under_money": 114,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 15,
+            "affiliate_name": "TigerGaming",
+            "affiliate_url": "https://sportsbook.tigergaming.com/"
+          }
+        },
+        "18": {
+          "line_id": 14216400,
+          "moneyline": {
+            "line_id": 14216400,
+            "moneyline_away": -125,
+            "moneyline_away_delta": -125,
+            "moneyline_home": 105,
+            "moneyline_home_delta": 105,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T22:53:25.161Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 185,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -225,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -135,
+            "total_over_money_delta": 0,
+            "total_under_money": 115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "https://www.youwager.eu/sportsbook"
+          }
+        },
+        "9": {
+          "line_id": 14215857,
+          "moneyline": {
+            "line_id": 14215857,
+            "moneyline_away": -125,
+            "moneyline_away_delta": -125.0001,
+            "moneyline_home": 105,
+            "moneyline_home_delta": 104.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:29:20.16Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -130,
+            "total_over_money_delta": 0,
+            "total_under_money": 110,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "https://www.betcris.com/en/sportsbook"
+          }
+        },
+        "16": {
+          "line_id": 14215954,
+          "moneyline": {
+            "line_id": 14215954,
+            "moneyline_away": -128,
+            "moneyline_away_delta": -1,
+            "moneyline_home": 118,
+            "moneyline_home_delta": 2,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T06:08:10.309Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 184,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -204,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -140,
+            "total_over_money_delta": 0,
+            "total_under_money": 123,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "10": {
+          "line_id": 14215854,
+          "moneyline": {
+            "line_id": 14215854,
+            "moneyline_away": -125,
+            "moneyline_away_delta": -125.0001,
+            "moneyline_home": 105,
+            "moneyline_home_delta": 104.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:31:09.788Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -130,
+            "total_over_money_delta": 0,
+            "total_under_money": 110,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "19": {
+          "line_id": 14215868,
+          "moneyline": {
+            "line_id": 14215868,
+            "moneyline_away": -132,
+            "moneyline_away_delta": 2,
+            "moneyline_home": 115,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T05:15:11.873Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 190,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -230,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -143,
+            "total_over_money_delta": 0,
+            "total_under_money": 117,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "14": {
+          "line_id": 14215969,
+          "moneyline": {
+            "line_id": 14215969,
+            "moneyline_away": -130,
+            "moneyline_away_delta": -130.0001,
+            "moneyline_home": 110,
+            "moneyline_home_delta": 109.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:45:10.976Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 200,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -240,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "https://sports.intertops.eu/"
+          }
+        },
+        "7": {
+          "line_id": 14215856,
+          "moneyline": {
+            "line_id": 14215856,
+            "moneyline_away": -125,
+            "moneyline_away_delta": -125.0001,
+            "moneyline_home": 105,
+            "moneyline_home_delta": 104.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:31:34.84Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -130,
+            "total_over_money_delta": 0,
+            "total_under_money": 110,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "1": {
+          "line_id": 14215849,
+          "moneyline": {
+            "line_id": 14215849,
+            "moneyline_away": -123,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 113,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:45:35.992Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 200,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -220,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -125,
+            "total_over_money_delta": 0,
+            "total_under_money": 115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://www.5dimes.eu/"
+          }
+        },
+        "12": {
+          "line_id": 14215858,
+          "moneyline": {
+            "line_id": 14215858,
+            "moneyline_away": -125,
+            "moneyline_away_delta": 5,
+            "moneyline_home": 105,
+            "moneyline_home_delta": -5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T00:46:12.626Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 180,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -220,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -135,
+            "total_over_money_delta": 0,
+            "total_under_money": 115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://www.bodog.eu/"
+          }
+        },
+        "20": {
+          "line_id": 14215948,
+          "moneyline": {
+            "line_id": 14215948,
+            "moneyline_away": -131,
+            "moneyline_away_delta": -6,
+            "moneyline_home": 110,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T05:25:23.999Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5,
+            "total_over_delta": 0,
+            "total_under": 5,
+            "total_under_delta": 0,
+            "total_over_money": -143,
+            "total_over_money_delta": 0,
+            "total_under_money": 115,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        }
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "e664de6a8f5c4c72f6aec67358a58574",
+      "event_uuid": "11eb-95aa-3f112800-8925-7c591c595ded",
+      "sport_id": 6,
+      "event_date": "2021-04-05T01:00:00Z",
+      "rotation_number_away": 35,
+      "rotation_number_home": 36,
+      "score": {
+        "event_id": "e664de6a8f5c4c72f6aec67358a58574",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Scotiabank Saddledome",
+        "venue_location": "Calgary, AB",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "4/4 - 9:00 PM EDT"
+      },
+      "teams": [
+        {
+          "team_id": 6654,
+          "team_normalized_id": 102,
+          "name": "Toronto Maple Leafs",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 6659,
+          "team_normalized_id": 113,
+          "name": "Calgary Flames",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 102,
+          "name": "Toronto",
+          "mascot": "Maple Leafs",
+          "abbreviation": "TOR",
+          "ranking": 0,
+          "record": "24-10-3",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 113,
+          "name": "Calgary",
+          "mascot": "Flames",
+          "abbreviation": "CAL",
+          "ranking": 0,
+          "record": "16-19-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Toronto at Calgary - 2021-04-05",
+        "attendance": "0"
+      },
+      "lines": {
+        "20": {
+          "line_id": 14215949,
+          "moneyline": {
+            "line_id": 14215949,
+            "moneyline_away": -160,
+            "moneyline_away_delta": -10,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:52:13.619Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 105,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "1": {
+          "line_id": 14215834,
+          "moneyline": {
+            "line_id": 14215834,
+            "moneyline_away": -145,
+            "moneyline_away_delta": 5,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T02:11:32.125Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 165,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -175,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 108,
+            "total_over_money_delta": 0,
+            "total_under_money": -118,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://www.5dimes.eu/"
+          }
+        },
+        "12": {
+          "line_id": 14215836,
+          "moneyline": {
+            "line_id": 14215836,
+            "moneyline_away": -155,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:53:44.711Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 160,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -180,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 105,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://www.bodog.eu/"
+          }
+        },
+        "6": {
+          "line_id": 14215852,
+          "moneyline": {
+            "line_id": 14215852,
+            "moneyline_away": -153,
+            "moneyline_away_delta": -6,
+            "moneyline_home": 138,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 138,
+            "moneyline_draw_delta": 5,
+            "date_updated": "2021-04-03T19:20:09.785Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 164,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -184,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 113,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "https://betonline.ag/"
+          }
+        },
+        "19": {
+          "line_id": 14215870,
+          "moneyline": {
+            "line_id": 14215870,
+            "moneyline_away": -157,
+            "moneyline_away_delta": 2,
+            "moneyline_home": 133,
+            "moneyline_home_delta": -2,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T05:51:14.946Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 163,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -200,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -121,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "7": {
+          "line_id": 14215844,
+          "moneyline": {
+            "line_id": 14215844,
+            "moneyline_away": -155,
+            "moneyline_away_delta": -155.0001,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 134.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:31:34.885Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "10": {
+          "line_id": 14215848,
+          "moneyline": {
+            "line_id": 14215848,
+            "moneyline_away": -155,
+            "moneyline_away_delta": -155.0001,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 134.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:31:09.828Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "3": {
+          "line_id": 14215835,
+          "moneyline": {
+            "line_id": 14215835,
+            "moneyline_away": -153,
+            "moneyline_away_delta": -1,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 1,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T06:13:02.301Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 155,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -177,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 108,
+            "total_over_money_delta": 0,
+            "total_under_money": -124,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "4": {
+          "line_id": 14215842,
+          "moneyline": {
+            "line_id": 14215842,
+            "moneyline_away": -153,
+            "moneyline_away_delta": 2,
+            "moneyline_home": 138,
+            "moneyline_home_delta": -2,
+            "moneyline_draw": 138,
+            "moneyline_draw_delta": -2,
+            "date_updated": "2021-04-03T19:20:18.214Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 164,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -184,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 113,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "https://www.sportsbetting.ag/"
+          }
+        },
+        "2": {
+          "line_id": 14215843,
+          "moneyline": {
+            "line_id": 14215843,
+            "moneyline_away": -155,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:53:28.865Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 160,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -180,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 105,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "14": {
+          "line_id": 14215970,
+          "moneyline": {
+            "line_id": 14215970,
+            "moneyline_away": -155,
+            "moneyline_away_delta": -155.0001,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 134.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T04:44:25.099Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 165,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -190,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "https://sports.intertops.eu/"
+          }
+        },
+        "18": {
+          "line_id": 14216399,
+          "moneyline": {
+            "line_id": 14216399,
+            "moneyline_away": -150,
+            "moneyline_away_delta": -150,
+            "moneyline_home": 130,
+            "moneyline_home_delta": 130,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T22:53:25.026Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 160,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -180,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 5.5,
+            "total_over_delta": 0,
+            "total_under": 5.5,
+            "total_under_delta": 0,
+            "total_over_money": -120,
+            "total_over_money_delta": 0,
+            "total_under_money": 100,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "https://www.youwager.eu/sportsbook"
+          }
+        },
+        "16": {
+          "line_id": 14215955,
+          "moneyline": {
+            "line_id": 14215955,
+            "moneyline_away": -151,
+            "moneyline_away_delta": -1,
+            "moneyline_home": 137,
+            "moneyline_home_delta": 1,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-04T06:13:03.509Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 158,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -174,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "15": {
+          "line_id": 14215847,
+          "moneyline": {
+            "line_id": 14215847,
+            "moneyline_away": -154,
+            "moneyline_away_delta": -4,
+            "moneyline_home": 134,
+            "moneyline_home_delta": 4,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T19:25:15.208Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 164,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -184,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 109,
+            "total_over_money_delta": 0,
+            "total_under_money": -129,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 15,
+            "affiliate_name": "TigerGaming",
+            "affiliate_url": "https://sportsbook.tigergaming.com/"
+          }
+        },
+        "11": {
+          "line_id": 14215862,
+          "moneyline": {
+            "line_id": 14215862,
+            "moneyline_away": -153,
+            "moneyline_away_delta": -6,
+            "moneyline_home": 138,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 138,
+            "moneyline_draw_delta": 5,
+            "date_updated": "2021-04-03T19:22:29.593Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": -1.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 1.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 165,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -184,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 113,
+            "total_over_money_delta": 0,
+            "total_under_money": -125,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "9": {
+          "line_id": 14215845,
+          "moneyline": {
+            "line_id": 14215845,
+            "moneyline_away": -155,
+            "moneyline_away_delta": -155.0001,
+            "moneyline_home": 135,
+            "moneyline_home_delta": 134.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-04-03T18:29:20.206Z",
+            "format": "American"
+          },
+          "spread": {
+            "affiliate_id": 0,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0
+          },
+          "total": {
+            "affiliate_id": 0,
+            "total_over": 6,
+            "total_over_delta": 0,
+            "total_under": 6,
+            "total_under_delta": 0,
+            "total_over_money": 100,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "https://www.betcris.com/en/sportsbook"
+          }
+        }
+      },
+      "line_periods": {}
+    }
+  ]
+}
