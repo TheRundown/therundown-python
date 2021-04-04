@@ -1,7 +1,9 @@
-from typing import Union, List, Dict
+from typing import Union, List, Dict, Optional
 from enum import Enum
 
 import requests
+
+from rundown.utils import utc_offset
 
 
 class _RapidAPIAuth:
@@ -116,4 +118,28 @@ class Rundown:
             list of resources.Sport
         """
         data = self._build_url_and_get_json("sports")
+        return data
+
+    def dates_by_sport(
+        self, sport_id: int, offset: Optional[int] = None, format: str = "date"
+    ):
+        """Get dates with odds for future events.
+
+        GET /sports/<sport-id>/dates
+
+        If offset is provided, it takes precedence over self.timezone, otherwise dates
+        will be in timezone self.timezone.
+
+        If format == 'epoch', offset and timezone are ignored, and dates will be in
+        epoch format.
+
+        Returns:
+            list of Python datetime objects, or ints (if format=='epoch')
+        """
+        if offset is None:
+            offset = utc_offset(self.timezone)
+
+        data = self._build_url_and_get_json(
+            "sports", sport_id, "dates", offset=offset, format=format
+        )
         return data

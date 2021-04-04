@@ -68,3 +68,18 @@ class TestRundown:
     def test_sports(self, rundown):
         data = rundown.sports()
         assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "sport_id, offset, format",
+        [
+            (6, None, "date"),
+            (6, -420, "date"),
+            (6, 0, "date"),
+            (6, -420, "epoch"),
+            (2, None, "epoch"),
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_dates_by_sport(self, rundown, sport_id, offset, format):
+        data = rundown.dates_by_sport(sport_id, offset, format)
+        assert len(data) > 0
