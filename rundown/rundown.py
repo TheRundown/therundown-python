@@ -87,8 +87,8 @@ class Rundown:
         return f"{base_url}/{'/'.join([str(s) for s in segments])}"
 
     def _clean_params(self, **params):
-        """Disallow parameters that have `None` as their value."""
-        return {k: v for k, v in params.items() if v is not None}
+        """Disallow parameters that have `None` or empty list as their value."""
+        return {k: v for k, v in params.items() if v}
 
     def _get(self, url: str, **params: Union[str, int, List[str]]) -> requests.Response:
         """Make get request."""
@@ -114,6 +114,21 @@ class Rundown:
         if offset is None:
             offset = utc_shift(self.timezone)
         return offset
+
+    def _get_events(
+        self,
+        sport_id: int,
+        lines_type: str,
+        date_: str,
+        offset: Optional[int] = None,
+        *include: Union[int, str],
+    ):
+        offset = self._validate_offset(offset)
+        data = self._build_url_and_get_json(
+            "sports", sport_id, lines_type, date_, offset=offset, include=include
+        )
+        return data
+
     def sports(self):
         """Get available sports.
 
@@ -170,4 +185,85 @@ class Rundown:
             list of resource.Team
         """
         data = self._build_url_and_get_json("sports", sport_id, "teams")
+        return data
+
+    def events_by_date(
+        self,
+        sport_id: int,
+        date_: str,
+        offset: Optional[int] = None,
+        *include: Union[int, str],
+    ):
+        """Get events by sport by date.
+
+        GET /sports/<sport-id>/events/<date>
+
+        Args:
+            sport_id: ID for the league of interest.
+            date_: The date of interest, in IS0 8601 format.
+            offset: UTC offset in minutes. If offset is provided, it takes precedence
+                over self.timezone, otherwise dates will be in timezone self.timezone.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default.
+
+        Returns:
+            resources.Events object.
+        """
+        data = self._get_events(sport_id, "events", date_, offset, *include)
+        return data
+
+    def opening_lines(
+        self,
+        sport_id: int,
+        date_: str,
+        offset: Optional[int] = None,
+        *include: Union[int, str],
+    ):
+        """Get events with opening lines by sport by date.
+
+        GET /sports/<sport-id>/openers/<date>
+
+        Args:
+            sport_id: ID for the league of interest.
+            date_: The date of interest, in IS0 8601 format.
+            offset: UTC offset in minutes. If offset is provided, it takes precedence
+                over self.timezone, otherwise dates will be in timezone self.timezone.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default.
+
+        Returns:
+            resources.Events object.
+        """
+        data = self._get_events(sport_id, "openers", date_, offset, include)
+        return data
+
+    def closing_lines(
+        self,
+        sport_id: int,
+        date_: str,
+        offset: Optional[int] = None,
+        *include: Union[int, str],
+    ):
+        """Get events with closing lines by sport by date.
+
+        GET /sports/<sport-id>/closing/<date>
+
+        Args:
+            sport_id: ID for the league of interest.
+            date_: The date of interest, in IS0 8601 format.
+            offset: UTC offset in minutes. If offset is provided, it takes precedence
+                over self.timezone, otherwise dates will be in timezone self.timezone.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default.
+
+        Returns:
+            resources.Events object.
+        """
+        data = self._get_events(sport_id, "closing", date_, offset, include)
         return data
