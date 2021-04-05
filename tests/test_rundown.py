@@ -16,6 +16,7 @@ def test_auth_factory():
 class TestRundown:
     # def test bad_route(self):
     # moneyline E.G
+    # bad event id
     # pass
 
     @pytest.mark.parametrize(
@@ -142,6 +143,35 @@ class TestRundown:
         data = rundown.closing_lines(sport_id, date_, offset, *include)
         assert len(data) > 0
 
+    @pytest.mark.parametrize("date_", [("2021-04-05")])
+    @pytest.mark.vcr()
+    def test_events_delta_initial_request(self, rundown, date_):
+        """Make initial events request, providing the delta_last_id."""
+        data = rundown.events_by_date(6, date_)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "last_id, sport_id, include",
+        [
+            ("11eb-95cd-8fb13b78-8369-8c223045627f", None, []),
+            ("11eb-95cd-8fb13b78-8369-8c223045627f", 4, []),
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_events_delta(self, rundown, last_id, sport_id, include):
+        # Use delta_last_id from test_events_delta_initial_request.
+        data = rundown.events_delta(last_id, sport_id, *include)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "event_id",
+        [("3bd014c6b6ce2931653a057ba89237ef")],  # Tampa vs. Detroit NHL 2021-04-03
+    )
+    @pytest.mark.vcr()
+    def test_event(self, rundown, event_id):
+        data = rundown.event(event_id)
+        assert len(data) > 0
+
     @pytest.mark.parametrize(
         "line_id, include",
         [
@@ -183,4 +213,3 @@ class TestRundown:
     def test_total(self, rundown, line_id, include):
         data = rundown.total(line_id, *include)
         assert len(data) > 0
-
