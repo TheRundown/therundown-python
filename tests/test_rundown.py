@@ -102,6 +102,8 @@ class TestRundown:
             (6, "2021-04-03", None, ["all_periods", "scores"]),
             (6, "2021-04-04", None, []),  # future events
             (6, "2021-04-04", None, ["all_periods", "scores"]),
+            (6, "2021-04-03", None, ["scores"]),
+            (6, "2021-04-03", None, ["all_periods"]),
         ],
     )
     @pytest.mark.vcr()
@@ -116,6 +118,8 @@ class TestRundown:
             (6, "2021-04-03", None, ["all_periods", "scores"]),
             (6, "2021-04-04", None, []),  # future events
             (6, "2021-04-04", None, ["all_periods", "scores"]),
+            (6, "2021-04-03", None, ["scores"]),
+            (6, "2021-04-03", None, ["all_periods"]),
         ],
     )
     @pytest.mark.vcr()
@@ -130,6 +134,8 @@ class TestRundown:
             (6, "2021-04-03", None, ["all_periods", "scores"]),
             (6, "2021-04-04", None, []),  # future events
             (6, "2021-04-04", None, ["all_periods", "scores"]),
+            (6, "2021-04-03", None, ["scores"]),
+            (6, "2021-04-03", None, ["all_periods"]),
         ],
     )
     @pytest.mark.vcr()
