@@ -267,3 +267,38 @@ class Rundown:
         """
         data = self._get_events(sport_id, "closing", date_, offset, include)
         return data
+
+    def moneyline(self, line_id, *include: str):
+        """Get line history for moneyline referenced by line_id.
+
+        GET /lines/<line-id>/moneyline
+
+        Returns:
+            list of resources.Moneyline
+        """
+        data = self._build_url_and_get_json(
+            "lines", line_id, "moneyline", include=include
+        )
+        return data
+
+    def spread(self, line_id: int, *include: str):
+        """Get line history for spread referenced by line_id.
+
+        GET /lines/<line-id>/spread
+
+        Returns:
+            list of resources.Spread
+        """
+        data = self._build_url_and_get_json("lines", line_id, "spread", include=include)
+        return data
+
+    def total(self, line_id, *include: str):
+        """Get line history for total referenced by line_id.
+
+        GET /lines/<line-id>/total
+
+        Returns:
+            list of resources.Total
+        """
+        data = self._build_url_and_get_json("lines", line_id, "total", include=include)
+        return data
