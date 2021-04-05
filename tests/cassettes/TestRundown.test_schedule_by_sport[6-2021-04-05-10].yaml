@@ -1,0 +1,95 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      x-rapidapi-host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/6/schedule?from=2021-04-05&limit=10
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA9XYbU/cRhAA4L9i+Wtxsu+75huBS1MJyKl3aatU1Wl2dwxWjH2yfalolP/etXnJ
+        2XCEwAWBQELeW9s75rmZHX+JG3eKflVgE+/+/SXOfbwbp1QqE+/E+BnLdrFa9YOUok1SCZDwjFJm
+        CEmMkyYhSjOuBaLR6vqc/gxNaGo9SxkSb1OSKSUl4YR2f6mSEGY3y6q+mK3CAUJTlYv2fInh7N/x
+        ZFVAHc360fj643OEOt5lhNGdGP6F80WLcNZfglK9E59WZ7g2RPTarHDVP6B01eoz1vHa1DD+Z16W
+        +RJPwrCHFhd9GGG8u09CRELknNBdQsLvxzCnxFVbQ7Fo8jasNYOiwZ3YVWWGNZYOF646W2Kbt3lY
+        +dXH/TIaV9XhDHJ592+HBcLJChclnHXBH0N3KhTRu8p9wvPosP/0+vFezroOJoI2uoogSqJvi74+
+        o6gcXKwmfoNFER3NZ9G0ANddE9oWSx+udbGS1bJ7An4Bg/jFnPHwhHepfqWpkYp/vL5200K7Cnzi
+        2Xxv/mG2mL6fzafvjycHoxkLjy3kRZg4rZp2WZXo468738xpcR9zOsMkdRYyYonhqR2aA1QEUHBD
+        gKNlxkuLkjLOadDIMd26uW5oZI6aobm9Ov8v/DNH4vZKOMX87InA8SE49jBwl5F03C6X/11t76pA
+        K9oPo/137oetCcWY2Gzt7W/He4cbnb3NQ0iv38+HzOh9mAllEklpiopbDhKHzFAp4VGByaQTTrNM
+        ATqluTQgzQXk7TIj7CYzPmQ2r+qqbKsRs30oTqA+fyJmYivMLiPpmF0uf8zM1hV4B00XymQ2Pf7l
+        NnozV7U5WCg/RTPwvkAflvYQg5wK8jiD6wAN3ZDnlGIJyIzRHiA6kyhpPCNed8qGABkIgdx6Lm3K
+        mUfgWnEJgjAtuGbbr63kZp4b19b3bRsOf7ywhgf9zArrRSRPUFXDt091yoh8xZQiJN2sbLb/bnLw
+        4fCOqipey7BMHZ5kND2KJgdraS8kstTo+7BTVidOZM4Dpwjj8srAGRpSH6WWISAl3lkUDq2gaMLP
+        ttmlaqwuHRXX6WlegMdieZqP6b0Ju4z+Ni8H3no0Hb+LEL6Lb34Q/Qq1x/Ih7gw1/I7d3KPchXIr
+        N3QSQ3aEm8RwrXnoFiS3esgudRkzqaCKUHTEOCuNgUxqYqgjnrDtdxLyZrYjQ3gTf9YVqXKE7igM
+        1hgy/ktidxVLR+4qgAeV3D4Ldpu9+kEpUCjK1c+jqDbs/JSyCdFWBYldUysgcUo4wbxHgXRIkTOe
+        eRl2haEmp9pYw31g6a0wFFKjtp4BubqlwWCjphZPoBk5nLWvosNqlTcbIap5r/BZQewj6RReL3+d
+        obqN3KTrLJZ13uAPdhnr8FIpUvl4eGYTvI07vgE8zRKpdMhuaKQFPoTnw5YPtBMp1R6Nd8w5Byyz
+        JAPUmKnt50BxE54awtuviqoGP+45jsKmCZuqhRdl7yqYPgleRTDmd68s+JfDIpqUWJ+cP9wkD8XN
+        0J9octN2UOskBelDZQ0muWWJNVnKXJAmwI/qsvTCuNAFC8elliYkKxEabKI49xko93LaYNW1wfx5
+        gby7Db41GT6q5V3HF/oFtoVKnIZnehs+TTbhs4mzobb2CZGgSZBzZyw4CXZUiZ13LtOpEcJoKQmI
+        1HMLWqhMyVCS+VO86mPkPq/6Dqsm2itPsHvJfgdA9twy4trrvrUQvo9wvjc9nMwekfqYUXwL5ZiS
+        9dz3z9f/AUZgqUTtGAAA
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 63b0e6dfb84011a5-MIA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1326'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 05 Apr 2021 07:00:51 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=pdkztq3sJacwXBxoR7LAwkKYX0OeVMyKmO5OQFoE6Jt8KnNUiY%2FGP3J4tYUnG24idPReiL9xVq9s4G8OejxIUXcR1SGgm%2BH28bDBOg40"}],"max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Set-Cookie:
+      - __cfduid=d6570d5dde384724e071c0e2f2e9f84401617606051; expires=Wed, 05-May-21
+        07:00:51 GMT; path=/; domain=.therundown.io; HttpOnly; SameSite=Lax
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-east-1
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9997'
+      X-RateLimit-requests-Reset:
+      - '59911'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 09426e9fd0000011a50c336000000001
+    status:
+      code: 200
+      message: OK
+version: 1

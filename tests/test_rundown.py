@@ -17,6 +17,7 @@ class TestRundown:
     # def test bad_route(self):
     # moneyline E.G
     # bad event id
+    # over 500 scheduled events
     # pass
 
     @pytest.mark.parametrize(
@@ -212,4 +213,10 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_total(self, rundown, line_id, include):
         data = rundown.total(line_id, *include)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize("sport_id, date_from, limit", [(6, "2021-04-05", 10)])
+    @pytest.mark.vcr()
+    def test_schedule_by_sport(self, rundown, sport_id, date_from, limit):
+        data = rundown.schedule_by_sport(sport_id, date_from, limit)
         assert len(data) > 0

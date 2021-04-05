@@ -345,3 +345,25 @@ class Rundown:
         """
         data = self._build_url_and_get_json("lines", line_id, "total", include=include)
         return data
+
+    def schedule_by_sport(
+        self, sport_id, date_from: Optional[str] = None, limit: int = 50
+    ):
+        """Get schedule for league referenced by sport_id.
+
+        GET /sports/<sport-id>/schedule
+
+        Args:
+            sport_id: ID for the league of interest.
+            date_from: ISO 8601 date string of the starting date of the scheduled
+                events. The server considers the date to be in UTC.
+            limit: Number of events to retrieve. Maximum 500.
+
+        Returns:
+            list of resource.Event
+        """
+        # 'from' is a reserved keyword in Python, so use Dict.
+        data = self._build_url_and_get_json(
+            "sports", sport_id, "schedule", **{"from": date_from, "limit": limit}
+        )
+        return data
