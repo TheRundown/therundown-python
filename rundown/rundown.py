@@ -268,6 +268,49 @@ class Rundown:
         data = self._get_events(sport_id, "closing", date_, offset, include)
         return data
 
+    def events_delta(self, last_id, sport_id=None, *include: str):
+        """Get events that have changed since request specified by last_id.
+
+        GET /delta?last_id=<delta-last-id>
+
+        Args:
+            last_id: The `delta_last_id` value contained in some previous request to any
+                'events' endpoint.
+            sport_id: If included, return only events of sport sport_id.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default.
+
+        Returns:
+            resources.Events object.
+
+        Raises:
+            requests.HTTPError: If too many events have been updated since last_id.
+        """
+        data = self._build_url_and_get_json(
+            "delta", last_id=last_id, sport_id=sport_id, include=include
+        )
+        return data
+
+    def event(self, event_id: int, *include: str):
+        """Get event by event id.
+
+        GET /events/<event-id>
+
+        Args:
+            event_id: The event id for the event of interest.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default.
+
+        Returns:
+            resources.Event object.
+        """
+        data = self._build_url_and_get_json("events", event_id, *include)
+        return data
+
     def moneyline(self, line_id, *include: str):
         """Get line history for moneyline referenced by line_id.
 
