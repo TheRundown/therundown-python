@@ -14,10 +14,9 @@ def test_auth_factory():
 
 
 class TestRundown:
-    # @pytest.mark.parametrize()
-    def test_api_dates_with_odds(self):
-        # TODO: investigate offset and incorrect dates.
-        pass
+    # def test bad_route(self):
+    # moneyline E.G
+    # pass
 
     @pytest.mark.parametrize(
         "segments, expected",
@@ -142,3 +141,46 @@ class TestRundown:
     def test_closing_lines(self, rundown, sport_id, date_, offset, include):
         data = rundown.closing_lines(sport_id, date_, offset, *include)
         assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "line_id, include",
+        [
+            (14215098, []),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["all_periods"]),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["scores"]),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["all_periods", "scores"]),  # Tampa vs. Detroit NHL 2021-04-03
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_moneyline(self, rundown, line_id, include):
+        data = rundown.moneyline(line_id, *include)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "line_id, include",
+        [
+            (14215098, []),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["all_periods"]),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["scores"]),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["all_periods", "scores"]),  # Tampa vs. Detroit NHL 2021-04-03
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_spread(self, rundown, line_id, include):
+        data = rundown.spread(line_id, *include)
+        assert len(data) > 0
+
+    @pytest.mark.parametrize(
+        "line_id, include",
+        [
+            (14215098, []),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["all_periods"]),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["scores"]),  # Tampa vs. Detroit NHL 2021-04-03
+            (14215098, ["all_periods", "scores"]),  # Tampa vs. Detroit NHL 2021-04-03
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_total(self, rundown, line_id, include):
+        data = rundown.total(line_id, *include)
+        assert len(data) > 0
+
