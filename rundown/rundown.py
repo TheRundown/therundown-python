@@ -2,8 +2,18 @@ from typing import Union, List, Dict, Optional
 from enum import Enum
 
 import requests
+from pydantic import parse_obj_as
 
 from rundown.utils import utc_shift
+from rundown.resources.sportsbook import Sportsbook
+from rundown.resources.sport import Sport
+from rundown.resources.date import Date, Epoch
+from rundown.resources.team import Team
+from rundown.resources.events import Events
+from rundown.resources.event import Event, EventLinePeriods
+from rundown.resources.line import Moneyline, Spread, Total
+from rundown.resources.lineperiods import LinePeriods
+from rundown.resources.schedule import Schedule
 
 
 class _RapidAPIAuth:
@@ -138,7 +148,8 @@ class Rundown:
             list of resources.Sport
         """
         data = self._build_url_and_get_json("sports")
-        return data
+        sports = parse_obj_as(List[Sport], data["sports"])
+        return sports
 
     def dates_by_sport(
         self, sport_id: int, offset: Optional[int] = None, format: str = "date"
@@ -163,7 +174,15 @@ class Rundown:
         data = self._build_url_and_get_json(
             "sports", sport_id, "dates", offset=offset, format=format
         )
-        return data
+        if format == "date":
+            resource = Date
+            dates = [{"timezone": self.timezone, "date_": v} for v in data["dates"]]
+        else:
+            resource = Epoch
+            dates = [{"timestamp": v} for v in data["dates"]]
+
+        dates = parse_obj_as(List[resource], dates)
+        return dates
 
     def sportsbooks(self):
         """Get available sportsbooks.
@@ -174,7 +193,8 @@ class Rundown:
             list of resources.Sportsbook
         """
         data = self._build_url_and_get_json("affiliates")
-        return data
+        sportsbooks = parse_obj_as(List[Sportsbook], data["affiliates"])
+        return sportsbooks
 
     def teams_by_sport(self, sport_id: int):
         """Get teams for the league referenced by sport id.
@@ -185,7 +205,8 @@ class Rundown:
             list of resource.Team
         """
         data = self._build_url_and_get_json("sports", sport_id, "teams")
-        return data
+        teams = parse_obj_as(List[Team], data["teams"])
+        return teams
 
     def events_by_date(
         self,
@@ -212,7 +233,8 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport_id, "events", date_, offset, *include)
-        return data
+        events = Events(**data)
+        return events
 
     def opening_lines(
         self,
@@ -239,7 +261,8 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport_id, "openers", date_, offset, include)
-        return data
+        events = Events(**data)
+        return events
 
     def closing_lines(
         self,
@@ -266,7 +289,8 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport_id, "closing", date_, offset, include)
-        return data
+        events = Events(**data)
+        return events
 
     def events_delta(self, last_id, sport_id=None, *include: str):
         """Get events that have changed since request specified by last_id.
@@ -291,7 +315,8 @@ class Rundown:
         data = self._build_url_and_get_json(
             "delta", last_id=last_id, sport_id=sport_id, include=include
         )
-        return data
+        events = Events(**data)
+        return events
 
     def event(self, event_id: int, *include: str):
         """Get event by event id.
@@ -309,7 +334,11 @@ class Rundown:
             resources.Event object.
         """
         data = self._build_url_and_get_json("events", event_id, *include)
-        return data
+        if "all_periods" in include:
+            e = EventLinePeriods(**data)
+        else:
+            e = Event(**data)
+        return e
 
     def moneyline(self, line_id, *include: str):
         """Get line history for moneyline referenced by line_id.
@@ -322,7 +351,12 @@ class Rundown:
         data = self._build_url_and_get_json(
             "lines", line_id, "moneyline", include=include
         )
-        return data
+        if "all_periods" in include:
+            pass
+            lines = LinePeriods(**data["moneyline_periods"])
+        else:
+            lines = parse_obj_as(List[Moneyline], data["moneylines"])
+        return lines
 
     def spread(self, line_id: int, *include: str):
         """Get line history for spread referenced by line_id.
@@ -333,7 +367,12 @@ class Rundown:
             list of resources.Spread
         """
         data = self._build_url_and_get_json("lines", line_id, "spread", include=include)
-        return data
+        if "all_periods" in include:
+            pass
+            lines = LinePeriods(**data["spread_periods"])
+        else:
+            lines = parse_obj_as(List[Spread], data["spreads"])
+        return lines
 
     def total(self, line_id, *include: str):
         """Get line history for total referenced by line_id.
@@ -344,7 +383,11 @@ class Rundown:
             list of resources.Total
         """
         data = self._build_url_and_get_json("lines", line_id, "total", include=include)
-        return data
+        if "all_periods" in include:
+            lines = LinePeriods(**data["total_periods"])
+        else:
+            lines = parse_obj_as(List[Total], data["totals"])
+        return lines
 
     def schedule_by_sport(
         self, sport_id, date_from: Optional[str] = None, limit: int = 50
@@ -366,4 +409,5 @@ class Rundown:
         data = self._build_url_and_get_json(
             "sports", sport_id, "schedule", **{"from": date_from, "limit": limit}
         )
-        return data
+        schedules = parse_obj_as(List[Schedule], data["schedules"])
+        return schedules
