@@ -27,7 +27,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 63a8be1c3c40937c-SJC
+      - 63b86eee9b879322-SJC
       Connection:
       - keep-alive
       Content-Length:
@@ -35,18 +35,18 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 04 Apr 2021 07:14:56 GMT
+      - Tue, 06 Apr 2021 04:57:05 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"max_age":604800,"report_to":"cf-nel"}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=UHj0mEXXcWIW9B%2BTHurqpS5ixsPOOL4JkIbZQ9eILGv%2FdTfi1ppTsnSLmmqxjc%2BdFa2cK%2FYRxfMQrXh03%2B6OwsDM8Gi8eNCwTdwJgIXJ"}],"group":"cf-nel","max_age":604800}'
+      - '{"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=8GGcF4h%2Fwzw0aELNvNK5vOx8aew6ynYbSmXf%2BsLpR21koGBTKKloddxumfzimmVgbI38ehkXv0YjQIw%2BBpfjLWXH664wulN9yghuKOJq"}],"max_age":604800}'
       Server:
       - RapidAPI-1.2.8
       Set-Cookie:
-      - __cfduid=d9fb92e5c237ede20c7a2307953b902491617520496; expires=Tue, 04-May-21
-        07:14:56 GMT; path=/; domain=.therundown.io; HttpOnly; SameSite=Lax
+      - __cfduid=d220be09cc1a92ebf4e0a21a3952e01b31617685025; expires=Thu, 06-May-21
+        04:57:05 GMT; path=/; domain=.therundown.io; HttpOnly; SameSite=Lax
       X-RapidAPI-Region:
       - AWS - us-west-2
       X-RapidAPI-Version:
@@ -54,13 +54,13 @@ interactions:
       X-RateLimit-requests-Limit:
       - '10000'
       X-RateLimit-requests-Remaining:
-      - '9960'
+      - '9999'
       X-RateLimit-requests-Reset:
-      - '59066'
+      - '67337'
       alt-svc:
       - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
       cf-request-id:
-      - 093d5525a80000937c3f833000000001
+      - 094723a91f0000932268345000000001
     status:
       code: 200
       message: OK
