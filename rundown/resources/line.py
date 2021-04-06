@@ -6,14 +6,6 @@ from rundown.resources.validators import change_timezone
 
 
 class Line(BaseModel):
-    """Base class for different line types.
-
-    Attributes:
-        date_updated: Timezone-aware datetime object.
-        format: 'American', 'Decimal' or 'Fractional'.
-        line_id: The line id.
-    """
-
     line_id: int
     date_updated: str
     format: str
@@ -29,17 +21,6 @@ class ExtendedLine(Line):
 
 
 class Moneyline(Line):
-    """Moneyline object.
-
-    Attributes may represent american, decimal, or fractional odds.
-
-    Attributes:
-        away_odds
-        away_delta
-        home_odds
-        home_delta
-    """
-
     moneyline_away: Optional[Union[int, float]] = Field(...)
     moneyline_away_delta: Optional[int] = Field(...)
     moneyline_home: Optional[int] = Field(...)
@@ -66,21 +47,6 @@ class SpreadElement(BaseModel):
 
 
 class Spread(ExtendedLine):
-    """Point spread object.
-
-    Attributes may represent american, decimal, or fractional odds.
-
-    Attributes:
-        away_spread
-        away_spread_delta
-        away_odds
-        away_delta
-        home_spread
-        home_spread_delta
-        home_odds
-        home_delta
-    """
-
     point_spread_away: Optional[float] = Field(...)
     point_spread_away_delta: Optional[float] = Field(...)
     point_spread_home: Optional[float] = Field(...)
@@ -110,17 +76,6 @@ class TotalElement(BaseModel):
 
 
 class Total(ExtendedLine):
-    """Totals object.
-
-    Attributes may represent american, decimal, or fractional odds.
-
-    Attributes:
-        over_odds
-        over_delta
-        under_odds
-        under_delta
-    """
-
     total_over: Optional[float] = Field(...)
     total_over_delta: Optional[float] = Field(...)
     total_under: Optional[float] = Field(...)

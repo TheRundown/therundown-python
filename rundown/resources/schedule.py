@@ -11,19 +11,6 @@ class BaseSchedule(BaseModel):
 
 
 class Schedule(BaseSchedule):
-    """Class containing schedule information about an event. Used by Event class.
-
-    Attributes:
-        attendance
-        event_headline
-        event_name
-        season_type
-        season_year
-        week
-        week_detail
-        week_name
-    """
-
     id: int
     event_uuid: str
     event_id: str
@@ -46,6 +33,3 @@ class Schedule(BaseSchedule):
     _change_timezone = validator("date_event", "updated_at", allow_reuse=True)(
         change_timezone
     )
-
-    # def _gen_validator(field, validator_name):
-    #     return validator()

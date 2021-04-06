@@ -7,11 +7,10 @@ from rundown.usercontext import context_timezone
 
 
 class Date(BaseModel):
-    timezone: str
-    date_: str
+    date: str
 
-    @validator("date_")
-    def make_timezone(cls, v, values):
+    @validator("date")
+    def make_timezone(cls, v):
         """Format date returned from server.
 
         The dates incorrectly always show UTC timezone, but the local time will be

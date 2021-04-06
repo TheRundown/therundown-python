@@ -2,16 +2,6 @@ from pydantic import BaseModel
 
 
 class Team(BaseModel):
-    """Team object. 'normalized_teams' maps to this object.
-
-    Attributes:
-        abbreviation
-        mascot
-        name
-        record
-        team_id
-    """
-
     team_id: int
     name: str
     mascot: str
@@ -19,13 +9,6 @@ class Team(BaseModel):
 
 
 class TeamNormalized(Team):
-    """Team object within event context.
-
-    Attributes:
-        is_home
-        is_away
-    """
-
     ranking: int
     record: str
     is_away: bool
