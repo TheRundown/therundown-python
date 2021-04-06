@@ -59,6 +59,10 @@ class Rundown:
         api_provider: The API provider. Must be either 'rundown' or 'rapidapi'
             (case insensitive).
         timezone: Your preferred timezone.
+            The following formats are accepted:
+            - A str describing a timezone, similar to ‘US/Pacific’, or ‘Europe/Berlin’.
+            - A str in ISO 8601 style, as in ‘+07:00’.
+            - A str, one of the following: ‘local’, ‘utc’, ‘UTC’.
 
     timezone will be used to format responses from the API.
 
