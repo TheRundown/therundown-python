@@ -47,3 +47,16 @@ def rundown(request, monkeypatch):
         patched_build_url_and_get_json(request, original_fn),
     )
     return r
+
+
+@pytest.fixture
+def rundown2(request, monkeypatch):
+    r = Rundown(os.getenv("RAPIDAPI_KEY"), timezone="Australia/Brisbane")
+    original_fn = r._build_url_and_get_json
+    # Patch method in order to save JSON data along with VCR cassette.
+    monkeypatch.setattr(
+        r,
+        "_build_url_and_get_json",
+        patched_build_url_and_get_json(request, original_fn),
+    )
+    return r
