@@ -1,11 +1,12 @@
 from typing import List, Dict, Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, validator
 
 from rundown.resources.team import TeamDeprecated, TeamNormalized
 from rundown.resources.schedule import BaseSchedule
 from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.sportsbook import Sportsbook
+from rundown.resources.validators import change_timezone
 
 
 class SportsbookLines(BaseModel):
@@ -78,6 +79,8 @@ class BaseEvent(BaseModel):
     teams: List[TeamDeprecated]
     teams_normalized: List[TeamNormalized]
     schedule: BaseSchedule
+
+    _change_timezone = validator("event_date", allow_reuse=True)(change_timezone)
 
 
 class Event(BaseEvent):

@@ -1,10 +1,8 @@
-from typing import Optional, List
+from typing import Optional, List, Union
 
-# from pydantic import BaseModel, validator
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, validator
 
-# TODO: Is it bad to have odds being different data types (float or int) / representing
-# different meanings (fractional, decimal, or american) based on odds type?
+from rundown.resources.validators import change_timezone
 
 
 class Line(BaseModel):
@@ -20,9 +18,7 @@ class Line(BaseModel):
     date_updated: str
     format: str
 
-    # @validator("date_updated")
-    # def make_timezone(cls, v, values):
-    #     pass
+    _change_timezone = validator("date_updated", allow_reuse=True)(change_timezone)
 
 
 class ExtendedLine(Line):
@@ -44,11 +40,7 @@ class Moneyline(Line):
         home_delta
     """
 
-    # line_id: int
-    # date_updated: str
-    # format: str
-
-    moneyline_away: Optional[int] = Field(...)
+    moneyline_away: Optional[Union[int, float]] = Field(...)
     moneyline_away_delta: Optional[int] = Field(...)
     moneyline_home: Optional[int] = Field(...)
     moneyline_home_delta: Optional[int] = Field(...)
@@ -143,64 +135,3 @@ class Total(ExtendedLine):
 class TotalPeriod(Total):
     period_id: int
     period_description: str
-
-
-################################################################################
-#  Alternative - abstract odds types and bet types into options. Allows handling
-# arbitrary number of bet options / odds types.
-################################################################################
-
-
-# class DecimalOption:
-#
-#     Attributes:
-#         odds
-#         delta
-#     """
-
-#     pass
-
-
-# class MoneylineOption:
-#     """
-#     Attributes:
-#         name: Option name, eg 'away', 'draw' or 'home'
-#         odds: One of DecimalOption, AmericanOption, or FractionalOption
-#     """
-
-#     pass
-
-
-# class Moneyline:
-#     """
-#     Attributes:
-#         options: Dict of options (Moneyline, Spread, or Total).
-#     """
-
-#     @property
-#     def home_odds(self):
-#         # Find the right value in the options dict.
-#         pass
-
-#     @property
-#     def home_delta(self):
-#         # Find the right value in the options dict.
-#         pass
-
-#     pass
-
-
-# class MoneyLineTwoWay(Moneyline):
-#     pass
-
-
-# class MoneylineThreeWay(Moneyline):
-#     @property
-#     def draw_odds(self):
-#         # Find the right value in the options dict.
-#         pass
-
-#     @property
-#     def draw_delta(self):
-#         # Find the right value in the options dict.
-#         pass

@@ -1,4 +1,6 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, validator
+
+from rundown.resources.validators import change_timezone
 
 
 class BaseSchedule(BaseModel):
@@ -40,3 +42,10 @@ class Schedule(BaseSchedule):
     updated_at: str
     event_status: str
     event_status_detail: str
+
+    _change_timezone = validator("date_event", "updated_at", allow_reuse=True)(
+        change_timezone
+    )
+
+    # def _gen_validator(field, validator_name):
+    #     return validator()

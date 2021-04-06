@@ -1,4 +1,9 @@
+from datetime import datetime
+
 from pydantic import BaseModel, validator
+import arrow
+
+from rundown.usercontext import context_timezone
 
 
 class Date(BaseModel):
@@ -13,7 +18,10 @@ class Date(BaseModel):
         correct with respect to timezone. So it is only necessary to truncate the date
         string.
         """
-        return v.split("+")[0]
+        naive_dt_str = v.split("+")[0]
+        naive_dt = datetime.fromisoformat(naive_dt_str)
+        dt = arrow.get(naive_dt, context_timezone.get())
+        return str(dt)
 
 
 class Epoch(BaseModel):
