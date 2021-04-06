@@ -83,7 +83,7 @@ class Rundown:
         base_url = self._auth.api_url
         return f"{base_url}/{'/'.join([str(s) for s in segments])}"
 
-    def _clean_params(self, **params):
+    def _clean_params(self, **params: Union[str, int, List[Optional[str]], None]):
         """Disallow parameters that have `None` or empty list as their value."""
         return {k: v for k, v in params.items() if v}
 
@@ -96,17 +96,13 @@ class Rundown:
     def _build_url_and_get_json(
         self, *segments: Union[str, int], **params: Union[str, int, List[str]]
     ) -> Dict:
-        """Build URL from segments and make get request to API.
-
-        Returns:
-            [type]: [description]
-        """
+        """Build URL from segments and make get request to API."""
         url = self._build_url(*segments)
         params = self._clean_params(**params)
         res = self._get(url, **params)
         return res.json()
 
-    def _validate_offset(self, offset: int):
+    def _validate_offset(self, offset: int) -> int:
         """Determine offset by parameter or self.timezone, with parameter precedence."""
         if offset is None:
             offset = utc_shift(self.timezone)
@@ -119,20 +115,20 @@ class Rundown:
         date_: str,
         offset: Optional[int] = None,
         *include: str,
-    ):
+    ) -> Dict:
         offset = self._validate_offset(offset)
         data = self._build_url_and_get_json(
             "sports", sport_id, lines_type, date_, offset=offset, include=include
         )
         return data
 
-    def sports(self):
+    def sports(self) -> List[Sport]:
         """Get available sports.
 
         GET /sports
 
         Returns:
-            list of resources.Sport
+            list of resources.Sport.
         """
         data = self._build_url_and_get_json("sports")
         sports = parse_obj_as(List[Sport], data["sports"])
@@ -140,7 +136,7 @@ class Rundown:
 
     def dates_by_sport(
         self, sport_id: int, offset: Optional[int] = None, format: str = "date"
-    ):
+    ) -> List[Union[Date, Epoch]]:
         """Get dates with odds for future events.
 
         GET /sports/<sport-id>/dates
@@ -154,7 +150,7 @@ class Rundown:
                 ignored, and dates will be in epoch format.
 
         Returns:
-            list of Python datetime objects, or ints (if format=='epoch')
+            list of resources.Date or resources.Epoch.
         """
         offset = self._validate_offset(offset)
 
@@ -163,7 +159,7 @@ class Rundown:
         )
         if format == "date":
             resource = Date
-            dates = [{"timezone": self.timezone, "date_": v} for v in data["dates"]]
+            dates = [{"date": v} for v in data["dates"]]
         else:
             resource = Epoch
             dates = [{"timestamp": v} for v in data["dates"]]
@@ -172,25 +168,25 @@ class Rundown:
             dates = parse_obj_as(List[resource], dates)
         return dates
 
-    def sportsbooks(self):
+    def sportsbooks(self) -> List[Sportsbook]:
         """Get available sportsbooks.
 
         GET /affiliates
 
         Returns:
-            list of resources.Sportsbook
+            list of resources.Sportsbook.
         """
         data = self._build_url_and_get_json("affiliates")
         sportsbooks = parse_obj_as(List[Sportsbook], data["affiliates"])
         return sportsbooks
 
-    def teams_by_sport(self, sport_id: int):
+    def teams_by_sport(self, sport_id: int) -> List[Team]:
         """Get teams for the league referenced by sport id.
 
         GET /sports/<sport-id>/teams
 
         Returns:
-            list of resource.Team
+            list of resource.Team.
         """
         data = self._build_url_and_get_json("sports", sport_id, "teams")
         teams = parse_obj_as(List[Team], data["teams"])
@@ -202,7 +198,7 @@ class Rundown:
         date_: str,
         offset: Optional[int] = None,
         *include: str,
-    ):
+    ) -> Events:
         """Get events by sport by date.
 
         GET /sports/<sport-id>/events/<date>
@@ -231,7 +227,7 @@ class Rundown:
         date_: str,
         offset: Optional[int] = None,
         *include: str,
-    ):
+    ) -> Events:
         """Get events with opening lines by sport by date.
 
         GET /sports/<sport-id>/openers/<date>
@@ -260,7 +256,7 @@ class Rundown:
         date_: str,
         offset: Optional[int] = None,
         *include: str,
-    ):
+    ) -> Events:
         """Get events with closing lines by sport by date.
 
         GET /sports/<sport-id>/closing/<date>
@@ -283,7 +279,7 @@ class Rundown:
             events = Events(**data)
         return events
 
-    def events_delta(self, last_id, sport_id=None, *include: str):
+    def events_delta(self, last_id, sport_id=None, *include: str) -> Events:
         """Get events that have changed since request specified by last_id.
 
         GET /delta?last_id=<delta-last-id>
@@ -310,7 +306,7 @@ class Rundown:
             events = Events(**data)
         return events
 
-    def event(self, event_id: int, *include: str):
+    def event(self, event_id: int, *include: str) -> Event:
         """Get event by event id.
 
         GET /events/<event-id>
@@ -333,13 +329,20 @@ class Rundown:
                 e = Event(**data)
         return e
 
-    def moneyline(self, line_id, *include: str):
+    def moneyline(self, line_id, *include: str) -> Union[List[Moneyline], LinePeriods]:
         """Get line history for moneyline referenced by line_id.
 
         GET /lines/<line-id>/moneyline
 
+        Args:
+            line_id: The line id for the line of interest.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default
+
         Returns:
-            list of resources.Moneyline
+            list of resources.Moneyline, or LinePeriods object.
         """
         data = self._build_url_and_get_json(
             "lines", line_id, "moneyline", include=include
@@ -352,13 +355,22 @@ class Rundown:
                 lines = parse_obj_as(List[Moneyline], data["moneylines"])
         return lines
 
-    def spread(self, line_id: int, *include: str):
+    def spread(
+        self, line_id: int, *include: str
+    ) -> Union[List[Moneyline], LinePeriods]:
         """Get line history for spread referenced by line_id.
 
         GET /lines/<line-id>/spread
 
+        Args:
+            line_id: The line id for the line of interest.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default
+
         Returns:
-            list of resources.Spread
+            list of resources.Spead, or LinePeriods object.
         """
         data = self._build_url_and_get_json("lines", line_id, "spread", include=include)
         with user_context(self.timezone):
@@ -369,13 +381,20 @@ class Rundown:
                 lines = parse_obj_as(List[Spread], data["spreads"])
         return lines
 
-    def total(self, line_id, *include: str):
+    def total(self, line_id, *include: str) -> Union[List[Moneyline], LinePeriods]:
         """Get line history for total referenced by line_id.
 
         GET /lines/<line-id>/total
 
+        Args:
+            line_id: The line id for the line of interest.
+            include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
+                lines for each period are included in the response. If 'scores' is
+                included, lines for the event are included in the response. 'scores' by
+                itself is the default
+
         Returns:
-            list of resources.Total
+            list of resources.Total, or LinePeriods object.
         """
         data = self._build_url_and_get_json("lines", line_id, "total", include=include)
         with user_context(self.timezone):
@@ -387,7 +406,7 @@ class Rundown:
 
     def schedule_by_sport(
         self, sport_id, date_from: Optional[str] = None, limit: int = 50
-    ):
+    ) -> List[Schedule]:
         """Get schedule for league referenced by sport_id.
 
         GET /sports/<sport-id>/schedule
@@ -399,7 +418,7 @@ class Rundown:
             limit: Number of events to retrieve. Maximum 500.
 
         Returns:
-            list of resource.Event
+            list of resources.Schedule.
         """
         # 'from' is a reserved keyword in Python, so use Dict.
         data = self._build_url_and_get_json(
