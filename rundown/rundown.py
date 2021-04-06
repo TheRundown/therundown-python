@@ -1,5 +1,4 @@
 from typing import Union, List, Dict, Optional
-from enum import Enum
 
 import requests
 from pydantic import parse_obj_as
@@ -14,6 +13,7 @@ from rundown.resources.event import Event, EventLinePeriods
 from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.schedule import Schedule
+from rundown.usercontext import user_context
 
 
 class _RapidAPIAuth:
@@ -51,14 +51,6 @@ class _Auth:
         )
 
 
-class OddsType(str, Enum):
-    """Enum type for supporting American, decimal and fractional odds."""
-
-    american = "american"
-    decimal = "decimal"
-    fractional = "fractional"
-
-
 class Rundown:
     """The Rundown REST API client class supporting user configuration.
 
@@ -66,14 +58,11 @@ class Rundown:
         api_key: The API key to use.
         api_provider: The API provider. Must be either 'rundown' or 'rapidapi'
             (case insensitive).
-        odds_type: Your preferred odds type. Must be one of 'american', 'decimal',
-            or 'fractional' (case insensitive).
         timezone: Your preferred timezone.
 
-    odds_type and timezone will be used to format responses from the API.
+    timezone will be used to format responses from the API.
 
     Attributes:
-        odds_type (OddsType): Your preferred odds type.
         timezone (str): Your preferred timezone.
     """
 
@@ -81,14 +70,12 @@ class Rundown:
         self,
         api_key: str,
         api_provider: str = "rapidapi",
-        odds_type: str = "american",
         timezone: str = "local",
     ):
         self._auth = _Auth.factory(api_provider.lower(), api_key)
         self._session = requests.session()
         self._session.headers.update(self._auth.headers)
 
-        self.odds_type = OddsType(odds_type.lower())
         self.timezone = timezone
 
     def _build_url(self, *segments: Union[str, int]) -> str:
@@ -181,7 +168,8 @@ class Rundown:
             resource = Epoch
             dates = [{"timestamp": v} for v in data["dates"]]
 
-        dates = parse_obj_as(List[resource], dates)
+        with user_context(self.timezone):
+            dates = parse_obj_as(List[resource], dates)
         return dates
 
     def sportsbooks(self):
@@ -233,7 +221,8 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport_id, "events", date_, offset, *include)
-        events = Events(**data)
+        with user_context(self.timezone):
+            events = Events(**data)
         return events
 
     def opening_lines(
@@ -261,7 +250,8 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport_id, "openers", date_, offset, include)
-        events = Events(**data)
+        with user_context(self.timezone):
+            events = Events(**data)
         return events
 
     def closing_lines(
@@ -289,7 +279,8 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport_id, "closing", date_, offset, include)
-        events = Events(**data)
+        with user_context(self.timezone):
+            events = Events(**data)
         return events
 
     def events_delta(self, last_id, sport_id=None, *include: str):
@@ -315,7 +306,8 @@ class Rundown:
         data = self._build_url_and_get_json(
             "delta", last_id=last_id, sport_id=sport_id, include=include
         )
-        events = Events(**data)
+        with user_context(self.timezone):
+            events = Events(**data)
         return events
 
     def event(self, event_id: int, *include: str):
@@ -334,10 +326,11 @@ class Rundown:
             resources.Event object.
         """
         data = self._build_url_and_get_json("events", event_id, *include)
-        if "all_periods" in include:
-            e = EventLinePeriods(**data)
-        else:
-            e = Event(**data)
+        with user_context(self.timezone):
+            if "all_periods" in include:
+                e = EventLinePeriods(**data)
+            else:
+                e = Event(**data)
         return e
 
     def moneyline(self, line_id, *include: str):
@@ -351,11 +344,12 @@ class Rundown:
         data = self._build_url_and_get_json(
             "lines", line_id, "moneyline", include=include
         )
-        if "all_periods" in include:
-            pass
-            lines = LinePeriods(**data["moneyline_periods"])
-        else:
-            lines = parse_obj_as(List[Moneyline], data["moneylines"])
+        with user_context(self.timezone):
+            if "all_periods" in include:
+                pass
+                lines = LinePeriods(**data["moneyline_periods"])
+            else:
+                lines = parse_obj_as(List[Moneyline], data["moneylines"])
         return lines
 
     def spread(self, line_id: int, *include: str):
@@ -367,11 +361,12 @@ class Rundown:
             list of resources.Spread
         """
         data = self._build_url_and_get_json("lines", line_id, "spread", include=include)
-        if "all_periods" in include:
-            pass
-            lines = LinePeriods(**data["spread_periods"])
-        else:
-            lines = parse_obj_as(List[Spread], data["spreads"])
+        with user_context(self.timezone):
+            if "all_periods" in include:
+                pass
+                lines = LinePeriods(**data["spread_periods"])
+            else:
+                lines = parse_obj_as(List[Spread], data["spreads"])
         return lines
 
     def total(self, line_id, *include: str):
@@ -383,10 +378,11 @@ class Rundown:
             list of resources.Total
         """
         data = self._build_url_and_get_json("lines", line_id, "total", include=include)
-        if "all_periods" in include:
-            lines = LinePeriods(**data["total_periods"])
-        else:
-            lines = parse_obj_as(List[Total], data["totals"])
+        with user_context(self.timezone):
+            if "all_periods" in include:
+                lines = LinePeriods(**data["total_periods"])
+            else:
+                lines = parse_obj_as(List[Total], data["totals"])
         return lines
 
     def schedule_by_sport(
@@ -409,5 +405,6 @@ class Rundown:
         data = self._build_url_and_get_json(
             "sports", sport_id, "schedule", **{"from": date_from, "limit": limit}
         )
-        schedules = parse_obj_as(List[Schedule], data["schedules"])
+        with user_context(self.timezone):
+            schedules = parse_obj_as(List[Schedule], data["schedules"])
         return schedules
