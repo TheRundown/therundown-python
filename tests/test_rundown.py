@@ -19,12 +19,6 @@ def test_auth_factory():
 
 
 class TestRundown:
-    # def test bad_route(self):
-    # moneyline E.G
-    # bad event id
-    # over 500 scheduled events
-    # pass
-
     @pytest.mark.parametrize(
         "segments, expected",
         [

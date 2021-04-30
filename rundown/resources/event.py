@@ -59,7 +59,8 @@ class BaseEvent(BaseModel):
     event_date: str
     rotation_number_away: int
     rotation_number_home: int
-    score: Optional[Score]  # not set for future events
+    # 'score' may not be populated for games >100 days in advance.
+    score: Optional[Score]
     teams: List[TeamDeprecated]
     teams_normalized: List[TeamNormalized]
     schedule: BaseSchedule
