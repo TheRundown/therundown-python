@@ -2,20 +2,20 @@ from typing import List
 
 import pytest
 
-from rundown.rundown import _Auth, _RundownAuth, _RapidAPIAuth
+from rundown.rundown import _Base, _RundownBase, _RapidAPIBase
 from rundown.resources.events import Events
 from rundown.resources.event import Event, EventLinePeriods
 from rundown.resources.lineperiods import LinePeriods
 
 
 def test_auth_factory():
-    a = _Auth.factory("rapidapi", "apikey")
-    assert isinstance(a, _RapidAPIAuth)
-    a = _Auth.factory("rundown", "apikey")
-    assert isinstance(a, _RundownAuth)
+    a = _Base.factory("rapidapi", "apikey")
+    assert isinstance(a, _RapidAPIBase)
+    a = _Base.factory("rundown", "apikey")
+    assert isinstance(a, _RundownBase)
 
     with pytest.raises(ValueError):
-        _Auth.factory("foo", "apikey")
+        _Base.factory("foo", "apikey")
 
 
 class TestRundown:

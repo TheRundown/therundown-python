@@ -16,21 +16,21 @@ from rundown.resources.schedule import Schedule
 from rundown.usercontext import user_context
 
 
-class _RapidAPIAuth:
-    """Authorization configuration required for making requests to RapidAPI."""
+class _RapidAPIBase:
+    """Configuration required for making requests to RapidAPI."""
 
     def __init__(self, api_key: str):
         self.api_key = api_key
         self.api_host = "therundown-therundown-v1.p.rapidapi.com"
         self.api_url = "https://therundown-therundown-v1.p.rapidapi.com"
         self.headers = {
-            "x-rapidapi-key": self.api_key,
-            "x-rapidapi-host": self.api_host,
+            "X-RapidAPI-Key": self.api_key,
+            "X-RapidAPI-Host": self.api_host,
         }
 
 
-class _RundownAuth:
-    """Authorization configuration required for making requests to The Rundown's API."""
+class _RundownBase:
+    """Configuration required for making requests to The Rundown's API."""
 
     def __init__(self, api_key: str):
         self.api_key = api_key
@@ -38,16 +38,16 @@ class _RundownAuth:
         self.headers = {"X-TheRundown-Key": self.api_key}
 
 
-class _Auth:
-    """Class supporting creation of RapidAPIAuth and RundownAuth objects."""
+class _Base:
+    """Class supporting creation of _RapidAPIBase and _RundownBase objects."""
 
     @classmethod
-    def factory(cls, provider: str, api_key: str) -> Union[_RapidAPIAuth, _RundownAuth]:
-        """Factory method returning RapidAPIAuth or RundownAuth object."""
+    def factory(cls, provider: str, api_key: str) -> Union[_RapidAPIBase, _RundownBase]:
+        """Factory method returning _RapidAPIBase or _RundownBase object."""
         if provider not in ["rapidapi", "rundown"]:
             raise ValueError("API Provider must be either 'rapidapi' or 'rundown'")
         return (
-            _RapidAPIAuth(api_key) if provider == "rapidapi" else _RundownAuth(api_key)
+            _RapidAPIBase(api_key) if provider == "rapidapi" else _RundownBase(api_key)
         )
 
 
@@ -76,7 +76,7 @@ class Rundown:
         api_provider: str = "rapidapi",
         timezone: str = "local",
     ):
-        self._auth = _Auth.factory(api_provider.lower(), api_key)
+        self._auth = _Base.factory(api_provider.lower(), api_key)
         self._session = requests.session()
         self._session.headers.update(self._auth.headers)
 
