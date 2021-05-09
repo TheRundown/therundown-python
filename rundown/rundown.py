@@ -145,7 +145,7 @@ class Rundown:
         sport: Union[int, str],
         lines_type: str,
         date_: str,
-        offset: Optional[int] = None,
+        offset: Optional[int],
         *include: str,
     ) -> dict:
         offset = self._validate_offset(offset)
@@ -236,8 +236,8 @@ class Rundown:
         self,
         sport: Union[int, str],
         date_: str,
-        offset: Optional[int] = None,
         *include: str,
+        offset: Optional[int] = None,
     ) -> Events:
         """Get events by sport by date.
 
@@ -247,12 +247,12 @@ class Rundown:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
             date_: The date of interest, in IS0 8601 format.
-            offset: UTC offset in minutes. If offset is provided, it takes precedence
-                over self.timezone, otherwise dates will be in timezone self.timezone.
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
                 itself is the default.
+            offset: UTC offset in minutes. If offset is provided, it takes precedence
+                over self.timezone, otherwise dates will be in timezone self.timezone.
 
         Returns:
             resources.Events object.
@@ -266,8 +266,8 @@ class Rundown:
         self,
         sport: Union[int, str],
         date_: str,
-        offset: Optional[int] = None,
         *include: str,
+        offset: Optional[int] = None,
     ) -> Events:
         """Get events with opening lines by sport by date.
 
@@ -277,17 +277,17 @@ class Rundown:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
             date_: The date of interest, in IS0 8601 format.
-            offset: UTC offset in minutes. If offset is provided, it takes precedence
-                over self.timezone, otherwise dates will be in timezone self.timezone.
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
                 itself is the default.
+            offset: UTC offset in minutes. If offset is provided, it takes precedence
+                over self.timezone, otherwise dates will be in timezone self.timezone.
 
         Returns:
             resources.Events object.
         """
-        data = self._get_events(sport, "openers", date_, offset, include)
+        data = self._get_events(sport, "openers", date_, offset, *include)
         with user_context(self.timezone):
             events = Events(**data)
         return events
@@ -296,8 +296,8 @@ class Rundown:
         self,
         sport: Union[int, str],
         date_: str,
-        offset: Optional[int] = None,
         *include: str,
+        offset: Optional[int] = None,
     ) -> Events:
         """Get events with closing lines by sport by date.
 
@@ -307,17 +307,17 @@ class Rundown:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
             date_: The date of interest, in IS0 8601 format.
-            offset: UTC offset in minutes. If offset is provided, it takes precedence
-                over self.timezone, otherwise dates will be in timezone self.timezone.
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
                 itself is the default.
+            offset: UTC offset in minutes. If offset is provided, it takes precedence
+                over self.timezone, otherwise dates will be in timezone self.timezone.
 
         Returns:
             resources.Events object.
         """
-        data = self._get_events(sport, "closing", date_, offset, include)
+        data = self._get_events(sport, "closing", date_, offset, *include)
         with user_context(self.timezone):
             events = Events(**data)
         return events
@@ -332,14 +332,14 @@ class Rundown:
         Args:
             last_id: The `delta_last_id` value contained in some previous request to any
                 'events' endpoint.
-            sport: ID for the league of interest, or a string representing the league of
-                interest. Valid sport names can be found in the 'sport_names' attribute.
-                If this argument is included, only events for the matching sport will be
-                returned.
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
                 itself is the default.
+            sport: ID for the league of interest, or a string representing the league of
+                interest. Valid sport names can be found in the 'sport_names' attribute.
+                If this argument is included, only events for the matching sport will be
+                returned.
 
         Returns:
             resources.Events object.

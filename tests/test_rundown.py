@@ -109,7 +109,7 @@ class TestRundown:
     )
     @pytest.mark.vcr()
     def test_events_by_date(self, rundown, sport_id, date_, offset, include):
-        data = rundown.events_by_date(sport_id, date_, offset, *include)
+        data = rundown.events_by_date(sport_id, date_, *include, offset=offset)
         assert isinstance(data, Events)
 
     @pytest.mark.parametrize(
@@ -125,7 +125,7 @@ class TestRundown:
     )
     @pytest.mark.vcr()
     def test_opening_lines(self, rundown, sport_id, date_, offset, include):
-        data = rundown.opening_lines(sport_id, date_, offset, *include)
+        data = rundown.opening_lines(sport_id, date_, *include, offset=offset)
         assert isinstance(data, Events)
 
     @pytest.mark.parametrize(
@@ -141,7 +141,7 @@ class TestRundown:
     )
     @pytest.mark.vcr()
     def test_closing_lines(self, rundown, sport_id, date_, offset, include):
-        data = rundown.closing_lines(sport_id, date_, offset, *include)
+        data = rundown.closing_lines(sport_id, date_, *include, offset=offset)
         assert isinstance(data, Events)
 
     @pytest.mark.parametrize("date_", [("2021-04-05")])
@@ -161,7 +161,7 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_events_delta(self, rundown, last_id, sport_id, include):
         # Use delta_last_id from test_events_delta_initial_request.
-        data = rundown.events_delta(last_id, sport_id, *include)
+        data = rundown.events_delta(last_id, *include, sport=sport_id)
         assert isinstance(data, Events)
 
     @pytest.mark.parametrize(
