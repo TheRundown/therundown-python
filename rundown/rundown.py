@@ -1,4 +1,4 @@
-from typing import Union, Optional
+from typing import Union, Optional, Literal
 
 import requests
 from pydantic import parse_obj_as
@@ -43,7 +43,9 @@ class _Base:
     """Class supporting creation of _RapidAPIBase and _RundownBase objects."""
 
     @classmethod
-    def factory(cls, provider: str, api_key: str) -> Union[_RapidAPIBase, _RundownBase]:
+    def factory(
+        cls, provider: Literal["rapidapi", "rundown"], api_key: str
+    ) -> Union[_RapidAPIBase, _RundownBase]:
         """Factory method returning _RapidAPIBase or _RundownBase object."""
         if provider not in ["rapidapi", "rundown"]:
             raise ValueError("API Provider must be either 'rapidapi' or 'rundown'")
@@ -75,7 +77,7 @@ class Rundown:
     def __init__(
         self,
         api_key: str,
-        api_provider: str = "rapidapi",
+        api_provider: Literal["rapidapi", "rundown"] = "rapidapi",
         timezone: str = "local",
     ):
         self._auth = _Base.factory(api_provider.lower(), api_key)
@@ -146,7 +148,7 @@ class Rundown:
         lines_type: str,
         date_: str,
         offset: Optional[int],
-        *include: str,
+        *include: Literal["all_periods", "scores"],
     ) -> dict:
         offset = self._validate_offset(offset)
         sport_id = self._validate_sport(sport)
@@ -168,7 +170,10 @@ class Rundown:
         return sports
 
     def dates_by_sport(
-        self, sport: Union[int, str], offset: Optional[int] = None, format: str = "date"
+        self,
+        sport: Union[int, str],
+        offset: Optional[int] = None,
+        format: Literal["date", "epoch"] = "date",
     ) -> list[Union[Date, Epoch]]:
         """Get dates with odds for future events.
 
@@ -236,7 +241,7 @@ class Rundown:
         self,
         sport: Union[int, str],
         date_: str,
-        *include: str,
+        *include: Literal["all_periods", "scores"],
         offset: Optional[int] = None,
     ) -> Events:
         """Get events by sport by date.
@@ -266,7 +271,7 @@ class Rundown:
         self,
         sport: Union[int, str],
         date_: str,
-        *include: str,
+        *include: Literal["all_periods", "scores"],
         offset: Optional[int] = None,
     ) -> Events:
         """Get events with opening lines by sport by date.
@@ -296,7 +301,7 @@ class Rundown:
         self,
         sport: Union[int, str],
         date_: str,
-        *include: str,
+        *include: Literal["all_periods", "scores"],
         offset: Optional[int] = None,
     ) -> Events:
         """Get events with closing lines by sport by date.
@@ -323,7 +328,10 @@ class Rundown:
         return events
 
     def events_delta(
-        self, last_id: int, sport: Optional[Union[int, str]] = None, *include: str
+        self,
+        last_id: int,
+        sport: Optional[Union[int, str]] = None,
+        *include: Literal["all_periods", "scores"],
     ) -> Events:
         """Get events that have changed since request specified by last_id.
 
@@ -355,7 +363,7 @@ class Rundown:
             events = Events(**data)
         return events
 
-    def event(self, event_id: int, *include: str) -> Event:
+    def event(self, event_id: int, *include: Literal["all_periods", "scores"]) -> Event:
         """Get event by event id.
 
         GET /events/<event-id>
@@ -378,7 +386,11 @@ class Rundown:
                 e = Event(**data)
         return e
 
-    def moneyline(self, line_id, *include: str) -> Union[list[Moneyline], LinePeriods]:
+    def moneyline(
+        self,
+        line_id,
+        *include: Literal["all_periods", "scores"],
+    ) -> Union[list[Moneyline], LinePeriods]:
         """Get line history for moneyline referenced by line_id.
 
         GET /lines/<line-id>/moneyline
@@ -430,7 +442,11 @@ class Rundown:
                 lines = parse_obj_as(list[Spread], data["spreads"])
         return lines
 
-    def total(self, line_id, *include: str) -> Union[list[Moneyline], LinePeriods]:
+    def total(
+        self,
+        line_id,
+        *include: Literal["all_periods", "scores"],
+    ) -> Union[list[Moneyline], LinePeriods]:
         """Get line history for total referenced by line_id.
 
         GET /lines/<line-id>/total
