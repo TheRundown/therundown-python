@@ -469,10 +469,10 @@ class Rundown:
                 lines = parse_obj_as(list[Total], data["totals"])
         return lines
 
-    def schedule_by_sport(
+    def schedule(
         self, sport: Union[int, str], date_from: Optional[str] = None, limit: int = 50
     ) -> list[Schedule]:
-        """Get schedule for league referenced by sport_id.
+        """Get schedule for league referenced by sport.
 
         GET /sports/<sport-id>/schedule
 

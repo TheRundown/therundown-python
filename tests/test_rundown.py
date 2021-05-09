@@ -227,6 +227,6 @@ class TestRundown:
 
     @pytest.mark.parametrize("sport_id, date_from, limit", [(6, "2021-04-05", 10)])
     @pytest.mark.vcr()
-    def test_schedule_by_sport(self, rundown, sport_id, date_from, limit):
-        data = rundown.schedule_by_sport(sport_id, date_from, limit)
+    def test_schedule(self, rundown, sport_id, date_from, limit):
+        data = rundown.schedule(sport_id, date_from, limit)
         assert len(data) > 0
