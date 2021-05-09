@@ -146,14 +146,14 @@ class Rundown:
         self,
         sport: Union[int, str],
         lines_type: str,
-        date_: str,
+        date: str,
         offset: Optional[int],
         *include: Literal["all_periods", "scores"],
     ) -> dict:
         offset = self._validate_offset(offset)
         sport_id = self._validate_sport(sport)
         data = self._build_url_and_get_json(
-            "sports", sport_id, lines_type, date_, offset=offset, include=include
+            "sports", sport_id, lines_type, date, offset=offset, include=include
         )
         return data
 
@@ -240,7 +240,7 @@ class Rundown:
     def events_by_date(
         self,
         sport: Union[int, str],
-        date_: str,
+        date: str,
         *include: Literal["all_periods", "scores"],
         offset: Optional[int] = None,
     ) -> Events:
@@ -251,7 +251,7 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
-            date_: The date of interest, in IS0 8601 format.
+            date: The date of interest, in IS0 8601 format.
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
@@ -262,7 +262,7 @@ class Rundown:
         Returns:
             resources.Events object.
         """
-        data = self._get_events(sport, "events", date_, offset, *include)
+        data = self._get_events(sport, "events", date, offset, *include)
         with user_context(self.timezone):
             events = Events(**data)
         return events
@@ -270,7 +270,7 @@ class Rundown:
     def opening_lines(
         self,
         sport: Union[int, str],
-        date_: str,
+        date: str,
         *include: Literal["all_periods", "scores"],
         offset: Optional[int] = None,
     ) -> Events:
@@ -281,7 +281,7 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
-            date_: The date of interest, in IS0 8601 format.
+            date: The date of interest, in IS0 8601 format.
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
@@ -292,7 +292,7 @@ class Rundown:
         Returns:
             resources.Events object.
         """
-        data = self._get_events(sport, "openers", date_, offset, *include)
+        data = self._get_events(sport, "openers", date, offset, *include)
         with user_context(self.timezone):
             events = Events(**data)
         return events
@@ -300,7 +300,7 @@ class Rundown:
     def closing_lines(
         self,
         sport: Union[int, str],
-        date_: str,
+        date: str,
         *include: Literal["all_periods", "scores"],
         offset: Optional[int] = None,
     ) -> Events:
@@ -311,7 +311,7 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
-            date_: The date of interest, in IS0 8601 format.
+            date: The date of interest, in IS0 8601 format.
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
@@ -322,7 +322,7 @@ class Rundown:
         Returns:
             resources.Events object.
         """
-        data = self._get_events(sport, "closing", date_, offset, *include)
+        data = self._get_events(sport, "closing", date, offset, *include)
         with user_context(self.timezone):
             events = Events(**data)
         return events
