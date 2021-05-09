@@ -1,4 +1,4 @@
-from typing import List, Union
+from typing import Union
 
 from pydantic import BaseModel
 
@@ -11,4 +11,4 @@ class Meta(BaseModel):
 
 class Events(BaseModel):
     meta: Meta
-    events: List[Union[Event, EventLinePeriods]]
+    events: list[Union[Event, EventLinePeriods]]

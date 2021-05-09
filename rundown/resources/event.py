@@ -1,4 +1,4 @@
-from typing import List, Dict, Optional
+from typing import Optional
 
 from pydantic import BaseModel, validator
 
@@ -40,11 +40,10 @@ class Score(BaseModel):
     score_home: int
     winner_away: int
     winner_home: int
-    score_away_by_period: List[int]
-    score_home_by_period: List[int]
+    score_away_by_period: list[int]
+    score_home_by_period: list[int]
     venue_name: str
     venue_location: str
-    # TODO: test with live games
     game_clock: int
     display_clock: str
     game_period: int
@@ -61,16 +60,16 @@ class BaseEvent(BaseModel):
     rotation_number_home: int
     # 'score' may not be populated for games >100 days in advance.
     score: Optional[Score]
-    teams: List[TeamDeprecated]
-    teams_normalized: List[TeamNormalized]
+    teams: list[TeamDeprecated]
+    teams_normalized: list[TeamNormalized]
     schedule: BaseSchedule
 
     _change_timezone = validator("event_date", allow_reuse=True)(change_timezone)
 
 
 class Event(BaseEvent):
-    lines: Dict[int, SportsbookLines]
+    lines: dict[int, SportsbookLines]
 
 
 class EventLinePeriods(BaseEvent):
-    line_periods: Dict[int, SportsbookLinePeriods]
+    line_periods: dict[int, SportsbookLinePeriods]

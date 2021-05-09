@@ -1,4 +1,4 @@
-from typing import Optional, List, Union
+from typing import Optional, Union
 
 from pydantic import BaseModel, Field, validator
 
@@ -55,7 +55,7 @@ class Spread(ExtendedLine):
     point_spread_away_money_delta: Optional[int] = Field(...)
     point_spread_home_money: Optional[int] = Field(...)
     point_spread_home_money_delta: Optional[int] = Field(...)
-    extended_spreads: List[SpreadElement] = []
+    extended_spreads: list[SpreadElement] = []
 
 
 class SpreadPeriod(Spread):
@@ -84,7 +84,7 @@ class Total(ExtendedLine):
     total_over_money_delta: Optional[int] = Field(...)
     total_under_money: Optional[int] = Field(...)
     total_under_money_delta: Optional[int] = Field(...)
-    extended_totals: List[TotalElement] = []
+    extended_totals: list[TotalElement] = []
 
 
 class TotalPeriod(Total):

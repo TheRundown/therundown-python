@@ -1,5 +1,3 @@
-from typing import List
-
 import pytest
 
 from rundown.rundown import _Base, _RundownBase, _RapidAPIBase
@@ -76,7 +74,7 @@ class TestRundown:
             (6, 420, "date"),
             (6, 0, "date"),
             (6, 420, "epoch"),
-            # (2, None, "epoch"), # TODO: investigate failure
+            # (2, None, "epoch"),  # TODO: investigate failure
         ],
     )
     @pytest.mark.vcr()
@@ -104,6 +102,9 @@ class TestRundown:
             (6, "2021-04-04", None, ["all_periods", "scores"]),
             (6, "2021-04-03", None, ["scores"]),
             (6, "2021-04-03", None, ["all_periods"]),
+            (6, "2021-05-08", None, []),  # some events in progress
+            (6, "2021-05-08", None, ["all_periods"]),
+            (6, "2021-05-08", None, ["all_periods"]),
         ],
     )
     @pytest.mark.vcr()
@@ -184,7 +185,7 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_moneyline(self, rundown, line_id, include):
         data = rundown.moneyline(line_id, *include)
-        if isinstance(data, List):
+        if isinstance(data, list):
             assert len(data) > 0
         else:
             assert isinstance(data, LinePeriods)
@@ -201,7 +202,7 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_spread(self, rundown, line_id, include):
         data = rundown.spread(line_id, *include)
-        if isinstance(data, List):
+        if isinstance(data, list):
             assert len(data) > 0
         else:
             assert isinstance(data, LinePeriods)
@@ -218,7 +219,7 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_total(self, rundown, line_id, include):
         data = rundown.total(line_id, *include)
-        if isinstance(data, List):
+        if isinstance(data, list):
             assert len(data) > 0
         else:
             assert isinstance(data, LinePeriods)
