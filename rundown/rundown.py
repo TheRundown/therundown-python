@@ -96,7 +96,15 @@ class Rundown:
 
     def _clean_params(self, **params: Union[str, int, list[Optional[str]], None]):
         """Disallow parameters that have `None` or empty list as their value."""
-        return {k: v for k, v in params.items() if v}
+
+        def is_clean(v):
+            if isinstance(v, list) and len(v) == 0:
+                return False
+            if v is None:
+                return False
+            return True
+
+        return {k: v for k, v in params.items() if is_clean(v)}
 
     def _get(self, url: str, **params: Union[str, int, list[str]]) -> requests.Response:
         """Make get request."""
