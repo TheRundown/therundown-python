@@ -110,6 +110,20 @@ class TestRundown:
         data = rundown._build_url_and_get_json(*segments, **params)
         assert len(data) > 0
 
+    @pytest.mark.parametrize(
+        "sport, expected",
+        [
+            ("UFC/MMA", 7),
+            ("UFC", 7),
+            ("MMA", 7),
+            (7, 7),
+            (42, 42),  # not a valid sport ID
+        ],
+    )
+    def test_validate_sport(self, rundown, sport, expected):
+        sport_id = rundown._validate_sport(sport)
+        assert sport_id == expected
+
     @pytest.mark.vcr()
     def test_sports(self, rundown):
         data = rundown.sports()
