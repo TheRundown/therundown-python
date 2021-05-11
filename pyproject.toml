@@ -19,6 +19,7 @@ vcrpy = "^4.1.1"
 python-dotenv = "^0.16.0"
 ipykernel = "^5.5.3"
 pytest-vcr = "^1.0.2"
+deepdiff = "^5.5.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
