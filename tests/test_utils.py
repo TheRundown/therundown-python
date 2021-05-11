@@ -1,6 +1,6 @@
 import pytest
 
-from rundown.utils import utc_offset
+from rundown.utils import utc_offset, utc_shift_to_tz
 
 
 @pytest.mark.parametrize(
@@ -14,3 +14,17 @@ from rundown.utils import utc_offset
 def test_utc_offset(tz, expected):
     # Use only timezones with no daylight savings so tests will always pass.
     assert utc_offset(tz) == expected
+
+
+@pytest.mark.parametrize(
+    "offset, expected",
+    [
+        (300, "-05:00"),
+        (-300, "+05:00"),
+        (-301, "+05:01"),
+        (301, "-05:01"),
+    ],
+)
+def test_utc_offset_formatted(offset, expected):
+    # Use only timezones with no daylight savings so tests will always pass.
+    assert utc_shift_to_tz(offset) == expected
