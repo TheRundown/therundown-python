@@ -44,6 +44,26 @@ class TestAPI:
         assert correct_phoenix_time.to("UTC") == correct_utc_time
 
     @pytest.mark.vcr()
+    def test_dates_by_sport_epoch_is_shifted(self, rundown):
+        """Similar to using 'date' format, the returned timestamp is shifted by the
+        offset.
+        """
+        # Has timestamps with incorrect start times for first game of day.
+        rundown.dates_by_sport("NBA", 7 * 60, "epoch")
+        raw_dates1 = rundown._json["dates"]
+        rundown.dates_by_sport("NBA", 7 * 60)
+        raw_dates2 = rundown._json["dates"]
+        for d1, d2 in list(zip(raw_dates1, raw_dates2)):
+            assert arrow.Arrow.fromtimestamp(d1) == arrow.get(d2)
+
+        # Has timestamps with correct start times for first game of day. Shifting the
+        # timezone should not change the timestamp.
+        rundown.dates_by_sport("NBA", 0, "epoch")
+        raw_dates3 = rundown._json["dates"]
+        for d1, d3 in list(zip(raw_dates1, raw_dates3)):
+            assert d1 != d3
+
+    @pytest.mark.vcr()
     def test_offset_returns_different_events(self, rundown):
         """Show that the events returned when using an offset may be different than
         without an offset, because the 24 hour window of time is different.
