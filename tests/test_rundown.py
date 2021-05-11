@@ -6,6 +6,7 @@ from rundown.resources.events import Events
 from rundown.resources.event import Event, EventLinePeriods
 from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.sport import Sport
+from rundown.resources.date import Date, Epoch
 
 
 def test_auth_factory():
@@ -128,21 +129,48 @@ class TestRundown:
     def test_sports(self, rundown):
         data = rundown.sports()
         assert len(data) > 0
+        assert all(isinstance(el, Sport) for el in data)
 
     @pytest.mark.parametrize(
-        "sport_id, offset, format",
+        "sport_id, offset, format, expected_timezone",
         [
-            (6, None, "date"),
-            (6, 420, "date"),
-            (6, 0, "date"),
-            (6, 420, "epoch"),
-            # test with sport name
+            (6, None, "date", "-07:00"),  # rundown fixture using Phoenix time.
+            (6, 420, "date", "-07:00"),
+            (6, -420, "date", "+07:00"),
+            (6, 300, "date", "-05:00"),
+            (6, 30, "date", "-00:30"),
+            ("NBA", None, "date", "-07:00"),
+            ("MLB", None, "date", "-07:00"),
         ],
     )
     @pytest.mark.vcr()
-    def test_dates_by_sport(self, rundown, sport_id, offset, format):
-        data = rundown.dates_by_sport(sport_id, offset, format)
-        assert len(data) > 0
+    def test_dates_by_sport(self, rundown, sport_id, offset, format, expected_timezone):
+        dates = rundown.dates_by_sport(sport_id, offset, format)
+        assert len(dates) > 0
+        for d in dates:
+            assert isinstance(d, Date)
+            assert d.date[-6:] == expected_timezone
+
+    @pytest.mark.vcr()
+    def test_dates_by_sport_offset(self, rundown):
+        dates1 = rundown.dates_by_sport("NBA", 7 * 60)
+        dates2 = rundown.dates_by_sport("NBA", -5 * 60)
+        # Not sure why dates2 has 1 less element.
+        for d1, d2 in list(zip(dates1[1:], dates2)):
+            assert arrow.get(d1.date).to("UTC") == arrow.get(d2.date).to("UTC")
+
+    @pytest.mark.vcr()
+    def test_dates_by_sport_epoch(self, rundown):
+        dates1 = rundown.dates_by_sport("NBA", 0, "epoch")
+        dates2 = rundown.dates_by_sport("NBA", 0)
+
+        ts1 = [d.timestamp for d in dates1]
+        ts2 = [arrow.get(d.date).int_timestamp for d in dates2]
+        for t1, t2 in list(zip(ts1, ts2)):
+            assert t1 == t2
+
+        for d in dates1:
+            assert isinstance(d, Epoch)
 
     @pytest.mark.vcr()
     def test_sportsbooks(self, rundown):
