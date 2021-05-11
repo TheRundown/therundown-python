@@ -3,6 +3,8 @@ import arrow
 
 from rundown.rundown import _Base, _RundownBase, _RapidAPIBase
 from rundown.resources.events import Events
+from rundown.resources.sportsbook import Sportsbook
+from rundown.resources.team import Team
 from rundown.resources.event import Event, EventLinePeriods
 from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.sport import Sport
@@ -49,16 +51,16 @@ class TestAPI:
         offset.
         """
         # Has timestamps with incorrect start times for first game of day.
-        rundown.dates("NBA", 7 * 60, "epoch")
+        rundown.dates("NBA", offset=7 * 60, format="epoch")
         raw_dates1 = rundown._json["dates"]
-        rundown.dates("NBA", 7 * 60)
+        rundown.dates("NBA", offset=7 * 60)
         raw_dates2 = rundown._json["dates"]
         for d1, d2 in list(zip(raw_dates1, raw_dates2)):
             assert arrow.Arrow.fromtimestamp(d1) == arrow.get(d2)
 
         # Has timestamps with correct start times for first game of day. Shifting the
         # timezone should not change the timestamp.
-        rundown.dates("NBA", 0, "epoch")
+        rundown.dates("NBA", offset=0, format="epoch")
         raw_dates3 = rundown._json["dates"]
         for d1, d3 in list(zip(raw_dates1, raw_dates3)):
             assert d1 != d3
@@ -71,15 +73,15 @@ class TestAPI:
         tuesday = "2021-05-11"
         wednesday = "2021-05-12"
         # 24 hour window in Hawaiian time
-        t_games = rundown.events_by_date("MLB", tuesday, offset=10 * 60)
+        t_games = rundown.events("MLB", tuesday, offset=10 * 60)
         # 24 hour window in Australian time
-        t_games_australia = rundown.events_by_date("MLB", tuesday, offset=-11 * 60)
+        t_games_australia = rundown.events("MLB", tuesday, offset=-11 * 60)
 
         # Assert different games in each window.
         for e1 in t_games.events:
             assert e1.event_id not in [e2.event_id for e2 in t_games_australia.events]
 
-        w_games = rundown.events_by_date("MLB", wednesday, offset=-11 * 60)
+        w_games = rundown.events("MLB", wednesday, offset=-11 * 60)
         # Assert same games with different dates because of offset.
         for e1, e2 in list(zip(t_games.events, w_games.events)):
             assert e1.event_id == e2.event_id
@@ -145,6 +147,10 @@ class TestRundown:
         sport_id = rundown._validate_sport(sport)
         assert sport_id == expected
 
+    def test_validate_sport_exception(self, rundown):
+        with pytest.raises(KeyError):
+            rundown._validate_sport("ufc")
+
     @pytest.mark.vcr()
     def test_sports(self, rundown):
         data = rundown.sports()
@@ -165,23 +171,27 @@ class TestRundown:
     )
     @pytest.mark.vcr()
     def test_dates(self, rundown, sport_id, offset, format, expected_timezone):
-        dates = rundown.dates(sport_id, offset, format)
+        dates = rundown.dates(sport_id, offset=offset, format=format)
         assert len(dates) > 0
         for d in dates:
             assert isinstance(d, Date)
             assert d.date[-6:] == expected_timezone
 
+    def test_dates_bad_sport_id(self, rundown):
+        dates = rundown.dates(42)
+        assert len(dates) == 0
+
     @pytest.mark.vcr()
     def test_dates_offset(self, rundown):
-        dates1 = rundown.dates("NBA", 7 * 60)
-        dates2 = rundown.dates("NBA", -5 * 60)
+        dates1 = rundown.dates("NBA", offset=7 * 60)
+        dates2 = rundown.dates("NBA", offset=-5 * 60)
         for d1, d2 in list(zip(dates1, dates2)):
             assert arrow.get(d1.date).to("UTC") == arrow.get(d2.date).to("UTC")
 
     @pytest.mark.vcr()
     def test_dates_epoch(self, rundown):
-        dates1 = rundown.dates("NBA", 0, "epoch")
-        dates2 = rundown.dates("NBA", 0)
+        dates1 = rundown.dates("NBA", offset=0, format="epoch")
+        dates2 = rundown.dates("NBA", offset=0)
 
         ts1 = [d.timestamp for d in dates1]
         ts2 = [arrow.get(d.date).int_timestamp for d in dates2]
