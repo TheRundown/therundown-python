@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, Union
 
 from pydantic import BaseModel, validator
 
@@ -51,7 +51,7 @@ class Score(BaseModel):
     event_status_detail: str
 
 
-class BaseEvent(BaseModel):
+class Event(BaseModel):
     event_id: str
     event_uuid: str
     sport_id: int
@@ -63,13 +63,6 @@ class BaseEvent(BaseModel):
     teams: list[TeamDeprecated]
     teams_normalized: list[TeamNormalized]
     schedule: BaseSchedule
+    lines: dict[int, Union[SportsbookLines, SportsbookLinePeriods]]
 
     _change_timezone = validator("event_date", allow_reuse=True)(change_timezone)
-
-
-class Event(BaseEvent):
-    lines: dict[int, SportsbookLines]
-
-
-class EventLinePeriods(BaseEvent):
-    line_periods: dict[int, SportsbookLinePeriods]
