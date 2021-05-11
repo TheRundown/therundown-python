@@ -1,11 +1,12 @@
 import pytest
 import arrow
+from deepdiff import DeepDiff
 
 from rundown.rundown import _Base, _RundownBase, _RapidAPIBase
 from rundown.resources.events import Events
 from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.team import Team
-from rundown.resources.event import Event, EventLinePeriods
+from rundown.resources.event import Event
 from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.sport import Sport
 from rundown.resources.date import Date, Epoch
@@ -85,6 +86,26 @@ class TestAPI:
         # Assert same games with different dates because of offset.
         for e1, e2 in list(zip(t_games.events, w_games.events)):
             assert e1.event_id == e2.event_id
+
+    @pytest.mark.parametrize(
+        "method_name", ["events", "opening_lines", "closing_lines"]
+    )
+    @pytest.mark.vcr()
+    def test_events_default_is_scores(self, rundown, method_name):
+        """Show that the only difference between events requests with 'scores' included
+        vs 'scores' not included is the 'delta_last_id' field, and the 'date_updated'
+        fields in each line type. I.E. they return the same data.
+        """
+        method = getattr(rundown, method_name)
+        method("MLB", "2021-05-10")
+        raw_events1 = rundown._json
+        method("MLB", "2021-05-10", "scores")
+        raw_events2 = rundown._json
+
+        diff = DeepDiff(raw_events1, raw_events2, ignore_order=True).to_dict()
+        if diff:
+            for k, v in diff["values_changed"].items():
+                assert "delta_last_id" in k or "date_updated" in k
 
 
 class TestRundown:
