@@ -84,6 +84,8 @@ class Rundown:
         self._session = requests.session()
         self._session.headers.update(self._auth.headers)
 
+        self._json = {}
+
         self.sport_names = build_sports_dict()
         self.timezone = timezone
 
@@ -109,7 +111,8 @@ class Rundown:
         url = self._build_url(*segments)
         params = self._clean_params(**params)
         res = self._get(url, **params)
-        return res.json()
+        self._json = res.json()
+        return self._json
 
     def _validate_offset(self, offset: int) -> int:
         """Determine offset by parameter or self.timezone, with parameter precedence."""
