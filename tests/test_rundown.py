@@ -111,6 +111,32 @@ class TestAPI:
         "method_name", ["events", "opening_lines", "closing_lines"]
     )
     @pytest.mark.vcr()
+    def test_events_all_periods_scores(self, rundown, method_name):
+        """Show that the only difference between events requests with 'all_periods'
+        included vs 'all_periods' and 'scores' both included is the 'delta_last_id'
+        field, and the 'date_updated' fields in each line type. I.E. they return the
+        same data.
+        """
+        method = getattr(rundown, method_name)
+        method("MLB", "2021-05-10", "all_periods", "scores")
+        raw_events1 = rundown._json
+        method("MLB", "2021-05-10", "all_periods")
+        raw_events2 = rundown._json
+
+        diff = DeepDiff(raw_events1, raw_events2, ignore_order=True).to_dict()
+        if diff:
+            for k, v in diff["values_changed"].items():
+                try:
+                    assert "delta_last_id" in k or "date_updated" in k
+                except AssertionError:
+                    diff2 = DeepDiff(v["new_value"], v["old_value"]).to_dict()
+                    for k, v in diff2["values_changed"].items():
+                        assert "delta_last_id" in k or "date_updated" in k
+
+    @pytest.mark.parametrize(
+        "method_name", ["events", "opening_lines", "closing_lines"]
+    )
+    @pytest.mark.vcr()
     def test_bad_event_date_returns_todays_lines(self, rundown, method_name):
         today = "2021-05-11"
         method = getattr(rundown, method_name)
