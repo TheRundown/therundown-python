@@ -1,5 +1,3 @@
-from datetime import datetime
-
 from pydantic import BaseModel, validator
 import arrow
 
@@ -14,13 +12,12 @@ class Date(BaseModel):
         """Format date returned from server.
 
         The dates incorrectly always show UTC timezone, but the local time will be
-        correct with respect to timezone. So it is only necessary to truncate the date
-        string.
+        correct with respect to timezone context_timezone. So it is only necessary to
+        truncate the date string.
         """
-        naive_dt_str = v.split("+")[0]
-        naive_dt = datetime.fromisoformat(naive_dt_str)
-        dt = arrow.get(naive_dt, context_timezone.get())
-        return str(dt)
+        wrong_timezone = arrow.get(v)
+        correct_timezone = wrong_timezone.replace(tzinfo=context_timezone.get())
+        return str(correct_timezone)
 
 
 class Epoch(BaseModel):
