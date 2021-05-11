@@ -23,20 +23,20 @@ class TestAPI:
     """Class that tests API functionality in order to clarify how it works."""
 
     @pytest.mark.vcr()
-    def test_dates_by_sport_always_has_UTC_time(self, rundown):
-        """Show that the API always returns UTC timezone for dates_by_sport, but the
+    def test_dates_always_has_UTC_time(self, rundown):
+        """Show that the API always returns UTC timezone for Rundown.dates, but the
         time of the first event will be localized according the given offset.
         """
-        rundown.dates_by_sport("MLB", offset=420)  # Phoenix Time
+        rundown.dates("MLB", offset=420)  # Phoenix Time
         raw_dates1 = rundown._json["dates"]
-        rundown.dates_by_sport("MLB", offset=0)  # UTC Time
+        rundown.dates("MLB", offset=0)  # UTC Time
         raw_dates2 = rundown._json["dates"]
         for d1, d2 in list(zip(raw_dates1, raw_dates2)):
             # All responses have UTC timezone.
             assert d1[-5:] == d2[-5:] == "+0000"
 
         # Replace UTC timezone with correct timezone.
-        correct_phoenix_time = arrow.get(raw_dates1[1]).replace(
+        correct_phoenix_time = arrow.get(raw_dates1[0]).replace(
             tzinfo="America/Phoenix"
         )
         correct_utc_time = arrow.get(raw_dates2[0])
@@ -44,21 +44,21 @@ class TestAPI:
         assert correct_phoenix_time.to("UTC") == correct_utc_time
 
     @pytest.mark.vcr()
-    def test_dates_by_sport_epoch_is_shifted(self, rundown):
+    def test_dates_epoch_is_shifted(self, rundown):
         """Similar to using 'date' format, the returned timestamp is shifted by the
         offset.
         """
         # Has timestamps with incorrect start times for first game of day.
-        rundown.dates_by_sport("NBA", 7 * 60, "epoch")
+        rundown.dates("NBA", 7 * 60, "epoch")
         raw_dates1 = rundown._json["dates"]
-        rundown.dates_by_sport("NBA", 7 * 60)
+        rundown.dates("NBA", 7 * 60)
         raw_dates2 = rundown._json["dates"]
         for d1, d2 in list(zip(raw_dates1, raw_dates2)):
             assert arrow.Arrow.fromtimestamp(d1) == arrow.get(d2)
 
         # Has timestamps with correct start times for first game of day. Shifting the
         # timezone should not change the timestamp.
-        rundown.dates_by_sport("NBA", 0, "epoch")
+        rundown.dates("NBA", 0, "epoch")
         raw_dates3 = rundown._json["dates"]
         for d1, d3 in list(zip(raw_dates1, raw_dates3)):
             assert d1 != d3
@@ -164,25 +164,24 @@ class TestRundown:
         ],
     )
     @pytest.mark.vcr()
-    def test_dates_by_sport(self, rundown, sport_id, offset, format, expected_timezone):
-        dates = rundown.dates_by_sport(sport_id, offset, format)
+    def test_dates(self, rundown, sport_id, offset, format, expected_timezone):
+        dates = rundown.dates(sport_id, offset, format)
         assert len(dates) > 0
         for d in dates:
             assert isinstance(d, Date)
             assert d.date[-6:] == expected_timezone
 
     @pytest.mark.vcr()
-    def test_dates_by_sport_offset(self, rundown):
-        dates1 = rundown.dates_by_sport("NBA", 7 * 60)
-        dates2 = rundown.dates_by_sport("NBA", -5 * 60)
-        # Not sure why dates2 has 1 less element.
-        for d1, d2 in list(zip(dates1[1:], dates2)):
+    def test_dates_offset(self, rundown):
+        dates1 = rundown.dates("NBA", 7 * 60)
+        dates2 = rundown.dates("NBA", -5 * 60)
+        for d1, d2 in list(zip(dates1, dates2)):
             assert arrow.get(d1.date).to("UTC") == arrow.get(d2.date).to("UTC")
 
     @pytest.mark.vcr()
-    def test_dates_by_sport_epoch(self, rundown):
-        dates1 = rundown.dates_by_sport("NBA", 0, "epoch")
-        dates2 = rundown.dates_by_sport("NBA", 0)
+    def test_dates_epoch(self, rundown):
+        dates1 = rundown.dates("NBA", 0, "epoch")
+        dates2 = rundown.dates("NBA", 0)
 
         ts1 = [d.timestamp for d in dates1]
         ts2 = [arrow.get(d.date).int_timestamp for d in dates2]
@@ -199,9 +198,9 @@ class TestRundown:
 
     @pytest.mark.parametrize("sport_id", [2, 6])
     @pytest.mark.vcr()
-    def test_teams_by_sport(self, sport_id, rundown):
+    def test_teams(self, sport_id, rundown):
         # test with sport name
-        data = rundown.teams_by_sport(sport_id)
+        data = rundown.teams(sport_id)
         assert len(data) > 0
 
     @pytest.mark.parametrize(
