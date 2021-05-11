@@ -3,7 +3,7 @@ from typing import Union, Optional, Literal
 import requests
 from pydantic import parse_obj_as
 
-from rundown.utils import utc_shift
+from rundown.utils import utc_shift, utc_shift_to_tz
 from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.sport import Sport
 from rundown.resources.date import Date, Epoch
@@ -215,7 +215,7 @@ class Rundown:
             resource = Epoch
             dates = [{"timestamp": v} for v in data["dates"]]
 
-        with user_context(self.timezone):
+        with user_context(self.timezone if offset is None else utc_shift_to_tz(offset)):
             dates = parse_obj_as(list[resource], dates)
         return dates
 
