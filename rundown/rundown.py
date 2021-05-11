@@ -180,7 +180,7 @@ class Rundown:
         sports = parse_obj_as(list[Sport], data["sports"])
         return sports
 
-    def dates_by_sport(
+    def dates(
         self,
         sport: Union[int, str],
         offset: Optional[int] = None,
@@ -231,7 +231,7 @@ class Rundown:
         sportsbooks = parse_obj_as(list[Sportsbook], data["affiliates"])
         return sportsbooks
 
-    def teams_by_sport(self, sport: Union[int, str]) -> list[Team]:
+    def teams(self, sport: Union[int, str]) -> list[Team]:
         """Get teams for the league referenced by sport id.
 
         GET /sports/<sport-id>/teams
