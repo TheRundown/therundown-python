@@ -1,9 +1,11 @@
 import pytest
+import arrow
 
 from rundown.rundown import _Base, _RundownBase, _RapidAPIBase
 from rundown.resources.events import Events
 from rundown.resources.event import Event, EventLinePeriods
 from rundown.resources.lineperiods import LinePeriods
+from rundown.resources.sport import Sport
 
 
 def test_auth_factory():
@@ -14,6 +16,52 @@ def test_auth_factory():
 
     with pytest.raises(ValueError):
         _Base.factory("foo", "apikey")
+
+
+class TestAPI:
+    """Class that tests API functionality in order to clarify how it works."""
+
+    @pytest.mark.vcr()
+    def test_dates_by_sport_always_has_UTC_time(self, rundown):
+        """Show that the API always returns UTC timezone for dates_by_sport, but the
+        time of the first event will be localized according the given offset.
+        """
+        rundown.dates_by_sport("MLB", offset=420)  # Phoenix Time
+        raw_dates1 = rundown._json["dates"]
+        rundown.dates_by_sport("MLB", offset=0)  # UTC Time
+        raw_dates2 = rundown._json["dates"]
+        for d1, d2 in list(zip(raw_dates1, raw_dates2)):
+            # All responses have UTC timezone.
+            assert d1[-5:] == d2[-5:] == "+0000"
+
+        # Replace UTC timezone with correct timezone.
+        correct_phoenix_time = arrow.get(raw_dates1[1]).replace(
+            tzinfo="America/Phoenix"
+        )
+        correct_utc_time = arrow.get(raw_dates2[0])
+        # Convert to UTC to equality.
+        assert correct_phoenix_time.to("UTC") == correct_utc_time
+
+    @pytest.mark.vcr()
+    def test_offset_returns_different_events(self, rundown):
+        """Show that the events returned when using an offset may be different than
+        without an offset, because the 24 hour window of time is different.
+        """
+        tuesday = "2021-05-11"
+        wednesday = "2021-05-12"
+        # 24 hour window in Hawaiian time
+        t_games = rundown.events_by_date("MLB", tuesday, offset=10 * 60)
+        # 24 hour window in Australian time
+        t_games_australia = rundown.events_by_date("MLB", tuesday, offset=-11 * 60)
+
+        # Assert different games in each window.
+        for e1 in t_games.events:
+            assert e1.event_id not in [e2.event_id for e2 in t_games_australia.events]
+
+        w_games = rundown.events_by_date("MLB", wednesday, offset=-11 * 60)
+        # Assert same games with different dates because of offset.
+        for e1, e2 in list(zip(t_games.events, w_games.events)):
+            assert e1.event_id == e2.event_id
 
 
 class TestRundown:
