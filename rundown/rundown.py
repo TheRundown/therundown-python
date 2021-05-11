@@ -1,4 +1,6 @@
 from typing import Union, Optional, Literal
+from collections.abc import Callable
+from functools import wraps
 
 import requests
 from pydantic import parse_obj_as
@@ -167,6 +169,26 @@ class Rundown:
             "sports", sport_id, lines_type, date, offset=offset, include=include
         )
         return data
+
+    def _with_timezone_context(f: Callable) -> Callable:
+        """Decorator for methods that use self.timezone.
+
+        Args:
+            f: The function being given timezone context.
+
+        Returns:
+            The wrapped function with timezone context.
+        """
+
+        @wraps(f)
+        def inner(self, *args, **kwargs):
+            offset = kwargs["offset"] if "offset" in kwargs else None
+            with user_context(
+                self.timezone if offset is None else utc_shift_to_tz(offset)
+            ):
+                return f(self, *args, **kwargs)
+
+        return inner
 
     def sports(self) -> list[Sport]:
         """Get available sports.
