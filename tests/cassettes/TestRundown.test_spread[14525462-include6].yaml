@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/14525462/spread
+  response:
+    body:
+      string: !!binary |
+        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
+        AA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e6b3f80d3e091d-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1597'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 21:22:32 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=N7vOMhBJlLH0f6ovyBQQUCM5QesMjSKHXRR4eXjwKVgPTYsCwQK3ObjX191I%2FBHF%2FTmCcqy2VnTKIOyA9t0s%2BfxE3OJvDOFjivGkWRKK"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9876'
+      X-RateLimit-requests-Reset:
+      - '8210'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a040ecf060000091df6205000000001
+    status:
+      code: 200
+      message: OK
+version: 1

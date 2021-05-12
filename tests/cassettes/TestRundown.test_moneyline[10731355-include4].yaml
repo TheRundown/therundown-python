@@ -1,0 +1,75 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/10731355/moneyline
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92W22oCMRCGX0VyreGfTGaTzF3fwauWIkvdUsFDsRYR8d2b9KaiLXQJirg3u0xm
+        Sb7MP4f9wCxWy243ny27D6NP+4Epn5PZ1CghMLHI8Mdl0m7bXVk5M06m3XzTGsXxwttq0RkdkZNT
+        66/u03W7zSYLgE7tRz9M2003+Xwvr3xK4+AwQhoRj6lRJ8qNbUh8cI9maF5X60W7yW4Pi249e2mX
+        5jD8H+SoLyVdjxKkCNblB6GO8mZD6dU7ZbHl3ElqIdEP8sx6MUgO6oL1DbtAtXp1fShP7uRykGCV
+        oIiWkHOyOildH72eqPtSkG7sSAUqbKN4L5U5eZuR/IZ0UV2yIBHEO40kFLmNwKaIyE0tJPeKJF0p
+        kpTUl7S04CZGXwvpe0Fep7piTCEnZFasTdSEVJ2T3Euu1xkGUKorkjqynrwg3aFcEYpcOalEy2jI
+        1/fJ2ys8BZLzhebaYwNHH6oLzw22EMiYYpnQARvzlvhrGHg+fAEa6yFCmAwAAA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e6af6e4dc60891-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '388'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 21:19:26 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=0b4bRW2EzTrIogVf7oD%2F%2F2CqFNB72d15NXmJ7N0nxCcjum27PlMYPUbM6Zcxa1XvdGLgs9G5ANYtHsWDyBJEn0pHwPZbE0kICc2UEon8"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9892'
+      X-RateLimit-requests-Reset:
+      - '8396'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a040bf8f1000008915a9eb000000001
+    status:
+      code: 200
+      message: OK
+version: 1

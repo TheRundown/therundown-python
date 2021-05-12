@@ -1,0 +1,94 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/14418793/spread
+  response:
+    body:
+      string: !!binary |
+        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
+        AA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e6b40a785b089d-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1426'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 21:22:35 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=bS9%2F3TnfXgmLHfL0UHhaiz8MpvBPjNaV%2FUnLSr1uODxXHb1G86IxaxyluXI8AFUopVHvJnV3LQGOIygBRLbuw2WmU2LcO6a3Hpw7QKY0"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9870'
+      X-RateLimit-requests-Reset:
+      - '8207'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a040eda8d0000089d68060000000001
+    status:
+      code: 200
+      message: OK
+version: 1

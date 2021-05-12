@@ -8,6 +8,7 @@ from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.team import Team
 from rundown.resources.event import Event
 from rundown.resources.lineperiods import LinePeriods
+from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.sport import Sport
 from rundown.resources.date import Date, Epoch
 
@@ -223,6 +224,25 @@ class TestRundown:
         ("MLS", "2021-05-08", None, ["all_periods"]),
     ]
 
+    line_methods_args = [
+        (14526697, []),  # MLB
+        (14526696, ["all_periods"]),
+        (14525410, []),  # NHL
+        (14525400, ["all_periods"]),
+        # (10970577, []),  # NCAAF - line history not found for lines.
+        # (10970698, ["all_periods"]),
+        (10731355, []),  # NFL
+        (10719638, ["all_periods"]),
+        (14525462, []),  # NBA
+        (14525460, ["all_periods"]),
+        (13825276, []),  # NCAAB
+        (13825255, ["all_periods"]),
+        (13843138, []),  # UFC
+        (13843162, ["all_periods"]),
+        (14418793, []),  # MLS
+        (14418796, ["all_periods"]),
+    ]
+
     @pytest.mark.parametrize(
         "segments, expected",
         [
@@ -422,52 +442,43 @@ class TestRundown:
 
     @pytest.mark.parametrize(
         "line_id, include",
-        [
-            (14215098, []),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["all_periods"]),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["scores"]),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["all_periods", "scores"]),  # Tampa vs. Detroit NHL 2021-04-03
-        ],
+        line_methods_args,
     )
     @pytest.mark.vcr()
     def test_moneyline(self, rundown, line_id, include):
         data = rundown.moneyline(line_id, *include)
         if isinstance(data, list):
             assert len(data) > 0
+            for ml in data:
+                assert isinstance(ml, Moneyline)
         else:
             assert isinstance(data, LinePeriods)
 
     @pytest.mark.parametrize(
         "line_id, include",
-        [
-            (14215098, []),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["all_periods"]),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["scores"]),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["all_periods", "scores"]),  # Tampa vs. Detroit NHL 2021-04-03
-        ],
+        line_methods_args,
     )
     @pytest.mark.vcr()
     def test_spread(self, rundown, line_id, include):
         data = rundown.spread(line_id, *include)
         if isinstance(data, list):
             assert len(data) > 0
+            for sp in data:
+                assert isinstance(sp, Spread)
         else:
             assert isinstance(data, LinePeriods)
 
     @pytest.mark.parametrize(
         "line_id, include",
-        [
-            (14215098, []),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["all_periods"]),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["scores"]),  # Tampa vs. Detroit NHL 2021-04-03
-            (14215098, ["all_periods", "scores"]),  # Tampa vs. Detroit NHL 2021-04-03
-        ],
+        line_methods_args,
     )
     @pytest.mark.vcr()
     def test_total(self, rundown, line_id, include):
         data = rundown.total(line_id, *include)
         if isinstance(data, list):
             assert len(data) > 0
+            for to in data:
+                assert isinstance(to, Total)
         else:
             assert isinstance(data, LinePeriods)
 

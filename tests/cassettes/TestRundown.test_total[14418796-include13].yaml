@@ -1,0 +1,76 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/14418796/total?include=all_periods
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+3WT4viMBQA8O+SsyMvafonvcnqrII7Do6zh12WENtkDaSt1CgM4nefamWoWGyZ
+        Xntqk7yk5P14aY7IZlYYvpW5zuIdCo+ofOVqbwz/LxKJwr9HZHQquY5RiCnFgc+8AZIHmdpLHwog
+        8KSQHnOVZFIooGRNhYAIRLxeU4kGSCiljRa2XAUG1+9mB5kXzSEA4Gofj6WxohK4T+P7yEvnXehl
+        fpKl8qN25ctI/fr1sypDlWnxeS/77flxTgEBgp/AfQKywjSkLCRsSLEHXvCn2L3K8kTYImyUFNmN
+        RFr0XfN8Tce1FctdlOut1VlaRL9OlrPFmD+/z+f85+jXBJ3+fUUqne8s3wijeqDvArm+S1x6AzSW
+        kU6EufXBDT6z5duKT0fz5yrQTkZZGvdCnYT8APsENwuRx0Jvkx+Ll/EdUVlDZaM3+paRA0OHOZ5L
+        mo2cNlVUNmrqqFfqpuQxBthtVqKtKumeyW503it1VWKOQ9v8kdzHSqvpbFmHpLJ9bje9UiclPAQG
+        TpsTz2s48Rbvy9W0hsnog+wv4N2diA+O38LJf+w0n/2e3FzCT6dPdwtUkTgNAAA=
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e6b45ccd770903-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '446'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 21:22:48 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=KiXa7wAEswsvoj%2Bfj7fZ6A9l49eu4lLyx4V%2BzYnK%2FU6rEXJ87h%2BXTFSrP81WqtTOdkOMO0YZtVjmYvigV9%2BtYpH7HW0Ofio88YKhbLeT"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9855'
+      X-RateLimit-requests-Reset:
+      - '8194'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a040f0dfe00000903ac3c1000000001
+    status:
+      code: 200
+      message: OK
+version: 1

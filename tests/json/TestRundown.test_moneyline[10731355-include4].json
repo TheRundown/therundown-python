@@ -1,0 +1,158 @@
+{
+  "moneylines": [
+    {
+      "line_id": 10731355,
+      "moneyline_away": 105,
+      "moneyline_away_delta": 0,
+      "moneyline_home": -125,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-13T16:25:36.615472Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -105,
+      "moneyline_away_delta": 0,
+      "moneyline_home": -115,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-13T16:01:07.222207Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": 105,
+      "moneyline_away_delta": 0,
+      "moneyline_home": -125,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-13T14:42:35.313595Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": 100,
+      "moneyline_away_delta": 0,
+      "moneyline_home": -120,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-13T14:37:27.463271Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -120,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 100,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-13T03:57:08.104722Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -125,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 105,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-12T21:50:53.854457Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -120,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 100,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-12T21:28:29.015508Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -125,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 105,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-12T20:06:20.980836Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -130,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 110,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-12T19:43:57.036884Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -140,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 120,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-10T17:53:28.916797Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -135,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 115,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-10T03:09:21.414509Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -130,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 110,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-07T19:39:58.306141Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -125,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 105,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-07T13:11:06.738476Z",
+      "format": "American"
+    },
+    {
+      "line_id": 10731355,
+      "moneyline_away": -120,
+      "moneyline_away_delta": 0,
+      "moneyline_home": 100,
+      "moneyline_home_delta": 0,
+      "moneyline_draw": 0.0001,
+      "moneyline_draw_delta": 0,
+      "date_updated": "2020-09-05T18:25:00.810002Z",
+      "format": "American"
+    }
+  ]
+}

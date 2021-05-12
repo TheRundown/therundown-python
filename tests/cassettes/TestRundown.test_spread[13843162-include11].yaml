@@ -1,0 +1,73 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/13843162/spread?include=all_periods
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA31R30vDMBD+X+65G5fEzrZvAzcRJoroiyLhWBIXaJvSZoqU/u8m7UTB2ackd9+P
+        y3c9dE2rSclGt9apDooepqs0x7KUb1RpKF56KG2tpVVQMJFdCLbiCeh3XfuxBpgzg4RmRcizjLgS
+        QuXEiaU5oeI5JEDG2NKSn1QwgcbZQD/Z0wd9huoSEdmZllS69PSXdnBxvLO02PqPNkpWrtazniNg
+        znlW4gfwS0LF/x+beMTYOHK2QLHg6SMXIdkixSW7FHn6HAIzrq3IB9S6CgvZUx1qp9V8Jzi9lO72
+        rW28dXVA328ebu6u5PZpt5PX69sNDK/D8AV0+5ZO5wEAAA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e6b4071d0313aa-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '262'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 21:22:35 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=VxHJT%2FoplRF4XzjfO%2FWEbGLc6gFVTDol0C3w7d7aZMXZbVcFCdoPVo6fJqri35quK8cJ0jBl4CMEemnp842dd21ABX4VCoNhb8i60SNt"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9871'
+      X-RateLimit-requests-Reset:
+      - '8207'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a040ed876000013aaef98f000000001
+    status:
+      code: 200
+      message: OK
+version: 1

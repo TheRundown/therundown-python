@@ -1,0 +1,82 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/13843138/moneyline
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA82Y3WrbQBCFXyXo2l7mb3/v+g66ainG1C4NxElJU0IIeffOGpISS1Oq7jrNjW12
+        ZaGPM3PmrB4vhsPN9f7h6vJ6/2Monx4vhvpzc7kbCnIS1o/V70s22/vtQ93xp4ub3f7qbjuU9aud
+        bzeHva6hn6w+X/9qY3e7vR8KOADA0/XnP8Bq2G3v9puf3+uXPuZAQLgGWZMfAQpz4egQAvj4cVgN
+        X29uD9s7vezDYX97+WV7PTyt/pJSYBllgLeglBFDUVDKzmMKiVspTS3nIU0p150puUgqGBwFlpzP
+        puX/lVKrNamaDrwX7xsh7bakhVJSX0oskov3LgoLtkrJvLAt+W201J7UgiVyFD0htlJOFp8fYoJz
+        hEymltyRkkfMBdR/2OmDk2/W8l1WLNe+hFhE7xAypWYtzYqdpzQLtjclFEyVkimyb6ZEi3JipkdK
+        NCl79iWPoINEx2V0HGMKZ4MMs8FnsvoCGTpCYi1YygXRJYgsrYOEzLacNR9vTsuu5oN1kHiqyScS
+        sG/VksiilDlKiSaldKSEYyjQmmWnzsOZGilx2SAR23x6aqmUKiQVFheDNDMuGyNi12tPg4Var6zB
+        JzjUBMvNlMvGCNuRoC8lJD1y1aQeYiRq7Uo0HXY9mRhHTNti+7alBgIKhYOLMSdstVg0zWc2xPJE
+        4rNMS6UMBTX5oFJSpNZ8B9EUc7ZmyfTYjiWLeUSv9q+zxEEKgq0lC9mknPVYyhZlR4utlFJ8rhbr
+        o5rH2Qp2dlr+oWA7tqVCqvsAFQnOA1JIrVKa09KQ0jTZvlJqW0ooXlxOjO3z0vbY+VFiZvWebZlG
+        8EWktqUeoTWenW1ezg8SO/lMaP6dEkLNd17jenJBgIOcrS8NLc3G7KYlrxlGDXd67ELRY5fE5hMJ
+        yjL3maz2dx9eU6xa1lM0Os+E7dnHfEt5svXCaSfZk71GUj+SktZDpmZZDtl6WfD56RfMkqdvUxgA
+        AA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e6b0f098b15c23-IAD
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '742'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 21:20:28 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Ur2nvTnPUlAEil97WXwYd5RkFqa8Zly3Bu5iqgZ2Ah%2BB%2BezbJVcCPDSyzuhVOxUhAEsiftjnPxj3VPHGV%2BUqhE3%2B73PR50dTn2yHtdI0"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-east-1
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9890'
+      X-RateLimit-requests-Reset:
+      - '8334'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a040cea5f00005c23bfa7c000000001
+    status:
+      code: 200
+      message: OK
+version: 1

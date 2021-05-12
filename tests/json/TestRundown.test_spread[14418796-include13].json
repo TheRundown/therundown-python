@@ -1,0 +1,156 @@
+{
+  "spread_periods": {
+    "period_full_game": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:29.349831Z",
+        "format": "American",
+        "period_id": 0,
+        "period_description": "PERIOD_FULL_GAME"
+      }
+    ],
+    "period_first_half": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:29.521557Z",
+        "format": "American",
+        "period_id": 1,
+        "period_description": "PERIOD_FIRST_HALF"
+      }
+    ],
+    "period_second_half": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:29.741862Z",
+        "format": "American",
+        "period_id": 2,
+        "period_description": "PERIOD_SECOND_HALF"
+      }
+    ],
+    "period_first_period": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:30.188802Z",
+        "format": "American",
+        "period_id": 3,
+        "period_description": "PERIOD_FIRST_PERIOD"
+      }
+    ],
+    "period_second_period": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:30.600017Z",
+        "format": "American",
+        "period_id": 4,
+        "period_description": "PERIOD_SECOND_PERIOD"
+      }
+    ],
+    "period_third_period": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:30.861489Z",
+        "format": "American",
+        "period_id": 5,
+        "period_description": "PERIOD_THIRD_PERIOD"
+      }
+    ],
+    "period_fourth_period": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:31.066309Z",
+        "format": "American",
+        "period_id": 6,
+        "period_description": "PERIOD_FOURTH_PERIOD"
+      }
+    ],
+    "period_live_full_game": [
+      {
+        "line_id": 14418796,
+        "event_id": "8086eae695fe9eaf042b4aa0c0adbb4e",
+        "affiliate_id": 0,
+        "point_spread_away": 0.0001,
+        "point_spread_away_delta": 0,
+        "point_spread_home": 0.0001,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 0,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 0,
+        "date_updated": "2021-05-02T14:49:31.226213Z",
+        "format": "American",
+        "period_id": 7,
+        "period_description": "PERIOD_LIVE_FULL_GAME"
+      }
+    ]
+  }
+}
