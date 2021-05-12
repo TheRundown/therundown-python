@@ -163,6 +163,36 @@ class TestAPI:
         events = rundown.events(sport, date)
         assert len(events.events) == expected
 
+    @pytest.mark.parametrize("method_name", ["moneyline", "spread", "total"])
+    @pytest.mark.vcr()
+    def test_lines_default_is_scores(self, rundown, method_name):
+        """Similar to events, show that for lines methods not including any values for
+        'include' parameter is the same as including 'scores'.
+        """
+        method = getattr(rundown, method_name)
+        method(14215098)
+        raw_lines1 = rundown._json
+        method(14215098, "scores")
+        raw_lines2 = rundown._json
+
+        diff = DeepDiff(raw_lines1, raw_lines2, ignore_order=True).to_dict()
+        assert not diff
+
+    @pytest.mark.parametrize("method_name", ["moneyline", "spread", "total"])
+    @pytest.mark.vcr()
+    def test_lines_all_periods_scores(self, rundown, method_name):
+        """Similar to events, show that for lines methods including 'all_periods' for
+        'include' parameter is the same as including both 'all_periods' and 'scores'.
+        """
+        method = getattr(rundown, method_name)
+        method(14215098, "all_periods")
+        raw_lines1 = rundown._json
+        method(14215098, "all_periods", "scores")
+        raw_lines2 = rundown._json
+
+        diff = DeepDiff(raw_lines1, raw_lines2, ignore_order=True).to_dict()
+        assert not diff
+
 
 class TestRundown:
     event_methods_args = [
@@ -376,8 +406,10 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_events_delta(self, rundown, last_id, sport_id, include):
         # Use delta_last_id from test_events_delta_initial_request.
-        data = rundown.events_delta(last_id, *include, sport=sport_id)
-        assert isinstance(data, Events)
+        events = rundown.events_delta(last_id, *include, sport=sport_id)
+        assert len(events.events) > 0
+        for e in events.events:
+            assert isinstance(e, Event)
 
     @pytest.mark.parametrize(
         "event_id",
