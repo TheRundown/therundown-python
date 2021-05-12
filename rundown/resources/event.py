@@ -1,4 +1,4 @@
-from typing import Optional, Union
+from typing import Optional
 
 from pydantic import BaseModel, validator
 
@@ -53,16 +53,20 @@ class Score(BaseModel):
 
 class Event(BaseModel):
     event_id: str
-    event_uuid: str
+    # Some NCAAF and old NHL events don't have uuid.
+    event_uuid: Optional[str] = None
     sport_id: int
     event_date: str
-    rotation_number_away: int
-    rotation_number_home: int
+    # Rotation numbers not popuated for games 3 days in advance.
+    rotation_number_away: Optional[int] = None
+    rotation_number_home: Optional[int] = None
     # 'score' may not be populated for games >100 days in advance.
-    score: Optional[Score]
-    teams: list[TeamDeprecated]
+    score: Optional[Score] = None
+    # 'teams' not populated for games 3 days in advance.
+    teams: Optional[list[TeamDeprecated]] = None
     teams_normalized: list[TeamNormalized]
     schedule: BaseSchedule
-    lines: dict[int, Union[SportsbookLines, SportsbookLinePeriods]]
+    lines: Optional[dict[int, SportsbookLines]] = None
+    line_periods: Optional[dict[int, SportsbookLinePeriods]] = None
 
     _change_timezone = validator("event_date", allow_reuse=True)(change_timezone)
