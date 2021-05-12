@@ -15,6 +15,8 @@ def vcr_config():
 
 
 def patched_build_url_and_get_json(request, original_fn):
+    """Patch Rundown._build_url_and_get_json so that the JSON response is saved."""
+
     JSON_DIR = "tests/json"
 
     def build_file_name():
@@ -26,6 +28,8 @@ def patched_build_url_and_get_json(request, original_fn):
         pass
 
     # Save request JSON body to file with same name as test cassette.
+    # TODO: If there are multiple requests in a test, the last response overwrites the
+    # previous ones.
     def patched(*segments, **params):
         data = original_fn(*segments, **params)
         with open(build_file_name(), "w") as f:

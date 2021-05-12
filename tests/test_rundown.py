@@ -282,6 +282,7 @@ class TestRundown:
             assert isinstance(d, Date)
             assert d.date[-6:] == expected_timezone
 
+    @pytest.mark.vcr()
     def test_dates_bad_sport_id(self, rundown):
         dates = rundown.dates(42)
         assert len(dates) == 0
@@ -308,12 +309,18 @@ class TestRundown:
 
     @pytest.mark.vcr()
     def test_sportsbooks(self, rundown):
-        data = rundown.sportsbooks()
-        assert len(data) > 0
+        sportsbook = rundown.sportsbooks()
+        assert len(sportsbook) > 0
+        for s in sportsbook:
+            assert isinstance(s, Sportsbook)
 
     @pytest.mark.parametrize("sport_id", [2, 6])
     @pytest.mark.vcr()
     def test_teams(self, sport_id, rundown):
+        teams = rundown.teams(sport_id)
+        assert len(teams) > 0
+        for t in teams:
+            assert isinstance(t, Team)
 
     @pytest.mark.parametrize("sport_id, date, offset, include", event_methods_args)
     @pytest.mark.vcr()
@@ -356,7 +363,7 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_events_delta_initial_request(self, rundown, date):
         """Make initial events request, providing the delta_last_id."""
-        data = rundown.events_by_date(6, date)
+        data = rundown.events(6, date)
         assert isinstance(data, Events)
 
     @pytest.mark.parametrize(
@@ -379,7 +386,7 @@ class TestRundown:
     @pytest.mark.vcr()
     def test_event(self, rundown, event_id):
         data = rundown.event(event_id)
-        assert isinstance(data, (EventLinePeriods, Event))
+        assert isinstance(data, Event)
 
     @pytest.mark.parametrize(
         "line_id, include",
