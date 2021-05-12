@@ -152,6 +152,17 @@ class TestAPI:
             for e in raw_events["events"]:
                 assert today in e["event_date"]
 
+    @pytest.mark.parametrize(
+        "sport, date, expected", [("CFL", "2019-11-24", 0), ("NHL", "2019-10-02", 4)]
+    )
+    @pytest.mark.vcr()
+    def test_cfl_not_implemented(self, rundown, sport, date, expected):
+        """CFL doesn't return any events on days when games were played, but NHL does
+        even for events that are older than the CFL events.
+        """
+        events = rundown.events(sport, date)
+        assert len(events.events) == expected
+
 
 class TestRundown:
     @pytest.mark.parametrize(

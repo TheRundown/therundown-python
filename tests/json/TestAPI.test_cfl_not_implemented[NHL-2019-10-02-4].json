@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "delta_last_id": "11eb-b2b9-8cb5ddb1-82a2-13c959fd8b9d"
+  },
+  "events": [
+    {
+      "event_id": "3fd68f5995b45117e3d00bbee96326d3",
+      "sport_id": 6,
+      "event_date": "2019-10-02T23:00:00Z",
+      "teams_normalized": [
+        {
+          "team_id": 101,
+          "name": "Ottawa",
+          "mascot": "Senators",
+          "abbreviation": "OTT",
+          "ranking": 0,
+          "record": "22-28-5",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 102,
+          "name": "Toronto",
+          "mascot": "Maple Leafs",
+          "abbreviation": "TOR",
+          "ranking": 0,
+          "record": "35-13-6",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "event_name": "Ottawa at Toronto - 2019-10-02",
+        "attendance": "19612"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "66e9fd9b629470eb9aecf767fc480180",
+      "sport_id": 6,
+      "event_date": "2019-10-03T00:00:00Z",
+      "teams_normalized": [
+        {
+          "team_id": 106,
+          "name": "Washington",
+          "mascot": "Capitals",
+          "abbreviation": "WSH",
+          "ranking": 0,
+          "record": "35-15-5",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 112,
+          "name": "St. Louis",
+          "mascot": "Blues",
+          "abbreviation": "STL",
+          "ranking": 0,
+          "record": "25-20-9",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "event_name": "Washington at St. Louis - 2019-10-03",
+        "attendance": "18096"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "ad9fc29289e0a812e10d33527e8aa2db",
+      "sport_id": 6,
+      "event_date": "2019-10-03T02:00:00Z",
+      "teams_normalized": [
+        {
+          "team_id": 117,
+          "name": "Vancouver",
+          "mascot": "Canucks",
+          "abbreviation": "VAN",
+          "ranking": 0,
+          "record": "21-26-3",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 115,
+          "name": "Edmonton",
+          "mascot": "Oilers",
+          "abbreviation": "EDM",
+          "ranking": 0,
+          "record": "34-18-2",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "event_name": "Vancouver at Edmonton - 2019-10-03",
+        "attendance": "18347"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "49c0191f511c687a5bb6454b1c9b88d6",
+      "sport_id": 6,
+      "event_date": "2019-10-03T02:30:00Z",
+      "teams_normalized": [
+        {
+          "team_id": 122,
+          "name": "San Jose",
+          "mascot": "Sharks",
+          "abbreviation": "SJ",
+          "ranking": 0,
+          "record": "21-27-7",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 361,
+          "name": "Vegas",
+          "mascot": "Golden Knights",
+          "abbreviation": "LAS",
+          "ranking": 0,
+          "record": "39-14-2",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "event_name": "San Jose at Vegas - 2019-10-03",
+        "attendance": "18588"
+      },
+      "line_periods": null
+    }
+  ]
+}
