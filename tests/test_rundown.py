@@ -138,12 +138,19 @@ class TestAPI:
     )
     @pytest.mark.vcr()
     def test_bad_event_date_returns_todays_lines(self, rundown, method_name):
+        """If date string is bad, or too far in the future, server defaults to today's
+        lines.
+        """
         today = "2021-05-11"
         method = getattr(rundown, method_name)
-        method("MLB", date="foobar")
-        raw_events = rundown._json
-        for e in raw_events["events"]:
-            assert today in e["event_date"]
+
+        # 2021-09-31 has MLB games scheduled on that day, but it's too far in advance.
+        bad_dates = ["foobar", "2021-09-31"]
+        for d in bad_dates:
+            method("MLB", date=d)
+            raw_events = rundown._json
+            for e in raw_events["events"]:
+                assert today in e["event_date"]
 
 
 class TestRundown:
