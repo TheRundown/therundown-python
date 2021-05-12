@@ -11,7 +11,7 @@ from rundown.resources.sport import Sport
 from rundown.resources.date import Date, Epoch
 from rundown.resources.team import Team
 from rundown.resources.events import Events
-from rundown.resources.event import Event, EventLinePeriods
+from rundown.resources.event import Event
 from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.schedule import Schedule
@@ -151,7 +151,9 @@ class Rundown:
                 else self.sport_names[sport]
             )
         except KeyError:
-            raise KeyError(f"{sport} is not a valid sport name.")
+            raise KeyError(
+                f"{sport} is not a valid sport name. Valid examples: 'NHL', 'NBA', MLB', 'NCAAF'."  # noqa E501
+            )
 
         return sport_id
 
@@ -202,9 +204,11 @@ class Rundown:
         sports = parse_obj_as(list[Sport], data["sports"])
         return sports
 
+    @_with_timezone_context
     def dates(
         self,
         sport: Union[int, str],
+        *,
         offset: Optional[int] = None,
         format: Literal["date", "epoch"] = "date",
     ) -> list[Union[Date, Epoch]]:
@@ -215,6 +219,7 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
+                Examples: 'NHL', 'NBA', 'MLB'.
             offset: Amount to offset UTC by in minutes. If offset is provided, it takes
                 precedence over self.timezone, otherwise dates will be in timezone
                 self.timezone.
@@ -237,8 +242,7 @@ class Rundown:
             resource = Epoch
             dates = [{"timestamp": v} for v in data["dates"]]
 
-        with user_context(self.timezone if offset is None else utc_shift_to_tz(offset)):
-            dates = parse_obj_as(list[resource], dates)
+        dates = parse_obj_as(list[resource], dates)
         return dates
 
     def sportsbooks(self) -> list[Sportsbook]:
@@ -261,6 +265,7 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
+                Examples: 'NHL', 'NBA', 'MLB'.
 
         Returns:
             list of resource.Team.
@@ -270,7 +275,8 @@ class Rundown:
         teams = parse_obj_as(list[Team], data["teams"])
         return teams
 
-    def events_by_date(
+    @_with_timezone_context
+    def events(
         self,
         sport: Union[int, str],
         date: str,
@@ -284,7 +290,8 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
-            date: The date of interest, in IS0 8601 format.
+                Examples: 'NHL', 'NBA', 'MLB'.
+            date: The date of interest, in IS0 8601 format ('YYYY-MM-DD')
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
@@ -296,10 +303,10 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport, "events", date, offset, *include)
-        with user_context(self.timezone):
-            events = Events(**data)
+        events = Events(**data)
         return events
 
+    @_with_timezone_context
     def opening_lines(
         self,
         sport: Union[int, str],
@@ -314,7 +321,8 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
-            date: The date of interest, in IS0 8601 format.
+                Examples: 'NHL', 'NBA', 'MLB'.
+            date: The date of interest, in IS0 8601 format ('YYYY-MM-DD')
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
@@ -326,10 +334,10 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport, "openers", date, offset, *include)
-        with user_context(self.timezone):
-            events = Events(**data)
+        events = Events(**data)
         return events
 
+    @_with_timezone_context
     def closing_lines(
         self,
         sport: Union[int, str],
@@ -344,7 +352,8 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
-            date: The date of interest, in IS0 8601 format.
+                Examples: 'NHL', 'NBA', 'MLB'.
+            date: The date of interest, in IS0 8601 format ('YYYY-MM-DD')
             include: Any of 'all_periods' and 'scores'. If 'all_periods' is included,
                 lines for each period are included in the response. If 'scores' is
                 included, lines for the event are included in the response. 'scores' by
@@ -356,10 +365,10 @@ class Rundown:
             resources.Events object.
         """
         data = self._get_events(sport, "closing", date, offset, *include)
-        with user_context(self.timezone):
-            events = Events(**data)
+        events = Events(**data)
         return events
 
+    @_with_timezone_context
     def events_delta(
         self,
         last_id: int,
@@ -379,8 +388,8 @@ class Rundown:
                 itself is the default.
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
-                If this argument is included, only events for the matching sport will be
-                returned.
+                Examples: 'NHL', 'NBA', 'MLB'.  If this argument is included, only
+                events for the matching sport will be returned.
 
         Returns:
             resources.Events object.
@@ -392,10 +401,10 @@ class Rundown:
         data = self._build_url_and_get_json(
             "delta", last_id=last_id, sport_id=sport_id, include=include
         )
-        with user_context(self.timezone):
-            events = Events(**data)
+        events = Events(**data)
         return events
 
+    @_with_timezone_context
     def event(self, event_id: int, *include: Literal["all_periods", "scores"]) -> Event:
         """Get event by event id.
 
@@ -412,13 +421,10 @@ class Rundown:
             resources.Event object.
         """
         data = self._build_url_and_get_json("events", event_id, *include)
-        with user_context(self.timezone):
-            if "all_periods" in include:
-                e = EventLinePeriods(**data)
-            else:
-                e = Event(**data)
+        e = Event(**data)
         return e
 
+    @_with_timezone_context
     def moneyline(
         self,
         line_id,
@@ -441,14 +447,14 @@ class Rundown:
         data = self._build_url_and_get_json(
             "lines", line_id, "moneyline", include=include
         )
-        with user_context(self.timezone):
-            if "all_periods" in include:
-                pass
-                lines = LinePeriods(**data["moneyline_periods"])
-            else:
-                lines = parse_obj_as(list[Moneyline], data["moneylines"])
+        if "all_periods" in include:
+            pass
+            lines = LinePeriods(**data["moneyline_periods"])
+        else:
+            lines = parse_obj_as(list[Moneyline], data["moneylines"])
         return lines
 
+    @_with_timezone_context
     def spread(
         self, line_id: int, *include: str
     ) -> Union[list[Moneyline], LinePeriods]:
@@ -467,14 +473,14 @@ class Rundown:
             list of resources.Spead, or LinePeriods object.
         """
         data = self._build_url_and_get_json("lines", line_id, "spread", include=include)
-        with user_context(self.timezone):
-            if "all_periods" in include:
-                pass
-                lines = LinePeriods(**data["spread_periods"])
-            else:
-                lines = parse_obj_as(list[Spread], data["spreads"])
+        if "all_periods" in include:
+            pass
+            lines = LinePeriods(**data["spread_periods"])
+        else:
+            lines = parse_obj_as(list[Spread], data["spreads"])
         return lines
 
+    @_with_timezone_context
     def total(
         self,
         line_id,
@@ -495,13 +501,13 @@ class Rundown:
             list of resources.Total, or LinePeriods object.
         """
         data = self._build_url_and_get_json("lines", line_id, "total", include=include)
-        with user_context(self.timezone):
-            if "all_periods" in include:
-                lines = LinePeriods(**data["total_periods"])
-            else:
-                lines = parse_obj_as(list[Total], data["totals"])
+        if "all_periods" in include:
+            lines = LinePeriods(**data["total_periods"])
+        else:
+            lines = parse_obj_as(list[Total], data["totals"])
         return lines
 
+    @_with_timezone_context
     def schedule(
         self, sport: Union[int, str], date_from: Optional[str] = None, limit: int = 50
     ) -> list[Schedule]:
@@ -512,6 +518,7 @@ class Rundown:
         Args:
             sport: ID for the league of interest, or a string representing the league of
                 interest. Valid sport names can be found in the 'sport_names' attribute.
+                Examples: 'NHL', 'NBA', 'MLB'.
             date_from: ISO 8601 date string of the starting date of the scheduled
                 events. The server considers the date to be in UTC.
             limit: Number of events to retrieve. Maximum 500.
@@ -525,6 +532,5 @@ class Rundown:
         data = self._build_url_and_get_json(
             "sports", sport_id, "schedule", **{"from": date_from, "limit": limit}
         )
-        with user_context(self.timezone):
-            schedules = parse_obj_as(list[Schedule], data["schedules"])
+        schedules = parse_obj_as(list[Schedule], data["schedules"])
         return schedules
