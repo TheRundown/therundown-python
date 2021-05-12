@@ -1,0 +1,4772 @@
+{
+  "meta": {
+    "delta_last_id": "11eb-b2b8-a87ae9dc-89a7-46b4cefbb355"
+  },
+  "events": [
+    {
+      "event_id": "c64430680192ca9e4aed282c199c1a0e",
+      "event_uuid": "11ea-ef90-da004000-8188-8b0d3461db58",
+      "sport_id": 1,
+      "event_date": "2020-09-05T16:00:00Z",
+      "score": {
+        "event_id": "c64430680192ca9e4aed282c199c1a0e",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Drake Stadium (NY)",
+        "venue_location": "Morrisville, NY",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2070,
+          "name": "Bridgewater State (MA)",
+          "mascot": "Bears",
+          "abbreviation": "BGW",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2069,
+          "name": "SUNY Morrisville",
+          "mascot": "Mustangs",
+          "abbreviation": "MOR",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Bridgewater State (MA) at SUNY Morrisville - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "2ca3bdbaddd1256a5ef2a18195df7e68",
+      "event_uuid": "11ea-ef99-3bc4a800-8155-97350d0c284e",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "2ca3bdbaddd1256a5ef2a18195df7e68",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Elliot Field Athletic Complex",
+        "venue_location": "Fitchburg, MA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2037,
+          "name": "Dean College",
+          "mascot": "Bulldogs",
+          "abbreviation": "DEAN",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2077,
+          "name": "Fitchburg State",
+          "mascot": "Falcons",
+          "abbreviation": "FIT",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Dean College at Fitchburg State - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "54fb033c1490f046bdd6933d356f40ca",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "54fb033c1490f046bdd6933d356f40ca",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Paladin Stadium",
+        "venue_location": "Greenville, SC",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 430,
+          "name": "Wofford",
+          "mascot": "Terriers",
+          "abbreviation": "WOF",
+          "ranking": 0,
+          "record": "1-4",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 427,
+          "name": "Furman",
+          "mascot": "Paladins",
+          "abbreviation": "FUR",
+          "ranking": 0,
+          "record": "2-1",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Wofford at Furman - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "7cd3117e09b990d5e37b4d6c0454ca24",
+      "event_uuid": "11ea-ef99-3bc4a800-8775-9a69dd25b412",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "7cd3117e09b990d5e37b4d6c0454ca24",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Ralph F. DellaCamera Stadium",
+        "venue_location": "West Haven, CT",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2081,
+          "name": "Bowie State",
+          "mascot": "Bulldogs",
+          "abbreviation": "BSU",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2133,
+          "name": "New Haven",
+          "mascot": "Chargers",
+          "abbreviation": "NH",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Bowie State at New Haven - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "8e606696a45692ee32115f5b70ac9702",
+      "event_uuid": "11ea-ef99-3bc4a800-8d24-2f5102591373",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "rotation_number_away": 249,
+      "rotation_number_home": 250,
+      "score": {
+        "event_id": "8e606696a45692ee32115f5b70ac9702",
+        "event_status": "STATUS_FINAL",
+        "score_away": 0,
+        "score_home": 59,
+        "winner_away": 0,
+        "winner_home": 1,
+        "score_away_by_period": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "score_home_by_period": [
+          21,
+          17,
+          14,
+          7
+        ],
+        "venue_name": "Joan C. Edwards Stadium",
+        "venue_location": "Huntington, WV",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "ESPN",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 36968,
+          "team_normalized_id": 440,
+          "name": "Eastern Kentucky",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 35177,
+          "team_normalized_id": 171,
+          "name": "Marshall",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 440,
+          "name": "Eastern Kentucky",
+          "mascot": "Colonels",
+          "abbreviation": "EKY",
+          "ranking": 99,
+          "record": "0-1",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 171,
+          "name": "Marshall",
+          "mascot": "Thundering Herd",
+          "abbreviation": "MRSH",
+          "ranking": 99,
+          "record": "7-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Eastern Kentucky at Marshall - 2020-09-05",
+        "attendance": "0"
+      },
+      "lines": {
+        "1": {
+          "line_id": 10945726,
+          "moneyline": {
+            "line_id": 10945726,
+            "moneyline_away": 1400,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -2500,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-04T16:05:31.476419Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10945726,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 1,
+            "point_spread_away": 23.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -23.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -120,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -120,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-03T15:36:04.678461Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10945726,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 1,
+            "total_over": 52.5,
+            "total_over_delta": 0,
+            "total_under": 52.5,
+            "total_under_delta": 0,
+            "total_over_money": -120,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-03T15:36:32.846222Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "11": {
+          "line_id": 10970206,
+          "moneyline": {
+            "line_id": 10970206,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970206,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 11,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -105,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -105,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:04:20.170105Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970206,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 11,
+            "total_over": 52.5,
+            "total_over_delta": 0,
+            "total_under": 52.5,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:04:20.180194Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "6": {
+          "line_id": 10970210,
+          "moneyline": {
+            "line_id": 10970210,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970210,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 6,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:07:44.87898Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970210,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 6,
+            "total_over": 52.5,
+            "total_over_delta": 0,
+            "total_under": 52.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:07:44.888692Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "4": {
+          "line_id": 10970213,
+          "moneyline": {
+            "line_id": 10970213,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970213,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 4,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:08:21.206714Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970213,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 4,
+            "total_over": 52.5,
+            "total_over_delta": 0,
+            "total_under": 52.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:08:21.215925Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "2": {
+          "line_id": 10970577,
+          "moneyline": {
+            "line_id": 10970577,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970577,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 2,
+            "point_spread_away": 24,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T12:13:35.440665Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970577,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 2,
+            "total_over": 52.5,
+            "total_over_delta": 0,
+            "total_under": 52.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T12:13:35.45009Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "10": {
+          "line_id": 10970607,
+          "moneyline": {
+            "line_id": 10970607,
+            "moneyline_away": 1098,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -2200,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:45:57.338076Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970607,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 10,
+            "point_spread_away": 23.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -23.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:20.856011Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970607,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 10,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:20.865002Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "18": {
+          "line_id": 10970698,
+          "moneyline": {
+            "line_id": 10970698,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970698,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 18,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970698,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 18,
+            "total_over": 0.0001,
+            "total_over_delta": 0.0001,
+            "total_under": 0.0001,
+            "total_under_delta": 0.0001,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "12": {
+          "line_id": 10970574,
+          "moneyline": {
+            "line_id": 10970574,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970574,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 12,
+            "point_spread_away": 24,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T12:12:25.78536Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970574,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 12,
+            "total_over": 52.5,
+            "total_over_delta": 0,
+            "total_under": 52.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T12:12:25.798408Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "7": {
+          "line_id": 10970610,
+          "moneyline": {
+            "line_id": 10970610,
+            "moneyline_away": 1098,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -2200,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:46:57.877954Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970610,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 7,
+            "point_spread_away": 23.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -23.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -114,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -116,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:45.364814Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970610,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 7,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:45.375009Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "9": {
+          "line_id": 10970613,
+          "moneyline": {
+            "line_id": 10970613,
+            "moneyline_away": 1098,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -2200,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:45:30.232532Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970613,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 9,
+            "point_spread_away": 23.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -23.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -114,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -116,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:22:05.648499Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970613,
+            "event_id": "8e606696a45692ee32115f5b70ac9702",
+            "affiliate_id": 9,
+            "total_over": 53.5,
+            "total_over_delta": 0,
+            "total_under": 53.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:22:05.6598Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "aa62ce27a94c9908454389a8da931173",
+      "event_uuid": "11ea-ef99-3bc4a800-8f42-d1c159513e79",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "aa62ce27a94c9908454389a8da931173",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Multi-Sport Stadium",
+        "venue_location": "Worcester, MA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2065,
+          "name": "Kutztown",
+          "mascot": "Golden Bears",
+          "abbreviation": "KUT",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2064,
+          "name": "Assumption",
+          "mascot": "Greyhounds",
+          "abbreviation": "ASP",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Kutztown at Assumption - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "b83b12378a05ca6a005437d3286aee0c",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "b83b12378a05ca6a005437d3286aee0c",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Joe Walton Stadium",
+        "venue_location": "Moon Township, PA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 424,
+          "name": "VMI",
+          "mascot": "Keydets",
+          "abbreviation": "VMI",
+          "ranking": 0,
+          "record": "6-2",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 457,
+          "name": "Robert Morris",
+          "mascot": "Colonials",
+          "abbreviation": "RMU",
+          "ranking": 0,
+          "record": "0-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "VMI at Robert Morris - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "e7ca2f607e97df174b1efe1ac94b6e01",
+      "event_uuid": "11ea-ef99-3bc4a800-88a5-c543eacbcdf7",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "e7ca2f607e97df174b1efe1ac94b6e01",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Day Field",
+        "venue_location": "Ashland, VA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2095,
+          "name": "Dickinson",
+          "mascot": "Red Devils",
+          "abbreviation": "DIC",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1981,
+          "name": "Randolph-Macon College",
+          "mascot": "Yellow Jackets",
+          "abbreviation": "RAN",
+          "ranking": 0,
+          "record": "5-0",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Dickinson at Randolph-Macon College - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "eec8f2662c4f56da0cb9d0487cf562c2",
+      "event_uuid": "11ea-ef99-3bc4a800-8353-811e7222c675",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "eec8f2662c4f56da0cb9d0487cf562c2",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Charles L. Currier Memorial Field",
+        "venue_location": "Plymouth, NH",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2120,
+          "name": "Castleton State College",
+          "mascot": "Spartans",
+          "abbreviation": "CAS",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2119,
+          "name": "Plymouth State College",
+          "mascot": "Panthers",
+          "abbreviation": "PLY",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Castleton at Plymouth State College - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "fac77e2d7e12c1e53e5713c9c3472ade",
+      "event_uuid": "11ea-ef99-3bc4a800-8b55-fd91397c6c68",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:00:00Z",
+      "score": {
+        "event_id": "fac77e2d7e12c1e53e5713c9c3472ade",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Adamson Stadium",
+        "venue_location": "Brownsville, PA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2035,
+          "name": "St. Anselm",
+          "mascot": "Hawks",
+          "abbreviation": "STA",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2034,
+          "name": "California (PA)",
+          "mascot": "Vulcans",
+          "abbreviation": "CAL",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "St. Anselm at California (PA) - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "0d0e233589f22b6eda90faf17608acc2",
+      "event_uuid": "11ea-ef9d-6ca6dc00-881a-e7c3a1b55d96",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:30:00Z",
+      "rotation_number_away": 241,
+      "rotation_number_home": 242,
+      "score": {
+        "event_id": "0d0e233589f22b6eda90faf17608acc2",
+        "event_status": "STATUS_FINAL",
+        "score_away": 0,
+        "score_home": 42,
+        "winner_away": 0,
+        "winner_home": 1,
+        "score_away_by_period": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "score_home_by_period": [
+          7,
+          14,
+          14,
+          7
+        ],
+        "venue_name": "Michie Stadium",
+        "venue_location": "West Point, NY",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "CBSSN",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 38414,
+          "team_normalized_id": 178,
+          "name": "Middle Tennessee State",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 18643,
+          "team_normalized_id": 129,
+          "name": "Army",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 178,
+          "name": "Middle Tennessee",
+          "mascot": "Blue Raiders",
+          "abbreviation": "MTSU",
+          "ranking": 0,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 129,
+          "name": "Army",
+          "mascot": "Black Knights",
+          "abbreviation": "ARMY",
+          "ranking": 99,
+          "record": "9-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Middle Tennessee at Army - 2020-09-05",
+        "attendance": "5249"
+      },
+      "lines": {
+        "4": {
+          "line_id": 10807895,
+          "moneyline": {
+            "line_id": 10807895,
+            "moneyline_away": 175,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -205,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -205,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T15:26:32.696504Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807895,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 4,
+            "point_spread_away": 5.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:45.769731Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807895,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 4,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:45.778485Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "10": {
+          "line_id": 10807918,
+          "moneyline": {
+            "line_id": 10807918,
+            "moneyline_away": 176,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -210,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:10:05.476192Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807918,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 10,
+            "point_spread_away": 5.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:55.187305Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807918,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 10,
+            "total_over": 55,
+            "total_over_delta": 0,
+            "total_under": 55,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:55.203037Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "7": {
+          "line_id": 10807939,
+          "moneyline": {
+            "line_id": 10807939,
+            "moneyline_away": 176,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -210,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:08:44.773567Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807939,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 7,
+            "point_spread_away": 5.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:32:06.928164Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807939,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 7,
+            "total_over": 55,
+            "total_over_delta": 0,
+            "total_under": 55,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:32:06.942235Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "3": {
+          "line_id": 10968960,
+          "moneyline": {
+            "line_id": 10968960,
+            "moneyline_away": 165,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -198,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T16:28:35.001609Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968960,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 3,
+            "point_spread_away": 5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -108,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -108,
+            "point_spread_home_money_delta": 0,
+            "extended_spreads": [
+              {
+                "affiliate_id": 3,
+                "point_spread_away": 5,
+                "point_spread_away_delta": 0,
+                "point_spread_home": -5,
+                "point_spread_home_delta": 0,
+                "point_spread_away_money": -108,
+                "point_spread_away_money_delta": 0,
+                "point_spread_home_money": -108,
+                "point_spread_home_money_delta": 0
+              }
+            ],
+            "date_updated": "2020-08-31T16:28:25.502671Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968960,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 3,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -109,
+            "total_over_money_delta": 0,
+            "total_under_money": -109,
+            "total_under_money_delta": 0,
+            "extended_totals": [
+              {
+                "affiliate_id": 3,
+                "total_over": 54.5,
+                "total_over_delta": 0,
+                "total_under": 54.5,
+                "total_under_delta": 0,
+                "total_over_money": -109,
+                "total_over_money_delta": 0,
+                "total_under_money": -109,
+                "total_under_money_delta": 0
+              }
+            ],
+            "date_updated": "2020-08-31T16:28:31.938161Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "18": {
+          "line_id": 10970733,
+          "moneyline": {
+            "line_id": 10970733,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970733,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 18,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970733,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 18,
+            "total_over": 0.0001,
+            "total_over_delta": 0.0001,
+            "total_under": 0.0001,
+            "total_under_delta": 0.0001,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "1": {
+          "line_id": 10806388,
+          "moneyline": {
+            "line_id": 10806388,
+            "moneyline_away": 180,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -220,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-29T13:18:17.763194Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10806388,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 1,
+            "point_spread_away": 5.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:18:18.202332Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10806388,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 1,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:18:18.726623Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "11": {
+          "line_id": 10807854,
+          "moneyline": {
+            "line_id": 10807854,
+            "moneyline_away": 175,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -205,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -205,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T15:26:29.855016Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807854,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 11,
+            "point_spread_away": 5.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -105,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -105,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:24.283465Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807854,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 11,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:24.294827Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "9": {
+          "line_id": 10807928,
+          "moneyline": {
+            "line_id": 10807928,
+            "moneyline_away": 176,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -210,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:07:32.283028Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807928,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 9,
+            "point_spread_away": 5.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:32:01.517636Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807928,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 9,
+            "total_over": 55,
+            "total_over_delta": 0,
+            "total_under": 55,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:32:01.528554Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "6": {
+          "line_id": 10808061,
+          "moneyline": {
+            "line_id": 10808061,
+            "moneyline_away": 175,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -205,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -205,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T15:26:08.540168Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10808061,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 6,
+            "point_spread_away": 5.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -5.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:33:19.233736Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10808061,
+            "event_id": "0d0e233589f22b6eda90faf17608acc2",
+            "affiliate_id": 6,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:33:19.245361Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "22dbf6b04a5358a00da7fec7f3a3bd00",
+      "event_uuid": "11ea-ef9d-6ca6dc00-804e-48d8cc923043",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:30:00Z",
+      "score": {
+        "event_id": "22dbf6b04a5358a00da7fec7f3a3bd00",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Shirk Field at Musselman Stadium",
+        "venue_location": "Gettysburg, PA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2277,
+          "name": "Bridgewater College (VA)",
+          "mascot": "Eagles",
+          "abbreviation": "BCV",
+          "ranking": 0,
+          "record": "2-2",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2276,
+          "name": "Gettysburg",
+          "mascot": "Bullets",
+          "abbreviation": "GET",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Bridgewater College (VA) at Gettysburg - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "b57c65a44276e14b934ff89061bf37d1",
+      "sport_id": 1,
+      "event_date": "2020-09-05T17:30:00Z",
+      "score": {
+        "event_id": "b57c65a44276e14b934ff89061bf37d1",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Roebuck Stadium",
+        "venue_location": "Elizabeth City, NC",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2269,
+          "name": "Fayetteville State",
+          "mascot": "Broncos",
+          "abbreviation": "FAY",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1850,
+          "name": "Elizabeth City State",
+          "mascot": "Vikings",
+          "abbreviation": "ELI",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Fayetteville State at Elizabeth City State - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "200f958a836e220b915ea8b8cdcee7be",
+      "sport_id": 1,
+      "event_date": "2020-09-05T19:30:00Z",
+      "score": {
+        "event_id": "200f958a836e220b915ea8b8cdcee7be",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Kidd Brewer Stadium",
+        "venue_location": "Boone, NC",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 511,
+          "name": "Morgan State",
+          "mascot": "Bears",
+          "abbreviation": "MORG",
+          "ranking": 99,
+          "record": "0-0",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 375,
+          "name": "Appalachian State",
+          "mascot": "Mountaineers",
+          "abbreviation": "APP",
+          "ranking": 99,
+          "record": "9-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Morgan State at Appalachian State - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+      "event_uuid": "11ea-efb6-91f41400-80b5-d99e24835688",
+      "sport_id": 1,
+      "event_date": "2020-09-05T20:30:00Z",
+      "rotation_number_away": 239,
+      "rotation_number_home": 240,
+      "score": {
+        "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+        "event_status": "STATUS_FINAL",
+        "score_away": 31,
+        "score_home": 24,
+        "winner_away": 1,
+        "winner_home": 0,
+        "score_away_by_period": [
+          0,
+          14,
+          14,
+          3
+        ],
+        "score_home_by_period": [
+          0,
+          14,
+          7,
+          3
+        ],
+        "venue_name": "Bobcat Stadium (TX)",
+        "venue_location": "San Marcos, TX",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "ESPN",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 18633,
+          "team_normalized_id": 210,
+          "name": "SMU",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 35168,
+          "team_normalized_id": 389,
+          "name": "Texas State",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 210,
+          "name": "SMU",
+          "mascot": "Mustangs",
+          "abbreviation": "SMU",
+          "ranking": 18,
+          "record": "7-1",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 389,
+          "name": "Texas State",
+          "mascot": "Bobcats",
+          "abbreviation": "TXST",
+          "ranking": 99,
+          "record": "1-8",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "SMU at Texas State - 2020-09-05",
+        "attendance": "7500"
+      },
+      "lines": {
+        "14": {
+          "line_id": 10969076,
+          "moneyline": {
+            "line_id": 10969076,
+            "moneyline_away": -1701,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 825,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-04T15:22:39.872235Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10969076,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 14,
+            "point_spread_away": -22,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 22,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-31T20:13:43.096731Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10969076,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 14,
+            "total_over": 69.5,
+            "total_over_delta": 0,
+            "total_under": 69.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T02:07:25.690699Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        },
+        "18": {
+          "line_id": 10970665,
+          "moneyline": {
+            "line_id": 10970665,
+            "moneyline_away": -1800,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 1000,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T18:24:36.479259Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970665,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 18,
+            "point_spread_away": -24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T18:24:36.910775Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970665,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 18,
+            "total_over": 70,
+            "total_over_delta": 0,
+            "total_under": 70,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T18:24:37.510452Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "1": {
+          "line_id": 10763582,
+          "moneyline": {
+            "line_id": 10763582,
+            "moneyline_away": -1450,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 950,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-28T18:53:41.13034Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10763582,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 1,
+            "point_spread_away": -20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-28T13:04:39.885011Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10763582,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 1,
+            "total_over": 66.5,
+            "total_over_delta": 0,
+            "total_under": 66.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-28T13:05:14.382536Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "7": {
+          "line_id": 10807808,
+          "moneyline": {
+            "line_id": 10807808,
+            "moneyline_away": -1800,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 980,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:08:44.751567Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807808,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 7,
+            "point_spread_away": -21,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 21,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:05.478163Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807808,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 7,
+            "total_over": 65.5,
+            "total_over_delta": 0,
+            "total_under": 65.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:05.495908Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "12": {
+          "line_id": 10968745,
+          "moneyline": {
+            "line_id": 10968745,
+            "moneyline_away": -1800,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 850,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-30T22:42:53.095949Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968745,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 12,
+            "point_spread_away": -21,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 21,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-30T22:36:32.835814Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968745,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 12,
+            "total_over": 66,
+            "total_over_delta": 0,
+            "total_under": 66,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-30T22:36:32.846736Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "2": {
+          "line_id": 10968746,
+          "moneyline": {
+            "line_id": 10968746,
+            "moneyline_away": -1800,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 850,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-30T22:43:31.982784Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968746,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 2,
+            "point_spread_away": -21,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 21,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-30T22:36:34.889961Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968746,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 2,
+            "total_over": 66,
+            "total_over_delta": 0,
+            "total_under": 66,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-30T22:36:34.902787Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "3": {
+          "line_id": 10968959,
+          "moneyline": {
+            "line_id": 10968959,
+            "moneyline_away": -978,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 594,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T16:28:19.989668Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968959,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 3,
+            "point_spread_away": -20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -108,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -108,
+            "point_spread_home_money_delta": 0,
+            "extended_spreads": [
+              {
+                "affiliate_id": 3,
+                "point_spread_away": -20.5,
+                "point_spread_away_delta": 0,
+                "point_spread_home": 20.5,
+                "point_spread_home_delta": 0,
+                "point_spread_away_money": -108,
+                "point_spread_away_money_delta": 0,
+                "point_spread_home_money": -108,
+                "point_spread_home_money_delta": 0
+              }
+            ],
+            "date_updated": "2020-08-31T16:28:14.199039Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968959,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 3,
+            "total_over": 66.5,
+            "total_over_delta": 0,
+            "total_under": 66.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0,
+            "extended_totals": [
+              {
+                "affiliate_id": 3,
+                "total_over": 66.5,
+                "total_over_delta": 0,
+                "total_under": 66.5,
+                "total_under_delta": 0,
+                "total_over_money": -110,
+                "total_over_money_delta": 0,
+                "total_under_money": -108,
+                "total_under_money_delta": 0
+              }
+            ],
+            "date_updated": "2020-08-31T16:28:20.009077Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "4": {
+          "line_id": 10968964,
+          "moneyline": {
+            "line_id": 10968964,
+            "moneyline_away": -1300,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 790,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 790,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T16:49:42.99334Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968964,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 4,
+            "point_spread_away": -20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -105,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-31T16:49:43.004527Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968964,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 4,
+            "total_over": 66,
+            "total_over_delta": 0,
+            "total_under": 66,
+            "total_under_delta": 0,
+            "total_over_money": -120,
+            "total_over_money_delta": 0,
+            "total_under_money": 100,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-31T16:49:43.017659Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "9": {
+          "line_id": 10807827,
+          "moneyline": {
+            "line_id": 10807827,
+            "moneyline_away": -1800,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 980,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:07:32.263245Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807827,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 9,
+            "point_spread_away": -21,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 21,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:14.692505Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807827,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 9,
+            "total_over": 65.5,
+            "total_over_delta": 0,
+            "total_under": 65.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:14.708444Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "10": {
+          "line_id": 10807916,
+          "moneyline": {
+            "line_id": 10807916,
+            "moneyline_away": -1800,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 980,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:10:05.456947Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807916,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 10,
+            "point_spread_away": -21,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 21,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:55.133685Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807916,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 10,
+            "total_over": 65.5,
+            "total_over_delta": 0,
+            "total_under": 65.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:55.151862Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "11": {
+          "line_id": 10968962,
+          "moneyline": {
+            "line_id": 10968962,
+            "moneyline_away": -1300,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 790,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 790,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T16:49:00.630165Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968962,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 11,
+            "point_spread_away": -20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 100,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-31T16:49:00.640506Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968962,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 11,
+            "total_over": 66,
+            "total_over_delta": 0,
+            "total_under": 66,
+            "total_under_delta": 0,
+            "total_over_money": -119,
+            "total_over_money_delta": 0,
+            "total_under_money": 102,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-31T16:49:00.648256Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "6": {
+          "line_id": 10968963,
+          "moneyline": {
+            "line_id": 10968963,
+            "moneyline_away": -1300,
+            "moneyline_away_delta": 0,
+            "moneyline_home": 790,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 790,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T16:49:35.999739Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968963,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 6,
+            "point_spread_away": -20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -105,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-31T16:49:36.013952Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968963,
+            "event_id": "8c599a4aeaf32d504fcbacc4ad88e80e",
+            "affiliate_id": 6,
+            "total_over": 66,
+            "total_over_delta": 0,
+            "total_under": 66,
+            "total_under_delta": 0,
+            "total_over_money": -120,
+            "total_over_money_delta": 0,
+            "total_under_money": 100,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-31T16:49:36.03145Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "055c2fd475d9f9b341f22be27af17975",
+      "sport_id": 1,
+      "event_date": "2020-09-05T22:00:00Z",
+      "score": {
+        "event_id": "055c2fd475d9f9b341f22be27af17975",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Spec Martin Stadium",
+        "venue_location": "Deland, FL",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2885,
+          "name": "Ave Maria",
+          "mascot": "Gyrenes",
+          "abbreviation": "AVE",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 409,
+          "name": "Stetson",
+          "mascot": "Hatters",
+          "abbreviation": "STET",
+          "ranking": 0,
+          "record": "0-2",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Ave Maria at Stetson - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "5a3d04efebe338f7d87ad7d16d5182f7",
+      "sport_id": 1,
+      "event_date": "2020-09-05T22:00:00Z",
+      "score": {
+        "event_id": "5a3d04efebe338f7d87ad7d16d5182f7",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "BB&T Stadium",
+        "venue_location": "Greensboro, NC",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2228,
+          "name": "Shaw",
+          "mascot": "Bears",
+          "abbreviation": "SHA",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 509,
+          "name": "North Carolina A&T",
+          "mascot": "Aggies",
+          "abbreviation": "NCAT",
+          "ranking": 99,
+          "record": "0-0",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Shaw at North Carolina A&T - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "6cd864c0f58b73981e9a06883ea23c7c",
+      "sport_id": 1,
+      "event_date": "2020-09-05T22:00:00Z",
+      "score": {
+        "event_id": "6cd864c0f58b73981e9a06883ea23c7c",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "William \"Dick\" Price Stadium",
+        "venue_location": "Norfolk, VA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 1884,
+          "name": "Virginia State",
+          "mascot": "Trojans",
+          "abbreviation": "VIR",
+          "ranking": 99,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 508,
+          "name": "Norfolk State",
+          "mascot": "Spartans",
+          "abbreviation": "NORF",
+          "ranking": 99,
+          "record": "0-0",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Virginia State at Norfolk State - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "912333aaca4945978ccef575f5386f1a",
+      "event_uuid": "11ea-efc3-249ab000-815c-fc1b107e5e84",
+      "sport_id": 1,
+      "event_date": "2020-09-05T22:00:00Z",
+      "score": {
+        "event_id": "912333aaca4945978ccef575f5386f1a",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Alumni Memorial Stadium (NC)",
+        "venue_location": "Salisbury, NC",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2279,
+          "name": "Clark Atlanta",
+          "mascot": "Panthers",
+          "abbreviation": "CLK",
+          "ranking": 0,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2278,
+          "name": "Livingstone",
+          "mascot": "Blue Bears",
+          "abbreviation": "LVI",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Clark Atlanta at Livingstone - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "d112a74c2e2d584187e87b1033ac8020",
+      "sport_id": 1,
+      "event_date": "2020-09-05T22:00:00Z",
+      "score": {
+        "event_id": "d112a74c2e2d584187e87b1033ac8020",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Barker-Lane Stadium",
+        "venue_location": "Buies Creek, NC",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 413,
+          "name": "Davidson",
+          "mascot": "Wildcats",
+          "abbreviation": "DAV",
+          "ranking": 0,
+          "record": "4-3",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 414,
+          "name": "Campbell",
+          "mascot": "Camels",
+          "abbreviation": "CAMP",
+          "ranking": 0,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Davidson at Campbell - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "a171fc68523b9af3cdb0b61e275af74b",
+      "event_uuid": "11ea-efcb-865f1800-885e-4bc3bdb68697",
+      "sport_id": 1,
+      "event_date": "2020-09-05T23:00:00Z",
+      "score": {
+        "event_id": "a171fc68523b9af3cdb0b61e275af74b",
+        "event_status": "STATUS_POSTPONED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Albert J. H. Sloan - Alumni Stadium",
+        "venue_location": "Fairfield, AL",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Postponed"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 2233,
+          "name": "Fort Valley State",
+          "mascot": "Wildcats",
+          "abbreviation": "FOR",
+          "ranking": 0,
+          "record": "2-0",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 2232,
+          "name": "Miles College",
+          "mascot": "Golden Bears",
+          "abbreviation": "MILES",
+          "ranking": 99,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Fort Valley State at Miles College - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "bf05beb41f56ad11e1614df83dd34579",
+      "sport_id": 1,
+      "event_date": "2020-09-05T23:00:00Z",
+      "score": {
+        "event_id": "bf05beb41f56ad11e1614df83dd34579",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Bowers Stadium",
+        "venue_location": "Huntsville, TX",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 1924,
+          "name": "Tarleton State",
+          "mascot": "Texans",
+          "abbreviation": "TAR",
+          "ranking": 0,
+          "record": "1-1",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 466,
+          "name": "Sam Houston State",
+          "mascot": "Bearkats",
+          "abbreviation": "SHSU",
+          "ranking": 0,
+          "record": "8-0",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Tarleton at Sam Houston State - 2020-09-05",
+        "attendance": "0"
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "13a2cd1371d74edbeb27957402db0453",
+      "event_uuid": "11ea-efcf-b7414c00-85a1-333c14d56a3d",
+      "sport_id": 1,
+      "event_date": "2020-09-05T23:30:00Z",
+      "rotation_number_away": 251,
+      "rotation_number_home": 252,
+      "score": {
+        "event_id": "13a2cd1371d74edbeb27957402db0453",
+        "event_status": "STATUS_FINAL",
+        "score_away": 31,
+        "score_home": 57,
+        "winner_away": 0,
+        "winner_home": 1,
+        "score_away_by_period": [
+          0,
+          10,
+          7,
+          14
+        ],
+        "score_home_by_period": [
+          14,
+          9,
+          20,
+          14
+        ],
+        "venue_name": "Apogee Stadium",
+        "venue_location": "Denton, TX",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "ESPN3",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 38430,
+          "team_normalized_id": 469,
+          "name": "Houston Baptist",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 35213,
+          "team_normalized_id": 189,
+          "name": "North Texas",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 469,
+          "name": "Houston Baptist",
+          "mascot": "Huskies",
+          "abbreviation": "HBU",
+          "ranking": 99,
+          "record": "0-1",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 189,
+          "name": "North Texas",
+          "mascot": "Mean Green",
+          "abbreviation": "UNT",
+          "ranking": 99,
+          "record": "4-6",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Houston Baptist at North Texas - 2020-09-05",
+        "attendance": "7611"
+      },
+      "lines": {
+        "12": {
+          "line_id": 10970575,
+          "moneyline": {
+            "line_id": 10970575,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970575,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 12,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T12:12:25.856991Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970575,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 12,
+            "total_over": 68.5,
+            "total_over_delta": 0,
+            "total_under": 68.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T12:12:25.867078Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "9": {
+          "line_id": 10970614,
+          "moneyline": {
+            "line_id": 10970614,
+            "moneyline_away": 1070,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -2100,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:45:30.269644Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970614,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 9,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:22:05.678922Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970614,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 9,
+            "total_over": 69,
+            "total_over_delta": 0,
+            "total_under": 69,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:22:05.687628Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "18": {
+          "line_id": 10970666,
+          "moneyline": {
+            "line_id": 10970666,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970666,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 18,
+            "point_spread_away": 23,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -23,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T18:24:38.195656Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970666,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 18,
+            "total_over": 73.5,
+            "total_over_delta": 0,
+            "total_under": 73.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T18:24:38.741756Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "10": {
+          "line_id": 10970608,
+          "moneyline": {
+            "line_id": 10970608,
+            "moneyline_away": 1070,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -2100,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:45:57.365762Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970608,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 10,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:20.883535Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970608,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 10,
+            "total_over": 69,
+            "total_over_delta": 0,
+            "total_under": 69,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:20.892618Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "7": {
+          "line_id": 10970611,
+          "moneyline": {
+            "line_id": 10970611,
+            "moneyline_away": 1070,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -2100,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:46:57.90353Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970611,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 7,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:45.393592Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970611,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 7,
+            "total_over": 69,
+            "total_over_delta": 0,
+            "total_under": 69,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:45.405369Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "1": {
+          "line_id": 10945870,
+          "moneyline": {
+            "line_id": 10945870,
+            "moneyline_away": 2500,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -5000,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-04T16:05:43.332001Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10945870,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 1,
+            "point_spread_away": 28.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -28.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -120,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -120,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-03T15:40:06.038456Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10945870,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 1,
+            "total_over": 66.5,
+            "total_over_delta": 0,
+            "total_under": 66.5,
+            "total_under_delta": 0,
+            "total_over_money": -120,
+            "total_over_money_delta": 0,
+            "total_under_money": -120,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-03T15:41:59.243007Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "11": {
+          "line_id": 10970207,
+          "moneyline": {
+            "line_id": 10970207,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970207,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 11,
+            "point_spread_away": 27.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -27.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -105,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -105,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:04:20.198617Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970207,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 11,
+            "total_over": 67,
+            "total_over_delta": 0,
+            "total_under": 67,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:04:20.208382Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "6": {
+          "line_id": 10970211,
+          "moneyline": {
+            "line_id": 10970211,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970211,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 6,
+            "point_spread_away": 27.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -27.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:07:44.904857Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970211,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 6,
+            "total_over": 67,
+            "total_over_delta": 0,
+            "total_under": 67,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:07:44.913745Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "4": {
+          "line_id": 10970214,
+          "moneyline": {
+            "line_id": 10970214,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970214,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 4,
+            "point_spread_away": 27.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -27.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:08:21.23805Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970214,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 4,
+            "total_over": 67,
+            "total_over_delta": 0,
+            "total_under": 67,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:08:21.254225Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "2": {
+          "line_id": 10970578,
+          "moneyline": {
+            "line_id": 10970578,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970578,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 2,
+            "point_spread_away": 24.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -24.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T12:13:35.483286Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970578,
+            "event_id": "13a2cd1371d74edbeb27957402db0453",
+            "affiliate_id": 2,
+            "total_over": 68.5,
+            "total_over_delta": 0,
+            "total_under": 68.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T12:13:35.492154Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+      "event_uuid": "11ea-efd3-e8238000-86aa-db144adab985",
+      "sport_id": 1,
+      "event_date": "2020-09-06T00:00:00Z",
+      "rotation_number_away": 237,
+      "rotation_number_home": 238,
+      "score": {
+        "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+        "event_status": "STATUS_FINAL",
+        "score_away": 24,
+        "score_home": 37,
+        "winner_away": 0,
+        "winner_home": 1,
+        "score_away_by_period": [
+          14,
+          0,
+          3,
+          7
+        ],
+        "score_home_by_period": [
+          7,
+          14,
+          13,
+          3
+        ],
+        "venue_name": "Liberty Bowl Memorial Stadium",
+        "venue_location": "Memphis, TN",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "ESPN",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 35212,
+          "team_normalized_id": 128,
+          "name": "Arkansas State",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 18685,
+          "team_normalized_id": 173,
+          "name": "Memphis",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 128,
+          "name": "Arkansas State",
+          "mascot": "Red Wolves",
+          "abbreviation": "ARST",
+          "ranking": 99,
+          "record": "3-5",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 173,
+          "name": "Memphis",
+          "mascot": "Tigers",
+          "abbreviation": "MEM",
+          "ranking": 99,
+          "record": "8-3",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Arkansas State at Memphis - 2020-09-06",
+        "attendance": "4537"
+      },
+      "lines": {
+        "6": {
+          "line_id": 10808062,
+          "moneyline": {
+            "line_id": 10808062,
+            "moneyline_away": 675,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1050,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -1050,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T15:26:08.551367Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10808062,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 6,
+            "point_spread_away": 20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -105,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:33:19.269285Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10808062,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 6,
+            "total_over": 71.5,
+            "total_over_delta": 0,
+            "total_under": 71.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:33:19.284517Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "14": {
+          "line_id": 10969075,
+          "moneyline": {
+            "line_id": 10969075,
+            "moneyline_away": 650,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1000,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-04T05:01:55.860495Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10969075,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 14,
+            "point_spread_away": 19,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -19,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-31T20:12:50.876264Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10969075,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 14,
+            "total_over": 74,
+            "total_over_delta": 0,
+            "total_under": 74,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T02:06:43.308623Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        },
+        "1": {
+          "line_id": 10763581,
+          "moneyline": {
+            "line_id": 10763581,
+            "moneyline_away": 900,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1375,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-28T18:52:56.674504Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10763581,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 1,
+            "point_spread_away": 14.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -14.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-28T13:00:51.097357Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10763581,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 1,
+            "total_over": 68.5,
+            "total_over_delta": 0,
+            "total_under": 68.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-28T13:01:43.643127Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "9": {
+          "line_id": 10807826,
+          "moneyline": {
+            "line_id": 10807826,
+            "moneyline_away": 688,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1050,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:07:32.235581Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807826,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 9,
+            "point_spread_away": 20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:14.645348Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807826,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 9,
+            "total_over": 71,
+            "total_over_delta": 0,
+            "total_under": 71,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -112,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:14.663469Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "10": {
+          "line_id": 10807915,
+          "moneyline": {
+            "line_id": 10807915,
+            "moneyline_away": 837,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1400,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:05:11.837952Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807915,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 10,
+            "point_spread_away": 20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:55.057776Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807915,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 10,
+            "total_over": 71,
+            "total_over_delta": 0,
+            "total_under": 71,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -112,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:55.073816Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "2": {
+          "line_id": 10968747,
+          "moneyline": {
+            "line_id": 10968747,
+            "moneyline_away": 725,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1300,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T04:22:01.72697Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968747,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 2,
+            "point_spread_away": 20,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-30T22:44:37.377479Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968747,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 2,
+            "total_over": 71.5,
+            "total_over_delta": 0,
+            "total_under": 71.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-30T22:44:37.391266Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "12": {
+          "line_id": 10968748,
+          "moneyline": {
+            "line_id": 10968748,
+            "moneyline_away": 725,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1300,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T04:21:47.24993Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968748,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 12,
+            "point_spread_away": 20,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-30T22:45:07.958679Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968748,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 12,
+            "total_over": 71.5,
+            "total_over_delta": 0,
+            "total_under": 71.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-30T22:45:07.96871Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "3": {
+          "line_id": 10968958,
+          "moneyline": {
+            "line_id": 10968958,
+            "moneyline_away": 531,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -835,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T16:27:58.574276Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10968958,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 3,
+            "point_spread_away": 19,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -19,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -108,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -108,
+            "point_spread_home_money_delta": 0,
+            "extended_spreads": [
+              {
+                "affiliate_id": 3,
+                "point_spread_away": 19,
+                "point_spread_away_delta": 0,
+                "point_spread_home": -19,
+                "point_spread_home_delta": 0,
+                "point_spread_away_money": -108,
+                "point_spread_away_money_delta": 0,
+                "point_spread_home_money": -108,
+                "point_spread_home_money_delta": 0
+              }
+            ],
+            "date_updated": "2020-08-31T16:27:50.410539Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10968958,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 3,
+            "total_over": 71.5,
+            "total_over_delta": 0,
+            "total_under": 71.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0,
+            "extended_totals": [
+              {
+                "affiliate_id": 3,
+                "total_over": 71.5,
+                "total_over_delta": 0,
+                "total_under": 71.5,
+                "total_under_delta": 0,
+                "total_over_money": -110,
+                "total_over_money_delta": 0,
+                "total_under_money": -108,
+                "total_under_money_delta": 0
+              }
+            ],
+            "date_updated": "2020-08-31T16:27:58.603134Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "18": {
+          "line_id": 10970667,
+          "moneyline": {
+            "line_id": 10970667,
+            "moneyline_away": 650,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1000,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T18:24:39.453479Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970667,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 18,
+            "point_spread_away": 18.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -18.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T18:24:39.884967Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970667,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 18,
+            "total_over": 73.5,
+            "total_over_delta": 0,
+            "total_under": 73.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T18:24:40.432017Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "7": {
+          "line_id": 10807807,
+          "moneyline": {
+            "line_id": 10807807,
+            "moneyline_away": 688,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1050,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T14:08:44.720361Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807807,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 7,
+            "point_spread_away": 20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:05.42161Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807807,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 7,
+            "total_over": 71,
+            "total_over_delta": 0,
+            "total_under": 71,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -112,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:05.43513Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "11": {
+          "line_id": 10807855,
+          "moneyline": {
+            "line_id": 10807855,
+            "moneyline_away": 675,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1050,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -1050,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T15:25:58.208843Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807855,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 11,
+            "point_spread_away": 20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 100,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:24.321647Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807855,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 11,
+            "total_over": 71.5,
+            "total_over_delta": 0,
+            "total_under": 71.5,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:24.334375Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "4": {
+          "line_id": 10807896,
+          "moneyline": {
+            "line_id": 10807896,
+            "moneyline_away": 675,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -1050,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -1050,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-08-31T15:26:32.713463Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10807896,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 4,
+            "point_spread_away": 20.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -20.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -105,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:45.802283Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10807896,
+            "event_id": "33c58fee8b1b4a49d04305acf5d15044",
+            "affiliate_id": 4,
+            "total_over": 71.5,
+            "total_over_delta": 0,
+            "total_under": 71.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-08-29T13:31:45.814438Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+      "event_uuid": "11ea-efdc-49e7e800-80ac-0833621f452a",
+      "sport_id": 1,
+      "event_date": "2020-09-06T01:00:00Z",
+      "rotation_number_away": 253,
+      "rotation_number_home": 254,
+      "score": {
+        "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+        "event_status": "STATUS_FINAL",
+        "score_away": 14,
+        "score_home": 24,
+        "winner_away": 0,
+        "winner_home": 1,
+        "score_away_by_period": [
+          7,
+          7,
+          0,
+          0
+        ],
+        "score_home_by_period": [
+          3,
+          14,
+          0,
+          7
+        ],
+        "venue_name": "Sun Bowl",
+        "venue_location": "El Paso, TX",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "ESPN3",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 37201,
+          "team_normalized_id": 473,
+          "name": "Stephen F. Austin",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 7521,
+          "team_normalized_id": 230,
+          "name": "UTEP",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 473,
+          "name": "Stephen F. Austin",
+          "mascot": "Lumberjacks",
+          "abbreviation": "SFA",
+          "ranking": 99,
+          "record": "6-4",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 230,
+          "name": "UTEP",
+          "mascot": "Miners",
+          "abbreviation": "UTEP",
+          "ranking": 0,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "Stephen F. Austin at UTEP - 2020-09-06",
+        "attendance": "6047"
+      },
+      "lines": {
+        "10": {
+          "line_id": 10970609,
+          "moneyline": {
+            "line_id": 10970609,
+            "moneyline_away": 192,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -230,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:45:57.390026Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970609,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 10,
+            "point_spread_away": 6.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -6.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:20.919216Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970609,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 10,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:20.934777Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "6": {
+          "line_id": 10970212,
+          "moneyline": {
+            "line_id": 10970212,
+            "moneyline_away": -105,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -115,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -115,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T23:30:41.86197Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970212,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 6,
+            "point_spread_away": 8.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -8.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:07:44.930934Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970212,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 6,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:07:44.940286Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "12": {
+          "line_id": 10970576,
+          "moneyline": {
+            "line_id": 10970576,
+            "moneyline_away": 195,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -235,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T14:49:09.494274Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970576,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 12,
+            "point_spread_away": 7,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -7,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T12:12:25.909024Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970576,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 12,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T12:12:25.924422Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "2": {
+          "line_id": 10970579,
+          "moneyline": {
+            "line_id": 10970579,
+            "moneyline_away": 195,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -235,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T14:49:53.311561Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970579,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 2,
+            "point_spread_away": 7,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -7,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T12:13:35.522207Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970579,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 2,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T12:13:35.531702Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "9": {
+          "line_id": 10970615,
+          "moneyline": {
+            "line_id": 10970615,
+            "moneyline_away": 192,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -230,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:45:30.301621Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970615,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 9,
+            "point_spread_away": 6.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -6.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:22:05.70847Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970615,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 9,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:22:05.718204Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "18": {
+          "line_id": 10970695,
+          "moneyline": {
+            "line_id": 10970695,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:26:13Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970695,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 18,
+            "point_spread_away": 4.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -4.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T18:28:51.731686Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970695,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 18,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T18:28:52.34688Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "1": {
+          "line_id": 10970764,
+          "moneyline": {
+            "line_id": 10970764,
+            "moneyline_away": 165,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -190,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T19:46:23.635913Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970764,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 1,
+            "point_spread_away": 4.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -4.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T19:46:23.643872Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970764,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 1,
+            "total_over": 54,
+            "total_over_delta": 0,
+            "total_under": 54,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T19:46:23.656851Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "11": {
+          "line_id": 10970208,
+          "moneyline": {
+            "line_id": 10970208,
+            "moneyline_away": -105,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -115,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -115,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T23:30:11.74219Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970208,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 11,
+            "point_spread_away": 8.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -8.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -105,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -105,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:04:20.228845Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970208,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 11,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -108,
+            "total_over_money_delta": 0,
+            "total_under_money": -108,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:04:20.243713Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "4": {
+          "line_id": 10970215,
+          "moneyline": {
+            "line_id": 10970215,
+            "moneyline_away": -105,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -115,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": -115,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T23:30:26.458993Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970215,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 4,
+            "point_spread_away": 8.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -8.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-04T12:08:21.270436Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970215,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 4,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-04T12:08:21.28238Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "7": {
+          "line_id": 10970612,
+          "moneyline": {
+            "line_id": 10970612,
+            "moneyline_away": 192,
+            "moneyline_away_delta": 0,
+            "moneyline_home": -230,
+            "moneyline_home_delta": 0,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2020-09-05T15:46:57.938141Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 10970612,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 7,
+            "point_spread_away": 6.5,
+            "point_spread_away_delta": 0,
+            "point_spread_home": -6.5,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -115,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:45.424889Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 10970612,
+            "event_id": "d488a1644ae11d2b82c5ee1e51d962ab",
+            "affiliate_id": 7,
+            "total_over": 54.5,
+            "total_over_delta": 0,
+            "total_under": 54.5,
+            "total_under_delta": 0,
+            "total_over_money": -115,
+            "total_over_money_delta": 0,
+            "total_under_money": -115,
+            "total_under_money_delta": 0,
+            "date_updated": "2020-09-05T14:16:45.434881Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "57521f660bc0c203ff1cb78ee773b19c",
+      "sport_id": 1,
+      "event_date": "2020-09-06T04:00:00Z",
+      "score": {
+        "event_id": "57521f660bc0c203ff1cb78ee773b19c",
+        "event_status": "STATUS_CANCELED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Georgia State Stadium",
+        "venue_location": "Atlanta, GA",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "Canceled"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 506,
+          "name": "South Carolina State",
+          "mascot": "Bulldogs",
+          "abbreviation": "SCST",
+          "ranking": 0,
+          "record": "0-1",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 422,
+          "name": "Grambling State",
+          "mascot": "Tigers",
+          "abbreviation": "GRAM",
+          "ranking": 0,
+          "record": "0-1",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2020,
+        "week": 1,
+        "week_name": "Week 1",
+        "week_detail": "Aug 25-Sep 7",
+        "event_name": "South Carolina State at Grambling - 2020-09-06",
+        "attendance": "0"
+      },
+      "line_periods": null
+    }
+  ]
+}

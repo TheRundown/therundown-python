@@ -1,0 +1,4893 @@
+{
+  "meta": {
+    "delta_last_id": "11eb-b2b6-a9eb502c-8a4b-e05d9790bcc5"
+  },
+  "events": [
+    {
+      "event_id": "ec85d6041ce1efd77427f928650c6000",
+      "event_uuid": "11eb-882e-4c9a8400-89ca-aea8dc6372b0",
+      "sport_id": 5,
+      "event_date": "2021-03-18T21:10:00Z",
+      "rotation_number_away": 716,
+      "rotation_number_home": 715,
+      "score": {
+        "event_id": "ec85d6041ce1efd77427f928650c6000",
+        "event_status": "STATUS_FINAL",
+        "score_away": 60,
+        "score_home": 52,
+        "winner_away": 1,
+        "winner_home": 0,
+        "score_away_by_period": [
+          20,
+          40
+        ],
+        "score_home_by_period": [
+          30,
+          22
+        ],
+        "venue_name": "Simon Skjodt Assembly Hall",
+        "venue_location": "Bloomington, IN",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 2,
+        "broadcast": "truTV",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 21900,
+          "team_normalized_id": 1591,
+          "name": "Texas Southern",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 22245,
+          "team_normalized_id": 1762,
+          "name": "Mount St. Mary's",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 1591,
+          "name": "Texas Southern",
+          "mascot": "Tigers",
+          "abbreviation": "TXSO",
+          "ranking": 0,
+          "record": "16-8",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1762,
+          "name": "Mt. St. Mary's",
+          "mascot": "Mountaineers",
+          "abbreviation": "MSM",
+          "ranking": 99,
+          "record": "8-7",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Postseason",
+        "season_year": 2021,
+        "event_headline": "Men's Basketball Championship - East Region - First Four",
+        "event_name": "Men's Basketball Championship - East Region - First Four - Texas Southern at Mount St. Mary's - 2021",
+        "attendance": "0"
+      },
+      "lines": {
+        "4": {
+          "line_id": 13825253,
+          "moneyline": {
+            "line_id": 13825253,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 104.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 116.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 104.0001,
+            "date_updated": "2021-03-18T21:11:53.055756Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825253,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 4,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-18T21:11:53.098652Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825253,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 4,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 105.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 115.0001,
+            "date_updated": "2021-03-18T21:11:53.182528Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "6": {
+          "line_id": 13825276,
+          "moneyline": {
+            "line_id": 13825276,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 104.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 116.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 104.0001,
+            "date_updated": "2021-03-18T21:12:21.691133Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825276,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 6,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-18T21:12:21.859715Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825276,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 6,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 105.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 115.0001,
+            "date_updated": "2021-03-18T21:12:21.913037Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "10": {
+          "line_id": 13825386,
+          "moneyline": {
+            "line_id": 13825386,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 101.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 119.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:29:16.028484Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825386,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 10,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 106.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 114.0001,
+            "date_updated": "2021-03-18T21:29:16.245808Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825386,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 10,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 107.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 113.0001,
+            "date_updated": "2021-03-18T21:29:16.450231Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "12": {
+          "line_id": 13825546,
+          "moneyline": {
+            "line_id": 13825546,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -99.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 120.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:11:50.216307Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825546,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 12,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-18T21:11:50.392215Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825546,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 12,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 115.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-18T21:11:50.595439Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "19": {
+          "line_id": 13825255,
+          "moneyline": {
+            "line_id": 13825255,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -105.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 134.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:11:53.26994Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825255,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 19,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 107.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 118.0001,
+            "date_updated": "2021-03-18T21:11:53.294341Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825255,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 19,
+            "total_over": 0.0001,
+            "total_over_delta": -131.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -131.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 114.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T21:11:53.346647Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "20": {
+          "line_id": 13825265,
+          "moneyline": {
+            "line_id": 13825265,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -99.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 121.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:10:01.960104Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825265,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 20,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 109.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 109.0001,
+            "date_updated": "2021-03-18T21:10:02.189219Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825265,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 20,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 109.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 109.0001,
+            "date_updated": "2021-03-18T21:10:02.396132Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "9": {
+          "line_id": 13825407,
+          "moneyline": {
+            "line_id": 13825407,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 101.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 119.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:31:02.014737Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825407,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 9,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 106.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 114.0001,
+            "date_updated": "2021-03-18T21:31:02.164009Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825407,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 9,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 107.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 113.0001,
+            "date_updated": "2021-03-18T21:31:02.344395Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "16": {
+          "line_id": 13827287,
+          "moneyline": {
+            "line_id": 13827287,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -105.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 122.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:10:13.124543Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13827287,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 16,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 116.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 288.0001,
+            "date_updated": "2021-03-18T17:13:33.262357Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13827287,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 16,
+            "total_over": 0.0001,
+            "total_over_delta": -130.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -130.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 206.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 142.0001,
+            "date_updated": "2021-03-18T16:26:18.446058Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "1": {
+          "line_id": 13825252,
+          "moneyline": {
+            "line_id": 13825252,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -109.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 120.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:11:29.981635Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825252,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 1,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 108.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 102.0001,
+            "date_updated": "2021-03-18T21:11:30.156167Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825252,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 1,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 107.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 103.0001,
+            "date_updated": "2021-03-18T21:11:30.375114Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "18": {
+          "line_id": 13825840,
+          "moneyline": {
+            "line_id": 13825840,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0.0001,
+            "date_updated": "2021-05-12T00:11:56Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825840,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 18,
+            "point_spread_away": -2,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 2,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2021-03-15T03:07:44.765019Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825840,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 18,
+            "total_over": 132.5,
+            "total_over_delta": 0,
+            "total_under": 132.5,
+            "total_under_delta": 0,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-15T03:07:44.797126Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "11": {
+          "line_id": 13825258,
+          "moneyline": {
+            "line_id": 13825258,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 104.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 116.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 104.0001,
+            "date_updated": "2021-03-18T21:11:47.378396Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825258,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 11,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 101.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 111.0001,
+            "date_updated": "2021-03-18T21:11:47.5775Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825258,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 11,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 108.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 108.0001,
+            "date_updated": "2021-03-18T21:11:47.645648Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "3": {
+          "line_id": 13825303,
+          "moneyline": {
+            "line_id": 13825303,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -102.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 121.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:10:05.806374Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825303,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 3,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 107.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 109.0001,
+            "date_updated": "2021-03-18T21:10:06.011301Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825303,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 3,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 119.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 102.0001,
+            "date_updated": "2021-03-18T21:10:06.213356Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "7": {
+          "line_id": 13825434,
+          "moneyline": {
+            "line_id": 13825434,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 101.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 119.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:30:56.598272Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825434,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 7,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 106.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 114.0001,
+            "date_updated": "2021-03-18T21:30:56.708414Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825434,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 7,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 107.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 113.0001,
+            "date_updated": "2021-03-18T21:30:56.830001Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "2": {
+          "line_id": 13825620,
+          "moneyline": {
+            "line_id": 13825620,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -99.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 120.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:11:11.384583Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825620,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 2,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-18T21:11:11.51134Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825620,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 2,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 115.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-18T21:11:11.717727Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "14": {
+          "line_id": 13826866,
+          "moneyline": {
+            "line_id": 13826866,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -104.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 125.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T21:10:16.341858Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826866,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 14,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-18T21:10:16.393294Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826866,
+            "event_id": "ec85d6041ce1efd77427f928650c6000",
+            "affiliate_id": 14,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T21:10:16.436603Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+      "event_uuid": "11eb-8839-0e569200-8acb-87f5ba7ee4b3",
+      "sport_id": 5,
+      "event_date": "2021-03-18T22:27:00Z",
+      "rotation_number_away": 713,
+      "rotation_number_home": 714,
+      "score": {
+        "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+        "event_status": "STATUS_FINAL",
+        "score_away": 53,
+        "score_home": 52,
+        "winner_away": 1,
+        "winner_home": 0,
+        "score_away_by_period": [
+          20,
+          33
+        ],
+        "score_home_by_period": [
+          21,
+          31
+        ],
+        "venue_name": "Mackey Arena",
+        "venue_location": "West Lafayette, IN",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 2,
+        "broadcast": "TBS",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 18383,
+          "team_normalized_id": 1429,
+          "name": "Drake",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 18376,
+          "team_normalized_id": 1663,
+          "name": "Wichita State",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 1429,
+          "name": "Drake",
+          "mascot": "Bulldogs",
+          "abbreviation": "DRKE",
+          "ranking": 99,
+          "record": "6-0",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1663,
+          "name": "Wichita State",
+          "mascot": "Shockers",
+          "abbreviation": "WICH",
+          "ranking": 99,
+          "record": "11-4",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Postseason",
+        "season_year": 2021,
+        "event_headline": "Men's Basketball Championship - West Region - First Four",
+        "event_name": "Men's Basketball Championship - West Region - First Four - Drake at Wichita State - 2021-03-18",
+        "attendance": "0"
+      },
+      "lines": {
+        "4": {
+          "line_id": 13825251,
+          "moneyline": {
+            "line_id": 13825251,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 140.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -119.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": -119.9999,
+            "date_updated": "2021-03-18T22:26:28.129445Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825251,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 4,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-18T22:26:28.341184Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825251,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 4,
+            "total_over": 0.0001,
+            "total_over_delta": -139.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 115.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-18T22:26:28.545339Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "11": {
+          "line_id": 13825257,
+          "moneyline": {
+            "line_id": 13825257,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 140.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -119.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": -119.9999,
+            "date_updated": "2021-03-18T22:26:42.776265Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825257,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 11,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 111.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 101.0001,
+            "date_updated": "2021-03-18T22:26:43.374386Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825257,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 11,
+            "total_over": 0.0001,
+            "total_over_delta": -139.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 113.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 103.0001,
+            "date_updated": "2021-03-18T22:26:44.003022Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "6": {
+          "line_id": 13825274,
+          "moneyline": {
+            "line_id": 13825274,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 140.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -119.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": -119.9999,
+            "date_updated": "2021-03-18T22:26:51.286915Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825274,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 6,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-18T22:26:51.48806Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825274,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 6,
+            "total_over": 0.0001,
+            "total_over_delta": -139.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 115.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-18T22:26:51.653915Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "3": {
+          "line_id": 13825301,
+          "moneyline": {
+            "line_id": 13825301,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 128.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -109.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:27:06.398327Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825301,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 3,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 1.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 120.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": -102.9999,
+            "date_updated": "2021-03-18T22:27:06.47577Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825301,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 3,
+            "total_over": 0.0001,
+            "total_over_delta": -139.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 112.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 108.0001,
+            "date_updated": "2021-03-18T22:27:06.55879Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "9": {
+          "line_id": 13825405,
+          "moneyline": {
+            "line_id": 13825405,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 119.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 106.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:51:36.33098Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825405,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 9,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -0.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 120.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 104.0001,
+            "date_updated": "2021-03-18T22:51:36.49278Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825405,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 9,
+            "total_over": 0.0001,
+            "total_over_delta": -131.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -131.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 112.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 118.0001,
+            "date_updated": "2021-03-18T22:51:36.693941Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "18": {
+          "line_id": 13825841,
+          "moneyline": {
+            "line_id": 13825841,
+            "moneyline_away": -145,
+            "moneyline_away_delta": 5,
+            "moneyline_home": 125,
+            "moneyline_home_delta": -5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T16:32:50.346542Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825841,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 18,
+            "point_spread_away": -2,
+            "point_spread_away_delta": 0.5,
+            "point_spread_home": 2,
+            "point_spread_home_delta": -0.5,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": -5,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 5,
+            "date_updated": "2021-03-18T21:01:58.848731Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825841,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 18,
+            "total_over": 140,
+            "total_over_delta": -0.5,
+            "total_under": 140,
+            "total_under_delta": -0.5,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-18T22:21:17.630945Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "14": {
+          "line_id": 13826867,
+          "moneyline": {
+            "line_id": 13826867,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 135.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -114.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:25:59.271373Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826867,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 14,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-18T22:25:59.411536Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826867,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 14,
+            "total_over": 0.0001,
+            "total_over_delta": -139.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T22:25:59.672571Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        },
+        "1": {
+          "line_id": 13825248,
+          "moneyline": {
+            "line_id": 13825248,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 135.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -124.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:28:45.224815Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825248,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 1,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 101.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 109.0001,
+            "date_updated": "2021-03-18T22:28:45.480399Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825248,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 1,
+            "total_over": 0.0001,
+            "total_over_delta": -139.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 107.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 103.0001,
+            "date_updated": "2021-03-18T22:28:45.624037Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "20": {
+          "line_id": 13825263,
+          "moneyline": {
+            "line_id": 13825263,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 136.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -114.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:26:07.291756Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825263,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 20,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 112.0001,
+            "date_updated": "2021-03-18T22:26:07.40703Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825263,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 20,
+            "total_over": 0.0001,
+            "total_over_delta": -139.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 109.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 109.0001,
+            "date_updated": "2021-03-18T22:26:07.547443Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "7": {
+          "line_id": 13825432,
+          "moneyline": {
+            "line_id": 13825432,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 119.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 106.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:51:13.342114Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825432,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 7,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -0.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 122.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 109.0001,
+            "date_updated": "2021-03-18T22:51:13.376513Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825432,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 7,
+            "total_over": 0.0001,
+            "total_over_delta": -131.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -131.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 111.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 120.0001,
+            "date_updated": "2021-03-18T22:51:13.541732Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "16": {
+          "line_id": 13827288,
+          "moneyline": {
+            "line_id": 13827288,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 127.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -110.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:27:44.923207Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13827288,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 16,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 250.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 122.0001,
+            "date_updated": "2021-03-18T01:57:37.368478Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13827288,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 16,
+            "total_over": 0.0001,
+            "total_over_delta": -142.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -142.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 135.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 252.0001,
+            "date_updated": "2021-03-18T16:01:46.96941Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "10": {
+          "line_id": 13825384,
+          "moneyline": {
+            "line_id": 13825384,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 148.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -115.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:48:37.151206Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825384,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 10,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 112.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 118.0001,
+            "date_updated": "2021-03-18T22:48:37.43503Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825384,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 10,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 111.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 120.0001,
+            "date_updated": "2021-03-18T22:48:37.519496Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "2": {
+          "line_id": 13825505,
+          "moneyline": {
+            "line_id": 13825505,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 145.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -124.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:26:28.024381Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825505,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 2,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-18T22:26:28.239736Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825505,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 2,
+            "total_over": 0.0001,
+            "total_over_delta": -139.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T22:26:28.446983Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "19": {
+          "line_id": 13825250,
+          "moneyline": {
+            "line_id": 13825250,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 141.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -111.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:28:44.110897Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825250,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 19,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 1.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 122.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 103.0001,
+            "date_updated": "2021-03-18T22:28:44.189705Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825250,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 19,
+            "total_over": 0.0001,
+            "total_over_delta": -140.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -140.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 114.0001,
+            "date_updated": "2021-03-18T22:28:44.249998Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "12": {
+          "line_id": 13825542,
+          "moneyline": {
+            "line_id": 13825542,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 145.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -124.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:27:33.508618Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825542,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 12,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-18T22:27:33.793831Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825542,
+            "event_id": "d69c8cdd28729c98427c51b676bc12a5",
+            "affiliate_id": 12,
+            "total_over": 0.0001,
+            "total_over_delta": -139.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T22:27:33.999522Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+      "event_uuid": "11eb-883d-aa829800-8d9a-0a2c48b9bf3c",
+      "sport_id": 5,
+      "event_date": "2021-03-18T23:00:00Z",
+      "rotation_number_away": 719,
+      "rotation_number_home": 720,
+      "score": {
+        "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+        "event_status": "STATUS_FINAL",
+        "score_away": 75,
+        "score_home": 61,
+        "winner_away": 1,
+        "winner_home": 0,
+        "score_away_by_period": [
+          40,
+          35
+        ],
+        "score_home_by_period": [
+          32,
+          29
+        ],
+        "venue_name": "UNT Coliseum",
+        "venue_location": "Denton, TX",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 2,
+        "broadcast": "ESPN",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 21756,
+          "team_normalized_id": 307,
+          "name": "NC State",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 20767,
+          "team_normalized_id": 1425,
+          "name": "Davidson",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 307,
+          "name": "NC State",
+          "mascot": "Wolfpack",
+          "abbreviation": "NCSU",
+          "ranking": 99,
+          "record": "13-10",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1425,
+          "name": "Davidson",
+          "mascot": "Wildcats",
+          "abbreviation": "DAV",
+          "ranking": 99,
+          "record": "13-8",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Postseason",
+        "season_year": 2021,
+        "event_headline": "NIT - 1st Round",
+        "event_name": "NIT - 1st Round - NC State at Davidson - 2021-03-18",
+        "attendance": "0"
+      },
+      "lines": {
+        "10": {
+          "line_id": 13825761,
+          "moneyline": {
+            "line_id": 13825761,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 140.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -119.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:22:58.914656Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825761,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 10,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 4.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 117.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 103.0001,
+            "date_updated": "2021-03-18T23:22:59.098079Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825761,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 10,
+            "total_over": 0.0001,
+            "total_over_delta": -140.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -140.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:22:59.230349Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "1": {
+          "line_id": 13825807,
+          "moneyline": {
+            "line_id": 13825807,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -114.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 125.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:01:29.633271Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825807,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 1,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 108.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 102.0001,
+            "date_updated": "2021-03-18T23:01:29.780766Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825807,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 1,
+            "total_over": 0.0001,
+            "total_over_delta": -137.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 105.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-18T23:01:29.986331Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "11": {
+          "line_id": 13825738,
+          "moneyline": {
+            "line_id": 13825738,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -114.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 135.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 135.0001,
+            "date_updated": "2021-03-18T23:02:16.463581Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825738,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 11,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 111.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 101.0001,
+            "date_updated": "2021-03-18T23:02:16.7089Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825738,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 11,
+            "total_over": 0.0001,
+            "total_over_delta": -137.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 119.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": -101.9999,
+            "date_updated": "2021-03-18T23:02:16.846778Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "19": {
+          "line_id": 13825750,
+          "moneyline": {
+            "line_id": 13825750,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-15T02:07:33.90508Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825750,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 19,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2021-03-15T02:07:33.95519Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825750,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 19,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-15T02:07:34.119324Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "4": {
+          "line_id": 13825739,
+          "moneyline": {
+            "line_id": 13825739,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -114.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 135.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 135.0001,
+            "date_updated": "2021-03-18T23:01:38.030677Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825739,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 4,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-18T23:01:38.233935Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825739,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 4,
+            "total_over": 0.0001,
+            "total_over_delta": -137.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 120.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": -99.9999,
+            "date_updated": "2021-03-18T23:01:38.435118Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "9": {
+          "line_id": 13825743,
+          "moneyline": {
+            "line_id": 13825743,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 140.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -119.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:22:22.21736Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825743,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 9,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 117.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 103.0001,
+            "date_updated": "2021-03-18T23:22:22.475145Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825743,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 9,
+            "total_over": 0.0001,
+            "total_over_delta": -139.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:22:22.676888Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "7": {
+          "line_id": 13825744,
+          "moneyline": {
+            "line_id": 13825744,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 140.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -119.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:22:27.275883Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825744,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 7,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 117.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 103.0001,
+            "date_updated": "2021-03-18T23:22:27.495253Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825744,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 7,
+            "total_over": 0.0001,
+            "total_over_delta": -139.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -139.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:22:27.700112Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "12": {
+          "line_id": 13825748,
+          "moneyline": {
+            "line_id": 13825748,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -114.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 135.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:04:14.729809Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825748,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 12,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:04:14.943082Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825748,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 12,
+            "total_over": 0.0001,
+            "total_over_delta": -137.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:04:15.084163Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "14": {
+          "line_id": 13826868,
+          "moneyline": {
+            "line_id": 13826868,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-16T18:52:45.818354Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826868,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 14,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2021-03-16T18:52:45.965141Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826868,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 14,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-16T18:52:46.024452Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        },
+        "2": {
+          "line_id": 13825735,
+          "moneyline": {
+            "line_id": 13825735,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -114.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 135.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:04:11.215947Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825735,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 2,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:04:11.417219Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825735,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 2,
+            "total_over": 0.0001,
+            "total_over_delta": -137.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:04:11.627595Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "3": {
+          "line_id": 13825740,
+          "moneyline": {
+            "line_id": 13825740,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -113.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 134.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:00:13.154893Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825740,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 3,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 108.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 108.0001,
+            "date_updated": "2021-03-18T23:00:13.189473Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825740,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 3,
+            "total_over": 0.0001,
+            "total_over_delta": -137.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-18T23:00:13.240112Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "6": {
+          "line_id": 13825757,
+          "moneyline": {
+            "line_id": 13825757,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -114.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 135.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 135.0001,
+            "date_updated": "2021-03-18T23:01:50.23837Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825757,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 6,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-18T23:01:50.514544Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825757,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 6,
+            "total_over": 0.0001,
+            "total_over_delta": -137.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 120.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": -99.9999,
+            "date_updated": "2021-03-18T23:01:50.684933Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "18": {
+          "line_id": 13826044,
+          "moneyline": {
+            "line_id": 13826044,
+            "moneyline_away": 110,
+            "moneyline_away_delta": 5,
+            "moneyline_home": -130,
+            "moneyline_home_delta": -5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T19:14:45.407287Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826044,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 18,
+            "point_spread_away": 2,
+            "point_spread_away_delta": 0.5,
+            "point_spread_home": -2,
+            "point_spread_home_delta": -0.5,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": -5,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": 5,
+            "date_updated": "2021-03-18T22:51:34.841792Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826044,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 18,
+            "total_over": 138,
+            "total_over_delta": -0.5,
+            "total_under": 138,
+            "total_under_delta": -0.5,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-18T22:44:16.849912Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "16": {
+          "line_id": 13827289,
+          "moneyline": {
+            "line_id": 13827289,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-17T19:54:31.749983Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13827289,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 16,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2021-03-17T19:54:31.81046Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13827289,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 16,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-17T19:54:31.857478Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "20": {
+          "line_id": 13825736,
+          "moneyline": {
+            "line_id": 13825736,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -114.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 136.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T22:59:19.418676Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825736,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 20,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 109.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 109.0001,
+            "date_updated": "2021-03-18T22:59:19.548827Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825736,
+            "event_id": "d22dd2602d0eda40d0ec07913e9f96d1",
+            "affiliate_id": 20,
+            "total_over": 0.0001,
+            "total_over_delta": -137.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -137.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 112.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-18T22:59:19.739188Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+      "event_uuid": "11eb-884b-a2c9f000-8da9-04893b98aa35",
+      "sport_id": 5,
+      "event_date": "2021-03-19T00:40:00Z",
+      "rotation_number_away": 712,
+      "rotation_number_home": 711,
+      "score": {
+        "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+        "event_status": "STATUS_FINAL",
+        "score_away": 53,
+        "score_home": 54,
+        "winner_away": 0,
+        "winner_home": 1,
+        "score_away_by_period": [
+          20,
+          33
+        ],
+        "score_home_by_period": [
+          36,
+          18
+        ],
+        "venue_name": "Simon Skjodt Assembly Hall",
+        "venue_location": "Bloomington, IN",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 2,
+        "broadcast": "truTV",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 21595,
+          "team_normalized_id": 1384,
+          "name": "Appalachian State",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 22859,
+          "team_normalized_id": 1521,
+          "name": "Norfolk State",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 1384,
+          "name": "Appalachian State",
+          "mascot": "Mountaineers",
+          "abbreviation": "APP",
+          "ranking": 99,
+          "record": "9-4",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1521,
+          "name": "Norfolk State",
+          "mascot": "Spartans",
+          "abbreviation": "NORF",
+          "ranking": 99,
+          "record": "16-7",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Postseason",
+        "season_year": 2021,
+        "event_headline": "Men's Basketball Championship - West Region - First Four",
+        "event_name": "Men's Basketball Championship - West Region - First Four - Appalachian State at Norfolk State - 2021",
+        "attendance": "0"
+      },
+      "lines": {
+        "3": {
+          "line_id": 13825300,
+          "moneyline": {
+            "line_id": 13825300,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 160.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -134.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:45:02.908264Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825300,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 3,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": -100.9999,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 118.0001,
+            "date_updated": "2021-03-19T00:45:03.111414Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825300,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 3,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:45:03.315902Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "7": {
+          "line_id": 13825431,
+          "moneyline": {
+            "line_id": 13825431,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 166.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -144.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:56:35.1675Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825431,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 7,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-19T00:56:35.446607Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825431,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 7,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:56:35.659076Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "12": {
+          "line_id": 13825674,
+          "moneyline": {
+            "line_id": 13825674,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 175.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -154.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:44:44.045939Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825674,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 12,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:44:44.25751Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825674,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 12,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:44:44.462198Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "1": {
+          "line_id": 13825240,
+          "moneyline": {
+            "line_id": 13825240,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 160.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -149.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:47:04.489309Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825240,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 1,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 103.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 107.0001,
+            "date_updated": "2021-03-19T00:47:04.535007Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825240,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 1,
+            "total_over": 0.0001,
+            "total_over_delta": -132.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -132.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 107.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 103.0001,
+            "date_updated": "2021-03-19T00:47:04.564849Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "11": {
+          "line_id": 13825242,
+          "moneyline": {
+            "line_id": 13825242,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 166.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -145.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 166.0001,
+            "date_updated": "2021-03-19T00:48:00.953339Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825242,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 11,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 101.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 111.0001,
+            "date_updated": "2021-03-19T00:48:01.147448Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825242,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 11,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 108.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 108.0001,
+            "date_updated": "2021-03-19T00:48:01.326601Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "19": {
+          "line_id": 13825244,
+          "moneyline": {
+            "line_id": 13825244,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 132.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -105.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:46:32.926981Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825244,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 19,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 2.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -1.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 109.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 114.0001,
+            "date_updated": "2021-03-19T00:46:33.137717Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825244,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 19,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 114.0001,
+            "date_updated": "2021-03-19T00:46:33.340705Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "6": {
+          "line_id": 13825246,
+          "moneyline": {
+            "line_id": 13825246,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 166.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -145.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 166.0001,
+            "date_updated": "2021-03-19T00:47:47.472953Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825246,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 6,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-19T00:47:47.588054Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825246,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 6,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:47:47.888199Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "10": {
+          "line_id": 13825383,
+          "moneyline": {
+            "line_id": 13825383,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 165.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -143.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:00:38.816949Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825383,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 10,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 114.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 106.0001,
+            "date_updated": "2021-03-19T01:00:38.948174Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825383,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 10,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:00:39.153583Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "9": {
+          "line_id": 13825404,
+          "moneyline": {
+            "line_id": 13825404,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 160.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -139.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:04:05.278134Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825404,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 9,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:04:05.515347Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825404,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 9,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:04:05.717877Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "18": {
+          "line_id": 13825839,
+          "moneyline": {
+            "line_id": 13825839,
+            "moneyline_away": -170,
+            "moneyline_away_delta": -5,
+            "moneyline_home": 150,
+            "moneyline_home_delta": 5,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T20:37:49.169892Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825839,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 18,
+            "point_spread_away": -3.5,
+            "point_spread_away_delta": -0.5,
+            "point_spread_home": 3.5,
+            "point_spread_home_delta": 0.5,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 5,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": -5,
+            "date_updated": "2021-03-18T15:55:30.303761Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825839,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 18,
+            "total_over": 133.5,
+            "total_over_delta": 0.5,
+            "total_under": 133.5,
+            "total_under_delta": 0.5,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-18T23:34:14.044942Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "4": {
+          "line_id": 13825247,
+          "moneyline": {
+            "line_id": 13825247,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 166.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -145.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 166.0001,
+            "date_updated": "2021-03-19T00:47:34.209922Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825247,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 4,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-19T00:47:34.392726Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825247,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 4,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:47:34.600705Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "20": {
+          "line_id": 13825262,
+          "moneyline": {
+            "line_id": 13825262,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 171.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -144.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:40:39.87026Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825262,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 20,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 109.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 109.0001,
+            "date_updated": "2021-03-19T00:40:39.989375Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825262,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 20,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 109.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 109.0001,
+            "date_updated": "2021-03-19T00:40:40.129928Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "2": {
+          "line_id": 13825673,
+          "moneyline": {
+            "line_id": 13825673,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 175.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -154.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:43:20.414823Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825673,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 2,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:43:20.618018Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825673,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 2,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:43:20.821436Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "14": {
+          "line_id": 13826869,
+          "moneyline": {
+            "line_id": 13826869,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 170.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -149.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:47:11.658984Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826869,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 14,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.5001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -3.4999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:47:11.859489Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826869,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 14,
+            "total_over": 0.0001,
+            "total_over_delta": -132.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -132.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T00:47:12.073778Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        },
+        "16": {
+          "line_id": 13827290,
+          "moneyline": {
+            "line_id": 13827290,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 171.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -146.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T00:40:10.064892Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13827290,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 16,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 3.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -2.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 121.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": -103.9999,
+            "date_updated": "2021-03-19T00:40:10.327853Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13827290,
+            "event_id": "57c2c0eee5d1edb70a1d43dfa6de4107",
+            "affiliate_id": 16,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-17T19:54:33.418099Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "938f03d8d1143303827117f4cb028222",
+      "event_uuid": "11eb-884e-6e0b6800-80a9-86de0ea7f0a0",
+      "sport_id": 5,
+      "event_date": "2021-03-19T01:00:00Z",
+      "rotation_number_away": 721,
+      "rotation_number_home": 722,
+      "score": {
+        "event_id": "938f03d8d1143303827117f4cb028222",
+        "event_status": "STATUS_FINAL",
+        "score_away": 84,
+        "score_home": 85,
+        "winner_away": 0,
+        "winner_home": 1,
+        "score_away_by_period": [
+          42,
+          42
+        ],
+        "score_home_by_period": [
+          48,
+          37
+        ],
+        "venue_name": "Comerica Center",
+        "venue_location": "Frisco, TX",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 2,
+        "broadcast": "ESPN",
+        "event_status_detail": "Final"
+      },
+      "teams": [
+        {
+          "team_id": 18453,
+          "team_normalized_id": 329,
+          "name": "SMU",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 21474,
+          "team_normalized_id": 252,
+          "name": "Boise State",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 329,
+          "name": "SMU",
+          "mascot": "Mustangs",
+          "abbreviation": "SMU",
+          "ranking": 99,
+          "record": "11-5",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 252,
+          "name": "Boise State",
+          "mascot": "Broncos",
+          "abbreviation": "BOISE",
+          "ranking": 99,
+          "record": "18-4",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Postseason",
+        "season_year": 2021,
+        "event_headline": "NIT - 1st Round",
+        "event_name": "NIT - 1st Round - SMU at Boise State - 2021-03-19",
+        "attendance": "0"
+      },
+      "lines": {
+        "3": {
+          "line_id": 13825742,
+          "moneyline": {
+            "line_id": 13825742,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 114.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 102.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:05:02.859299Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825742,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 3,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 1.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -0.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 108.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 108.0001,
+            "date_updated": "2021-03-19T01:05:03.094542Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825742,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 3,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:05:03.317981Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "1": {
+          "line_id": 13825808,
+          "moneyline": {
+            "line_id": 13825808,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 113.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": -102.9999,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:06:36.98042Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825808,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 1,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 1.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -0.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-19T01:06:37.152566Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825808,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 1,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 105.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-19T01:06:37.292739Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "18": {
+          "line_id": 13826045,
+          "moneyline": {
+            "line_id": 13826045,
+            "moneyline_away": -115,
+            "moneyline_away_delta": -10,
+            "moneyline_home": -105,
+            "moneyline_home_delta": 10,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-18T23:30:01.134915Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826045,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 18,
+            "point_spread_away": -1,
+            "point_spread_away_delta": -1,
+            "point_spread_home": 1,
+            "point_spread_home_delta": 1,
+            "point_spread_away_money": -110,
+            "point_spread_away_money_delta": 5,
+            "point_spread_home_money": -110,
+            "point_spread_home_money_delta": -5,
+            "date_updated": "2021-03-18T23:30:01.345389Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826045,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 18,
+            "total_over": 145,
+            "total_over_delta": -0.5,
+            "total_under": 145,
+            "total_under_delta": -0.5,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-18T16:06:54.606793Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "16": {
+          "line_id": 13827292,
+          "moneyline": {
+            "line_id": 13827292,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-17T19:54:33.339256Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13827292,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 16,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2021-03-17T19:54:33.415985Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13827292,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 16,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-17T19:54:33.458481Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "20": {
+          "line_id": 13825745,
+          "moneyline": {
+            "line_id": 13825745,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 110.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 110.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:02:33.906194Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825745,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 20,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 1.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": -0.9999,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": -99.9999,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 118.0001,
+            "date_updated": "2021-03-19T01:02:34.068517Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825745,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 20,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 109.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 109.0001,
+            "date_updated": "2021-03-19T01:02:34.270158Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "7": {
+          "line_id": 13825747,
+          "moneyline": {
+            "line_id": 13825747,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 106.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 114.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:12:11.00014Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825747,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 7,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-19T01:24:23.005725Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825747,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 7,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:24:23.180611Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "19": {
+          "line_id": 13825752,
+          "moneyline": {
+            "line_id": 13825752,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-15T02:07:36.357376Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825752,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 19,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2021-03-15T02:07:36.420694Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825752,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 19,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-15T02:07:36.481777Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "2": {
+          "line_id": 13825741,
+          "moneyline": {
+            "line_id": 13825741,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 105.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 115.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:03:36.088339Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825741,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 2,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-19T01:03:36.251686Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825741,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 2,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:03:36.56045Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "6": {
+          "line_id": 13825758,
+          "moneyline": {
+            "line_id": 13825758,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 103.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 117.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 117.0001,
+            "date_updated": "2021-03-18T21:32:30.53716Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825758,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 6,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:05:17.406049Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825758,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 6,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:05:17.59116Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "11": {
+          "line_id": 13825766,
+          "moneyline": {
+            "line_id": 13825766,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 103.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 117.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 117.0001,
+            "date_updated": "2021-03-18T21:32:11.099978Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825766,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 11,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 106.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 106.0001,
+            "date_updated": "2021-03-19T01:05:36.329328Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825766,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 11,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 108.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 108.0001,
+            "date_updated": "2021-03-19T01:05:36.431406Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "4": {
+          "line_id": 13825769,
+          "moneyline": {
+            "line_id": 13825769,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 103.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 117.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 117.0001,
+            "date_updated": "2021-03-18T21:32:48.173839Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825769,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 4,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:05:06.19392Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825769,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 4,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:05:06.396681Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "14": {
+          "line_id": 13826870,
+          "moneyline": {
+            "line_id": 13826870,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 0.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 0.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-16T18:52:46.685032Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826870,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 14,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 0,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 0,
+            "date_updated": "2021-03-16T18:52:46.809648Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826870,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 14,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-16T18:52:47.024119Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        },
+        "9": {
+          "line_id": 13825746,
+          "moneyline": {
+            "line_id": 13825746,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 106.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 114.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:11:22.782307Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825746,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 9,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:20:51.348053Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825746,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 9,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:20:51.621357Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "12": {
+          "line_id": 13825749,
+          "moneyline": {
+            "line_id": 13825749,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 105.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 115.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:05:00.561025Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825749,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 12,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -0.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-19T01:05:00.747239Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825749,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 12,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:05:00.948493Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "10": {
+          "line_id": 13825763,
+          "moneyline": {
+            "line_id": 13825763,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": 106.0001,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 114.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:12:27.078291Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825763,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 10,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": 0.0001,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 0.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:16:57.466824Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825763,
+            "event_id": "938f03d8d1143303827117f4cb028222",
+            "affiliate_id": 10,
+            "total_over": 0.0001,
+            "total_over_delta": -144.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -144.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T01:16:57.645406Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        }
+      },
+      "line_periods": null
+    },
+    {
+      "event_id": "da509d799e41650b6542a1be10ca877f",
+      "event_uuid": "11eb-8856-6485fe00-84c2-bf0c0b016555",
+      "sport_id": 5,
+      "event_date": "2021-03-19T01:57:00Z",
+      "rotation_number_away": 717,
+      "rotation_number_home": 718,
+      "score": {
+        "event_id": "da509d799e41650b6542a1be10ca877f",
+        "event_status": "STATUS_FINAL",
+        "score_away": 86,
+        "score_home": 80,
+        "winner_away": 1,
+        "winner_home": 0,
+        "score_away_by_period": [
+          33,
+          44,
+          9
+        ],
+        "score_home_by_period": [
+          44,
+          33,
+          3
+        ],
+        "venue_name": "Mackey Arena",
+        "venue_location": "West Lafayette, IN",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 3,
+        "broadcast": "TBS",
+        "event_status_detail": "Final/OT"
+      },
+      "teams": [
+        {
+          "team_id": 18412,
+          "team_normalized_id": 345,
+          "name": "UCLA",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 20035,
+          "team_normalized_id": 296,
+          "name": "Michigan State",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "teams_normalized": [
+        {
+          "team_id": 345,
+          "name": "UCLA",
+          "mascot": "Bruins",
+          "abbreviation": "UCLA",
+          "ranking": 24,
+          "record": "17-9",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 296,
+          "name": "Michigan State",
+          "mascot": "Spartans",
+          "abbreviation": "MSU",
+          "ranking": 4,
+          "record": "6-0",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Postseason",
+        "season_year": 2021,
+        "event_headline": "Men's Basketball Championship - East Region - First Four",
+        "event_name": "Men's Basketball Championship - East Region - First Four - UCLA at Michigan State - 2021-03-19",
+        "attendance": "0"
+      },
+      "lines": {
+        "1": {
+          "line_id": 13825261,
+          "moneyline": {
+            "line_id": 13825261,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -139.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 150.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:21:29.493905Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825261,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 1,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 3.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 108.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 102.0001,
+            "date_updated": "2021-03-19T02:21:29.693996Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825261,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 1,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 105.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 105.0001,
+            "date_updated": "2021-03-19T02:21:29.898521Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 1,
+            "affiliate_name": "5Dimes",
+            "affiliate_url": "https://bit.ly/3rKIuBh"
+          }
+        },
+        "18": {
+          "line_id": 13825842,
+          "moneyline": {
+            "line_id": 13825842,
+            "moneyline_away": 145,
+            "moneyline_away_delta": 15,
+            "moneyline_home": -165,
+            "moneyline_home_delta": -15,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:09:22.968241Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825842,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 18,
+            "point_spread_away": 3,
+            "point_spread_away_delta": 0.5,
+            "point_spread_home": -3,
+            "point_spread_home_delta": -0.5,
+            "point_spread_away_money": -115,
+            "point_spread_away_money_delta": -215,
+            "point_spread_home_money": -105,
+            "point_spread_home_money_delta": 15,
+            "date_updated": "2021-03-19T02:09:23.145949Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825842,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 18,
+            "total_over": 134,
+            "total_over_delta": 0.5,
+            "total_under": 134,
+            "total_under_delta": 0.5,
+            "total_over_money": -110,
+            "total_over_money_delta": 0,
+            "total_under_money": -110,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-19T00:19:54.309208Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 18,
+            "affiliate_name": "YouWager",
+            "affiliate_url": "http://bit.ly/2Z1s37j"
+          }
+        },
+        "12": {
+          "line_id": 13825544,
+          "moneyline": {
+            "line_id": 13825544,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -139.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 160.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:22:08.023999Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825544,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 12,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 3.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:22:08.225627Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825544,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 12,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:22:08.431184Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 12,
+            "affiliate_name": "Bodog",
+            "affiliate_url": "https://bit.ly/2Z5uFkw"
+          }
+        },
+        "19": {
+          "line_id": 13825270,
+          "moneyline": {
+            "line_id": 13825270,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -129.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 165.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:21:51.825249Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825270,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 19,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 3.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 113.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 112.0001,
+            "date_updated": "2021-03-19T02:21:52.027887Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825270,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 19,
+            "total_over": 0.0001,
+            "total_over_delta": -132.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -132.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 112.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 113.0001,
+            "date_updated": "2021-03-19T02:21:52.231654Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 19,
+            "affiliate_name": "Draftkings",
+            "affiliate_url": "https://sportsbook.draftkings.com/"
+          }
+        },
+        "4": {
+          "line_id": 13825273,
+          "moneyline": {
+            "line_id": 13825273,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -134.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 155.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 155.0001,
+            "date_updated": "2021-03-19T02:20:14.292109Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825273,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 4,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:20:14.595212Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825273,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 4,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 120.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": -99.9999,
+            "date_updated": "2021-03-19T02:20:14.76431Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 4,
+            "affiliate_name": "SportsBetting",
+            "affiliate_url": "http://bit.ly/2JT73M1"
+          }
+        },
+        "9": {
+          "line_id": 13825406,
+          "moneyline": {
+            "line_id": 13825406,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -134.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 155.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:00:30.037885Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825406,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 9,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-19T02:00:30.131144Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825406,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 9,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:00:30.368888Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 9,
+            "affiliate_name": "betcris",
+            "affiliate_url": "http://bit.ly/3rAZdGQ"
+          }
+        },
+        "2": {
+          "line_id": 13825506,
+          "moneyline": {
+            "line_id": 13825506,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -139.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 160.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:23:14.854563Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825506,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 2,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.9999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 3.0001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:23:15.042761Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825506,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 2,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:23:15.245398Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 2,
+            "affiliate_name": "Bovada",
+            "affiliate_url": "https://www.bovada.lv/"
+          }
+        },
+        "11": {
+          "line_id": 13825278,
+          "moneyline": {
+            "line_id": 13825278,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -134.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 155.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 155.0001,
+            "date_updated": "2021-03-19T02:20:24.06612Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825278,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 11,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 106.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 106.0001,
+            "date_updated": "2021-03-19T02:20:24.150556Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825278,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 11,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 119.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": -101.9999,
+            "date_updated": "2021-03-19T02:20:24.334886Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 11,
+            "affiliate_name": "LowVig",
+            "affiliate_url": "https://sportsbook.lowvig.ag/"
+          }
+        },
+        "3": {
+          "line_id": 13825302,
+          "moneyline": {
+            "line_id": 13825302,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -128.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 152.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:20:59.69902Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825302,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 3,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 109.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 107.0001,
+            "date_updated": "2021-03-19T02:20:59.80555Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825302,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 3,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 112.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 108.0001,
+            "date_updated": "2021-03-19T02:20:59.9133Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 3,
+            "affiliate_name": "Pinnacle",
+            "affiliate_url": "https://www.pinnacle.com/en/rtn"
+          }
+        },
+        "10": {
+          "line_id": 13825385,
+          "moneyline": {
+            "line_id": 13825385,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -134.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 155.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:00:02.599305Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825385,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 10,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-19T02:00:02.786312Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825385,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 10,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:00:02.988781Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 10,
+            "affiliate_name": "JustBet",
+            "affiliate_url": "https://www.justbet.co/sportsbook-betting"
+          }
+        },
+        "16": {
+          "line_id": 13827293,
+          "moneyline": {
+            "line_id": 13827293,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -131.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 154.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T01:57:45.060347Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13827293,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 16,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -1.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 1.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 114.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 210.0001,
+            "date_updated": "2021-03-19T01:57:45.241991Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13827293,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 16,
+            "total_over": 0.0001,
+            "total_over_delta": 0,
+            "total_under": 0.0001,
+            "total_under_delta": 0,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 0,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 0,
+            "date_updated": "2021-03-17T19:54:38.177664Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 16,
+            "affiliate_name": "Matchbook",
+            "affiliate_url": "https://www.matchbook.com/"
+          }
+        },
+        "20": {
+          "line_id": 13825264,
+          "moneyline": {
+            "line_id": 13825264,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -134.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 160.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:18:00.997324Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825264,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 20,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 112.0001,
+            "date_updated": "2021-03-19T02:18:01.095385Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825264,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 20,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 109.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 109.0001,
+            "date_updated": "2021-03-19T02:18:01.240616Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 20,
+            "affiliate_name": "Pointsbet",
+            "affiliate_url": "https://pointsbet.com/"
+          }
+        },
+        "6": {
+          "line_id": 13825275,
+          "moneyline": {
+            "line_id": 13825275,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -134.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 155.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 155.0001,
+            "date_updated": "2021-03-19T02:20:38.480537Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825275,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 6,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 110.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:20:38.652091Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825275,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 6,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 120.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": -99.9999,
+            "date_updated": "2021-03-19T02:20:38.960609Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 6,
+            "affiliate_name": "BetOnline",
+            "affiliate_url": "http://bit.ly/3oogty4"
+          }
+        },
+        "7": {
+          "line_id": 13825433,
+          "moneyline": {
+            "line_id": 13825433,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -130.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 151.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:00:03.554438Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13825433,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 7,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 115.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 105.0001,
+            "date_updated": "2021-03-19T02:00:03.682009Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13825433,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 7,
+            "total_over": 0.0001,
+            "total_over_delta": -133.4999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.4999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 121.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": -99.9999,
+            "date_updated": "2021-03-19T02:00:03.892355Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 7,
+            "affiliate_name": "Bookmaker",
+            "affiliate_url": "https://www.bookmaker.eu/"
+          }
+        },
+        "14": {
+          "line_id": 13826871,
+          "moneyline": {
+            "line_id": 13826871,
+            "moneyline_away": 0.0001,
+            "moneyline_away_delta": -139.9999,
+            "moneyline_home": 0.0001,
+            "moneyline_home_delta": 160.0001,
+            "moneyline_draw": 0.0001,
+            "moneyline_draw_delta": 0,
+            "date_updated": "2021-03-19T02:21:11.945085Z",
+            "format": "American"
+          },
+          "spread": {
+            "line_id": 13826871,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 14,
+            "point_spread_away": 0.0001,
+            "point_spread_away_delta": -2.4999,
+            "point_spread_home": 0.0001,
+            "point_spread_home_delta": 2.5001,
+            "point_spread_away_money": 0.0001,
+            "point_spread_away_money_delta": 105.0001,
+            "point_spread_home_money": 0.0001,
+            "point_spread_home_money_delta": 115.0001,
+            "date_updated": "2021-03-19T02:21:12.143258Z",
+            "format": "American"
+          },
+          "total": {
+            "line_id": 13826871,
+            "event_id": "da509d799e41650b6542a1be10ca877f",
+            "affiliate_id": 14,
+            "total_over": 0.0001,
+            "total_over_delta": -133.9999,
+            "total_under": 0.0001,
+            "total_under_delta": -133.9999,
+            "total_over_money": 0.0001,
+            "total_over_money_delta": 110.0001,
+            "total_under_money": 0.0001,
+            "total_under_money_delta": 110.0001,
+            "date_updated": "2021-03-19T02:21:12.277875Z",
+            "format": "American"
+          },
+          "affiliate": {
+            "affiliate_id": 14,
+            "affiliate_name": "Intertops",
+            "affiliate_url": "http://bit.ly/2XkXdpa"
+          }
+        }
+      },
+      "line_periods": null
+    }
+  ]
+}

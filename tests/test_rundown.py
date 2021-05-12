@@ -165,6 +165,34 @@ class TestAPI:
 
 
 class TestRundown:
+    event_methods_args = [
+        ("MLB", "2021-04-03", None, []),  # completed events
+        ("MLB", "2021-04-03", None, ["all_periods"]),
+        ("MLB", "2021-05-11", None, []),  # today's events, some in progress
+        ("MLB", "2021-05-11", None, ["all_periods"]),
+        ("MLB", "2021-05-12", None, []),  # events 1 day in future
+        ("MLB", "2021-05-12", None, ["all_periods"]),
+        ("MLB", "2021-05-15", None, []),  # events 3 days in future (no lines yet)
+        ("MLB", "2021-05-15", None, ["all_periods"]),
+        # Test all sports
+        ("NCAAF", "2020-09-05", None, []),
+        ("NCAAF", "2020-09-05", None, ["all_periods"]),
+        ("NFL", "2020-09-13", None, []),
+        ("NFL", "2020-09-13", None, ["all_periods"]),
+        ("NBA", "2021-05-11", None, []),
+        ("NBA", "2021-05-11", None, ["all_periods"]),
+        ("NCAAB", "2021-03-18", None, []),
+        ("NCAAB", "2021-03-18", None, ["all_periods"]),
+        ("NHL", "2021-05-11", None, []),
+        ("NHL", "2021-05-11", None, ["all_periods"]),
+        ("UFC", "2021-04-24", None, []),
+        ("UFC", "2021-04-24", None, ["all_periods"]),
+        ("WNBA", "2021-05-14", None, []),
+        ("WNBA", "2021-05-14", None, ["all_periods"]),
+        ("MLS", "2021-05-08", None, []),
+        ("MLS", "2021-05-08", None, ["all_periods"]),
+    ]
+
     @pytest.mark.parametrize(
         "segments, expected",
         [
@@ -286,60 +314,43 @@ class TestRundown:
     @pytest.mark.parametrize("sport_id", [2, 6])
     @pytest.mark.vcr()
     def test_teams(self, sport_id, rundown):
-        # test with sport name
-        data = rundown.teams(sport_id)
-        assert len(data) > 0
+
+    @pytest.mark.parametrize("sport_id, date, offset, include", event_methods_args)
+    @pytest.mark.vcr()
+    def test_events(self, rundown, sport_id, date, offset, include):
+        # sport_id, date, offset, include = method_args
+        events = rundown.events(sport_id, date, *include, offset=offset)
+        assert isinstance(events, Events)
+        assert len(events.events) > 0
+        for e in events.events:
+            assert isinstance(e, Event)
 
     @pytest.mark.parametrize(
-        "sport_id, date, offset, include",
-        [
-            (6, "2021-04-03", None, []),  # completed
-            (6, "2021-04-03", None, ["all_periods", "scores"]),
-            (6, "2021-04-04", None, []),  # future events
-            (6, "2021-04-04", None, ["all_periods", "scores"]),
-            (6, "2021-04-03", None, ["scores"]),
-            (6, "2021-04-03", None, ["all_periods"]),
-            (6, "2021-05-08", None, []),  # some events in progress
-            (6, "2021-05-08", None, ["all_periods"]),
-            (6, "2021-05-08", None, ["all_periods"]),
-        ],
+        "sport, date",
+        [(6, "2000-05-11"), (42, "2021-05-11"), (42, "2000-05-11")],
     )
     @pytest.mark.vcr()
-    def test_events_by_date(self, rundown, sport_id, date, offset, include):
-        data = rundown.events_by_date(sport_id, date, *include, offset=offset)
-        assert isinstance(data, Events)
+    def test_events_bad_arguments(self, rundown, sport, date):
+        events = rundown.events(sport=sport, date=date)
+        assert len(events.events) == 0
 
-    @pytest.mark.parametrize(
-        "sport_id, date, offset, include",
-        [
-            (6, "2021-04-03", None, []),  # completed
-            (6, "2021-04-03", None, ["all_periods", "scores"]),
-            (6, "2021-04-04", None, []),  # future events
-            (6, "2021-04-04", None, ["all_periods", "scores"]),
-            (6, "2021-04-03", None, ["scores"]),
-            (6, "2021-04-03", None, ["all_periods"]),
-        ],
-    )
+    @pytest.mark.parametrize("sport_id, date, offset, include", event_methods_args)
     @pytest.mark.vcr()
     def test_opening_lines(self, rundown, sport_id, date, offset, include):
-        data = rundown.opening_lines(sport_id, date, *include, offset=offset)
-        assert isinstance(data, Events)
+        events = rundown.opening_lines(sport_id, date, *include, offset=offset)
+        assert isinstance(events, Events)
+        assert len(events.events) > 0
+        for e in events.events:
+            assert isinstance(e, Event)
 
-    @pytest.mark.parametrize(
-        "sport_id, date, offset, include",
-        [
-            (6, "2021-04-03", None, []),  # completed
-            (6, "2021-04-03", None, ["all_periods", "scores"]),
-            (6, "2021-04-04", None, []),  # future events
-            (6, "2021-04-04", None, ["all_periods", "scores"]),
-            (6, "2021-04-03", None, ["scores"]),
-            (6, "2021-04-03", None, ["all_periods"]),
-        ],
-    )
+    @pytest.mark.parametrize("sport_id, date, offset, include", event_methods_args)
     @pytest.mark.vcr()
     def test_closing_lines(self, rundown, sport_id, date, offset, include):
-        data = rundown.closing_lines(sport_id, date, *include, offset=offset)
-        assert isinstance(data, Events)
+        events = rundown.closing_lines(sport_id, date, *include, offset=offset)
+        assert isinstance(events, Events)
+        assert len(events.events) > 0
+        for e in events.events:
+            assert isinstance(e, Event)
 
     @pytest.mark.parametrize("date", [("2021-04-05")])
     @pytest.mark.vcr()

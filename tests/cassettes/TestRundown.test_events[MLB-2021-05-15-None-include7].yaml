@@ -1,0 +1,112 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/3/events/2021-05-15?offset=420&include=all_periods
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64df82d26b5d0871-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '2497'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 00:25:39 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=HwBDCSE3ojXj2GdT6zmS%2BWmpbL7oGwxm4P4OjyXdIOFMOuG4tyzrqemgdom9m58Fqg5Tp%2FtsGoMTlsqTGEfdiTImy4AYpJEMy79PmPv9"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9966'
+      X-RateLimit-requests-Reset:
+      - '83623'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 09ff90177e00000871c3806000000001
+    status:
+      code: 200
+      message: OK
+version: 1
