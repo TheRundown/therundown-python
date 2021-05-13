@@ -1,14 +1,14 @@
 from pydantic import BaseModel
 
 
-class Team(BaseModel):
+class BaseTeam(BaseModel):
     team_id: int
     name: str
     mascot: str
     abbreviation: str
 
 
-class TeamNormalized(Team):
+class Team(BaseTeam):
     ranking: int
     record: str
     is_away: bool

@@ -6,7 +6,7 @@ from pydantic import ValidationError
 from rundown.rundown import _Base, _RundownBase, _RapidAPIBase
 from rundown.resources.events import Events
 from rundown.resources.sportsbook import Sportsbook
-from rundown.resources.team import Team
+from rundown.resources.team import BaseTeam
 from rundown.resources.event import Event
 from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.line import Moneyline, Spread, Total
@@ -380,7 +380,7 @@ class TestRundown:
         teams = rundown.teams(sport_id)
         assert len(teams) > 0
         for t in teams:
-            assert isinstance(t, Team)
+            assert isinstance(t, BaseTeam)
 
     @pytest.mark.parametrize("sport_id, date, offset, include", event_methods_args)
     @pytest.mark.vcr()

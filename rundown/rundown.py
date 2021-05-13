@@ -9,7 +9,7 @@ from rundown.utils import utc_shift, utc_shift_to_tz
 from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.sport import Sport
 from rundown.resources.date import Date, Epoch
-from rundown.resources.team import Team
+from rundown.resources.team import BaseTeam
 from rundown.resources.events import Events
 from rundown.resources.event import Event
 from rundown.resources.line import Moneyline, Spread, Total
