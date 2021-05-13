@@ -18,6 +18,8 @@ from rundown.resources.schedule import Schedule
 from rundown.usercontext import user_context
 from rundown.static.sports import build_sports_dict
 
+"""Module containing classes allowing the user to access the Rundown API."""
+
 
 class _RapidAPIBase:
     """Configuration required for making requests to RapidAPI."""
@@ -58,6 +60,8 @@ class _Base:
 
 class Rundown:
     """The Rundown REST API client class supporting user configuration.
+
+    Both RapidAPI.com and TheRundown.io are supported.
 
     Args:
         api_key: The API key to use.
@@ -257,7 +261,7 @@ class Rundown:
         sportsbooks = parse_obj_as(list[Sportsbook], data["affiliates"])
         return sportsbooks
 
-    def teams(self, sport: Union[int, str]) -> list[Team]:
+    def teams(self, sport: Union[int, str]) -> list[BaseTeam]:
         """Get teams for the league referenced by sport id.
 
         GET /sports/<sport-id>/teams
@@ -272,7 +276,7 @@ class Rundown:
         """
         sport_id = self._validate_sport(sport)
         data = self._build_url_and_get_json("sports", sport_id, "teams")
-        teams = parse_obj_as(list[Team], data["teams"])
+        teams = parse_obj_as(list[BaseTeam], data["teams"])
         return teams
 
     @_with_timezone_context
@@ -524,7 +528,10 @@ class Rundown:
 
     @_with_timezone_context
     def schedule(
-        self, sport: Union[int, str], date_from: Optional[str] = None, limit: int = 50
+        self,
+        sport: Union[int, str],
+        date_from: Optional[str] = None,
+        limit: Optional[int] = 50,
     ) -> list[Schedule]:
         """Get schedule for league referenced by sport.
 
@@ -535,7 +542,7 @@ class Rundown:
                 interest. Valid sport names can be found in the 'sport_names' attribute.
                 Examples: 'NHL', 'NBA', 'MLB'.
             date_from: ISO 8601 date string of the starting date of the scheduled
-                events. The server considers the date to be in UTC.
+                events. The server considers the date to be in UTC. Defaults to today.
             limit: Number of events to retrieve. Maximum 500.
 
         Returns:

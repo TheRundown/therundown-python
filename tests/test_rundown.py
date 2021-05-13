@@ -142,7 +142,8 @@ class TestAPI:
     @pytest.mark.vcr()
     def test_bad_event_date_returns_todays_lines(self, rundown, method_name):
         """If date string is bad, or too far in the future, server defaults to today's
-        lines.
+        lines. Similar behaviour is observed for the 'schedule' and 'events_delta'
+        routes.
         """
         today = "2021-05-11"
         method = getattr(rundown, method_name)
@@ -296,6 +297,7 @@ class TestRundown:
             ("UFC/MMA", 7),
             ("UFC", 7),
             ("MMA", 7),
+            ("ufc", 7),
             (7, 7),
             (42, 42),  # not a valid sport ID
         ],
@@ -303,10 +305,6 @@ class TestRundown:
     def test_validate_sport(self, rundown, sport, expected):
         sport_id = rundown._validate_sport(sport)
         assert sport_id == expected
-
-    def test_validate_sport_exception(self, rundown):
-        with pytest.raises(KeyError):
-            rundown._validate_sport("ufc")
 
     @pytest.mark.vcr()
     def test_sports(self, rundown):
@@ -485,7 +483,8 @@ class TestRundown:
 
     @pytest.mark.parametrize(
         "line_id, include",
-        line_methods_args,
+        # line id 13843138 has no available spread.
+        [line for line in line_methods_args if line[0] != 13843138],
     )
     @pytest.mark.vcr()
     def test_spread(self, rundown, line_id, include):
