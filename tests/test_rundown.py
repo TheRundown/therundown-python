@@ -442,6 +442,15 @@ class TestRundown:
             assert isinstance(e, Event)
 
     @pytest.mark.parametrize(
+        "last_id",
+        [
+            "foobar",
+        ],
+    )
+    @pytest.mark.vcr()
+    def test_bad_events_delta(self, rundown, last_id):
+        events = rundown.events_delta(last_id)
+        assert events is None
 
     @pytest.mark.parametrize(
         "event_id, include",
