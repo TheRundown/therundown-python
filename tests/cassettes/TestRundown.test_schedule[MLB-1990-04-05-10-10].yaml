@@ -1,0 +1,90 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/3/schedule?from=1990-04-05&limit=10
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA9WY227bRhCGX4XgtS3s+aA7W4mLpnZqxOpFUxTCcHdpsaG4ArlqagR59y4lWZao
+        WEwMNkUu9zyz/PjPT35KGzN3dlW6Jh3/8SktbDpOMdVEp2ep+9tVYbZarTt37XUrl1ZYZDJmCDaO
+        EFDKUE1JDo4TiVGc3Sx9vZlNY8NB46tZeFi6uPq2dpuOdDfy4KBOxwQRdJbCR3iYBQeL9WoRe+Z+
+        4Z56ONubE7ebun+gSfdmxb5foGqgSSZFeIgjFoKbrcOPQ+0h54icEzwlaIz4GKH3cU7lVqGGctYU
+        IcaYQ9m4s9T4Kne1q4ybGb9YulCEIob9OLyOojG+jiv4NoBtM8ZYOrhfuVkFizbpG/jL18n1ui+5
+        hMZlUJa7W91OWqeSQEj24k/Ok6eQdwtKb2ATS3q3qpd10bjkLoAtVos4B0JwlYUYd7xAoWIwq2V7
+        CXYGT1fAzzGZEjJGeozxCBGlOH+/O6AJEFZNu/30Yvrb3ezq57cX153RmXUBijJOuioqKNPPZ1uE
+        BEOnASKYsyznGXaaEdBWACiEaOwDxEjOBwSIiS5AFB8CdAllKBbtYzuE6CKUUAV4FiAyxWo4gNAh
+        QPxFAO1SaSHaxr8PEPkSQBPvy6m38JDcQv2hi49qr6sXH4wUJXQwfPhpfCiWOSKaMqNAZJRgZwTi
+        iCvHMgaIDIgPP9Ifpjr642tfBd+B5637mPzu19f5Peghh/Tgl8nPJpOWncfwe+H5yfn63iU3oyg/
+        rqiyGG7l6uSqcKXtoKSV6FciNmJcYT2cErHTKHHGEZPGZCq3RFCrtaWgcpJxbawwQ5Yyyo5KGT1E
+        6XZelGBduZwX0OHplQu1L8J3wkkd4qRehNN+Ni1T2xR6kbpdZWXxzwahdt0b/yESdQO1mUc9e6bM
+        cY37dYqOpKIDskVOs6UZ0tLqnGgJlFuca0WE5QLRXCOpsiFlih9VOX3I1k0RX8zGhy5Yt0UITbaq
+        7+c/klTtsmkBeUqhl63r15Nfb75U5zhulb6HHzJijHMlBwMInwYIMicJyYzIjM0QaJNpSQxDwJQ0
+        jIghxYke1Tl0CNBeRdvn5y6Mkmu/Kpr/xyeRF+GzK2/Q6sk2gV543vn7KESvHFTPiZCQ6ivMkpRC
+        CzEYRPQ0RI6K3DphtcuxcJrQjOEcQaYhWm/I5JBeWx9BJDtmCRZLiI/loUPRpW/C+ozvgRAd5Fvt
+        MZOWoU34vQC9ceGyjHu2+tMuu3JVDCu586sw75qlKA5fUc+QIlgOV9DEaZRUzrVw0jjrrNQOpCQ0
+        NxJspiDPLQypR+SooNFuQYNF8SLXjdF/89FPX1jKYh7f5LmvirqJdgpi9fuSz46KwHvR4SOMGRN4
+        MHR6fhlRa6yyGFEOWW5YhCfPtZGRGyq0zQdFRx75bHKIzqSoTDQQ8T47/EzKGHL8arYnABryr1Gn
+        mKEXAfSUTUvRLoX+TzfvbXuLceOyXB5bon4/xEdSc45O+KHJxdvJ6+vXr57laNKeVTq7hxLvcUXW
+        GpU70Cwn1BgjjESZzXB01pYwo9mQtvoYpc7Po2vfJBfVvWt/oXZYmhcG7v2PRNJeMmuUNhn0gvTI
+        z3pN3KnMwHxI3sUn261q/UjJEeYK8RO69A1I/fn5XyKOakPiFgAA
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e848a06c2239a1-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1236'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 May 2021 01:58:47 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=LRH2ja3hup4qQbfHyUfFWjK%2FL8XQYjz0WWz9abiMQeD5gycBouPTJqXYv6b6E4HqV8nzxS%2FjbNu%2FQRxoOtAhS7A2EusK5zn6s46kBLK4"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9970'
+      X-RateLimit-requests-Reset:
+      - '78035'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a050bb845000039a1543db000000001
+    status:
+      code: 200
+      message: OK
+version: 1

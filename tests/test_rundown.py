@@ -508,11 +508,20 @@ class TestRundown:
         assert lines is None
 
     @pytest.mark.parametrize(
-        "sport, date_from, limit", [(6, "2021-04-05", 10), ("UFC", "2021-04-05", 10)]
+        "sport, date_from, limit, expected",
+        [
+            (6, "2021-04-05", 10, 10),
+            ("UFC", "2021-04-05", 10, 10),
+            ("MLB", "2021-04-05", 500, 500),
+            ("MLB", "2021-04-05", 1000, 500),  # Max is 500
+            ("MLB", "1990-04-05", 10, 10),
+            ("MLB", "foobar", 10, 10),  # Defaults to events starting from today
+            ("CFL", None, 10, 0),  # CFL not implemented
+        ],
     )
     @pytest.mark.vcr()
-    def test_schedule(self, rundown, sport, date_from, limit):
-        data = rundown.schedule(sport, date_from, limit)
+    def test_schedule(self, rundown, sport, date_from, limit, expected):
+        data = rundown.schedule(sport, date_from=date_from, limit=limit)
         for sched in data:
             assert isinstance(sched, Schedule)
-        assert len(data) > 0
+        assert len(data) == expected
