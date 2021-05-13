@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, Union
 
 from pydantic import BaseModel, validator
 
@@ -8,6 +8,8 @@ from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.validators import change_timezone
 from rundown.static.sportsbooks import sportsbook_dict
+
+"""Module for resources used by Rundown events."""
 
 
 class SportsbookLines(BaseModel):
@@ -53,6 +55,8 @@ class Score(BaseModel):
 
 
 class Event(BaseModel):
+    """Event class describing an available event or game."""
+
     event_id: str
     # Some NCAAF and old NHL events don't have uuid.
     event_uuid: Optional[str] = None
@@ -73,7 +77,17 @@ class Event(BaseModel):
     _change_timezone = validator("event_date", allow_reuse=True)(change_timezone)
 
     @validator("lines", "line_periods")
-    def use_sportsbook_names(cls, old_dict):
+    def use_sportsbook_names(
+        cls, old_dict: dict[str, Union[SportsbookLines, SportsbookLinePeriods]]
+    ) -> dict[str, Union[SportsbookLines, SportsbookLinePeriods]]:
+        """Validator for lines and line_periods that swaps sportsbook ID for name.
+
+        Args:
+            old_dict: The dict with ID keys.
+
+        Returns:
+            The dict with sportsbook names as keys.
+        """
         if old_dict is None:
             return
 

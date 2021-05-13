@@ -30,7 +30,7 @@ def build_sports_dict():
     API expects ID.
 
     Returns:
-        dict[str, int]
+        dict[str, int]: The dictionary.
     """
     sports_dict = {}
     for s in sports:

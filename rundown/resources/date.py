@@ -3,8 +3,12 @@ import arrow
 
 from rundown.usercontext import context_timezone
 
+"""Module containing resources returned by Rundown.dates method."""
+
 
 class Date(BaseModel):
+    """Date class for returning dates in ISO 8601 string format."""
+
     date: str
 
     @validator("date")
@@ -21,4 +25,6 @@ class Date(BaseModel):
 
 
 class Epoch(BaseModel):
+    """Epoch class for returning dates in timestamp format."""
+
     timestamp: int

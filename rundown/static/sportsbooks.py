@@ -1,3 +1,5 @@
+"""Module for static sportsbook information used by Rundown."""
+
 sportsbooks = [
     {
         "affiliate_id": 1,
@@ -67,6 +69,8 @@ sportsbooks = [
         "affiliate_id": 17,
         "affiliate_name": "RedZone",
     },
+    # Unibet and BetMGM are returned from event routes, but aren't present in the JSON
+    # returned by the sportsbooks route, so they were manually added.
     {
         "affiliate_id": 21,
         "affiliate_name": "Unibet",
@@ -76,9 +80,15 @@ sportsbooks = [
         "affiliate_name": "BetMGM",
     },
 ]
+"""list[dict]: List of sports supported by Rundown API."""
 
 
 def build_sportsbook_dict():
+    """Build dictionary with key sportsbook ID, value sportsbook name.
+
+    Returns:
+        dict[str, str]: The dictionary.
+    """
     # Pydantic expects string type key.
     sportsbook_dict = {
         str(el["affiliate_id"]): el["affiliate_name"] for el in sportsbooks
@@ -87,3 +97,6 @@ def build_sportsbook_dict():
 
 
 sportsbook_dict = build_sportsbook_dict()
+"""dict[str, str]: Dict from sportsbook ID to name used by resources.Events sportsbook
+validator.
+"""

@@ -2,8 +2,12 @@ from pydantic import BaseModel, validator
 
 from rundown.resources.validators import change_timezone
 
+"""Module with schedule related classes."""
+
 
 class BaseSchedule(BaseModel):
+    """Schedule class used by Event resource."""
+
     season_type: str
     season_year: int
     event_name: str
@@ -11,6 +15,8 @@ class BaseSchedule(BaseModel):
 
 
 class Schedule(BaseSchedule):
+    """Schedule class containing more attributes which is used by Rundown.schedule."""
+
     id: int
     event_uuid: str
     event_id: str

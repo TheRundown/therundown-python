@@ -4,8 +4,12 @@ from pydantic import BaseModel, validator, StrictInt, StrictFloat
 
 from rundown.resources.validators import change_timezone, make_none_if_not_published
 
+"""Module containing resources used by Rundown line methods and the Event resource."""
+
 
 class Line(BaseModel):
+    """Base line class holding information common to all line classes."""
+
     line_id: int
     date_updated: str
     format: str
@@ -21,6 +25,8 @@ class ExtendedLine(Line):
 
 
 class Moneyline(Line):
+    """Class with attributes specific to moneyline bets."""
+
     moneyline_away: Union[StrictInt, StrictFloat] = None
     moneyline_away_delta: Union[StrictInt, StrictFloat] = None
     moneyline_home: Union[StrictInt, StrictFloat] = None
@@ -40,11 +46,17 @@ class Moneyline(Line):
 
 
 class MoneylinePeriod(Moneyline):
+    """Moneyline class for different periods / quarters / halves of a game."""
+
     period_id: int
     period_description: str
 
 
 class SpreadElement(BaseModel):
+    """Class used by the extended_spread attribute of the Spread class for alternate
+    spreads.
+    """
+
     affiliate_id: int
     point_spread_away: Union[StrictInt, StrictFloat] = None
     point_spread_away_delta: Union[StrictInt, StrictFloat] = None
@@ -69,6 +81,8 @@ class SpreadElement(BaseModel):
 
 
 class Spread(ExtendedLine):
+    """Class with attributes specific to spread bets. Includes alternate spreads."""
+
     point_spread_away: Union[StrictInt, StrictFloat] = None
     point_spread_away_delta: Union[StrictInt, StrictFloat] = None
     point_spread_home: Union[StrictInt, StrictFloat] = None
@@ -93,11 +107,17 @@ class Spread(ExtendedLine):
 
 
 class SpreadPeriod(Spread):
+    """Spread class for different periods / quarters / halves of a game."""
+
     period_id: int
     period_description: str
 
 
 class TotalElement(BaseModel):
+    """Class used by the extended_total attribute of the Total class for alternate
+    totals.
+    """
+
     affiliate_id: int
     total_over: Union[StrictInt, StrictFloat] = None
     total_over_delta: Union[StrictInt, StrictFloat] = None
@@ -122,6 +142,8 @@ class TotalElement(BaseModel):
 
 
 class Total(ExtendedLine):
+    """Class with attributes specific to total bets. Includes alternate totals."""
+
     total_over: Union[StrictInt, StrictFloat] = None
     total_over_delta: Union[StrictInt, StrictFloat] = None
     total_under: Union[StrictInt, StrictFloat] = None
@@ -146,5 +168,7 @@ class Total(ExtendedLine):
 
 
 class TotalPeriod(Total):
+    """Total class for different periods / quarters / halves of a game."""
+
     period_id: int
     period_description: str
