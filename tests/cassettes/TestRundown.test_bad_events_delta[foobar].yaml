@@ -15,15 +15,12 @@ interactions:
       x-rapidapi-key:
       - DUMMY
     method: GET
-    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/13843162/spread?include=all_periods
+    uri: https://therundown-therundown-v1.p.rapidapi.com/delta?last_id=foobar
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA31R30vDMBD+X+65G5fEzrZvAzcRJoroiyLhWBIXaJvSZoqU/u8m7UTB2ackd9+P
-        y3c9dE2rSclGt9apDooepqs0x7KUb1RpKF56KG2tpVVQMJFdCLbiCeh3XfuxBpgzg4RmRcizjLgS
-        QuXEiaU5oeI5JEDG2NKSn1QwgcbZQD/Z0wd9huoSEdmZllS69PSXdnBxvLO02PqPNkpWrtazniNg
-        znlW4gfwS0LF/x+beMTYOHK2QLHg6SMXIdkixSW7FHn6HAIzrq3IB9S6CgvZUx1qp9V8Jzi9lO72
-        rW28dXVA328ebu6u5PZpt5PX69sNDK/D8AV0+5ZO5wEAAA==
+        H4sIAAAAAAAAA6tWUEotKsovUrJSUMpJLC6Jz0xRKEgsSsxNLUktUsgsVsjNLC7OzEtXyAfy8soS
+        czJTlGoBV6o3LTUAAAA=
     headers:
       Access-Control-Allow-Headers:
       - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
@@ -32,23 +29,23 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 64e6b4071d0313aa-SEA
+      - 64e86570df3a139a-SEA
       Connection:
       - keep-alive
       Content-Encoding:
       - gzip
       Content-Length:
-      - '262'
+      - '71'
       Content-Type:
       - application/json
       Date:
-      - Wed, 12 May 2021 21:22:35 GMT
+      - Thu, 13 May 2021 02:18:27 GMT
       Expect-CT:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       NEL:
       - '{"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=VxHJT%2FoplRF4XzjfO%2FWEbGLc6gFVTDol0C3w7d7aZMXZbVcFCdoPVo6fJqri35quK8cJ0jBl4CMEemnp842dd21ABX4VCoNhb8i60SNt"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3ZHsrbmjuw7%2BNpA9eIr54DeR3KXzJT9dlM59X9o1ohD%2BtUFZ06RdNw4OCp6OSUmvyFRB3akTiwijh7foI%2Bj32D9KUIrRQ4JyKfkae59x"}],"group":"cf-nel","max_age":604800}'
       Server:
       - RapidAPI-1.2.8
       Vary:
@@ -60,14 +57,14 @@ interactions:
       X-RateLimit-requests-Limit:
       - '10000'
       X-RateLimit-requests-Remaining:
-      - '9871'
+      - '9964'
       X-RateLimit-requests-Reset:
-      - '8207'
+      - '76855'
       alt-svc:
       - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
       cf-request-id:
-      - 0a040ed876000013aaef98f000000001
+      - 0a051dba840000139ac517a000000001
     status:
-      code: 200
-      message: OK
+      code: 404
+      message: Not Found
 version: 1

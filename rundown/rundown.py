@@ -372,9 +372,9 @@ class Rundown:
     def events_delta(
         self,
         last_id: int,
-        sport: Optional[Union[int, str]] = None,
         *include: Literal["all_periods", "scores"],
-    ) -> Events:
+        sport: Optional[Union[int, str]] = None,
+    ) -> Optional[Events]:
         """Get events that have changed since request specified by last_id.
 
         GET /delta?last_id=<delta-last-id>
@@ -393,19 +393,21 @@ class Rundown:
 
         Returns:
             resources.Events object.
-
-        Raises:
-            requests.HTTPError: If too many events have been updated since last_id.
         """
         sport_id = self._validate_sport(sport)
         data = self._build_url_and_get_json(
             "delta", last_id=last_id, sport_id=sport_id, include=include
         )
+        if "error" in data:
+            return None
+
         events = Events(**data)
         return events
 
     @_with_timezone_context
-    def event(self, event_id: int, *include: Literal["all_periods", "scores"]) -> Event:
+    def event(
+        self, event_id: str, *include: Literal["all_periods", "scores"]
+    ) -> Optional[Event]:
         """Get event by event id.
 
         GET /events/<event-id>
@@ -418,18 +420,21 @@ class Rundown:
                 itself is the default.
 
         Returns:
-            resources.Event object.
+            resources.Event object, or None if no matching event could be found.
         """
-        data = self._build_url_and_get_json("events", event_id, *include)
+        data = self._build_url_and_get_json("events", event_id, include=include)
+        if "error" in data:
+            return None
+
         e = Event(**data)
         return e
 
     @_with_timezone_context
     def moneyline(
         self,
-        line_id,
+        line_id: int,
         *include: Literal["all_periods", "scores"],
-    ) -> Union[list[Moneyline], LinePeriods]:
+    ) -> Optional[Union[list[Moneyline], LinePeriods]]:
         """Get line history for moneyline referenced by line_id.
 
         GET /lines/<line-id>/moneyline
@@ -442,13 +447,16 @@ class Rundown:
                 itself is the default
 
         Returns:
-            list of resources.Moneyline, or LinePeriods object.
+            list of resources.Moneyline, or resources.LinePeriods object. None if line
+                id could not be found, or the line has no moneylines available.
         """
         data = self._build_url_and_get_json(
             "lines", line_id, "moneyline", include=include
         )
+        if "error" in data or "moneylines" in data and len(data["moneylines"]) == 0:
+            return None
+
         if "all_periods" in include:
-            pass
             lines = LinePeriods(**data["moneyline_periods"])
         else:
             lines = parse_obj_as(list[Moneyline], data["moneylines"])
@@ -457,7 +465,7 @@ class Rundown:
     @_with_timezone_context
     def spread(
         self, line_id: int, *include: str
-    ) -> Union[list[Moneyline], LinePeriods]:
+    ) -> Optional[Union[list[Moneyline], LinePeriods]]:
         """Get line history for spread referenced by line_id.
 
         GET /lines/<line-id>/spread
@@ -470,11 +478,14 @@ class Rundown:
                 itself is the default
 
         Returns:
-            list of resources.Spead, or LinePeriods object.
+            list of resources.Spead, or resources.LinePeriods object. None if line id
+                could not be found, or the line has no spreads available.
         """
         data = self._build_url_and_get_json("lines", line_id, "spread", include=include)
+        if "error" in data or "spreads" in data and len(data["spreads"]) == 0:
+            return None
+
         if "all_periods" in include:
-            pass
             lines = LinePeriods(**data["spread_periods"])
         else:
             lines = parse_obj_as(list[Spread], data["spreads"])
@@ -485,7 +496,7 @@ class Rundown:
         self,
         line_id,
         *include: Literal["all_periods", "scores"],
-    ) -> Union[list[Moneyline], LinePeriods]:
+    ) -> Optional[Union[list[Moneyline], LinePeriods]]:
         """Get line history for total referenced by line_id.
 
         GET /lines/<line-id>/total
@@ -498,9 +509,13 @@ class Rundown:
                 itself is the default
 
         Returns:
-            list of resources.Total, or LinePeriods object.
+            list of resources.Total, or resources.LinePeriods object. None if line id
+                could not be found, or the line has no totals available.
         """
         data = self._build_url_and_get_json("lines", line_id, "total", include=include)
+        if "error" in data or "totals" in data and len(data["totals"]) == 0:
+            return None
+
         if "all_periods" in include:
             lines = LinePeriods(**data["total_periods"])
         else:

@@ -441,6 +441,11 @@ class TestRundown:
         data = rundown.event(event_id)
         assert isinstance(data, Event)
 
+    @pytest.mark.vcr()
+    def test_bad_event(self, rundown):
+        event = rundown.event("foobar")
+        assert event is None
+
     @pytest.mark.parametrize(
         "line_id, include",
         line_methods_args,
@@ -482,6 +487,16 @@ class TestRundown:
                 assert isinstance(to, Total)
         else:
             assert isinstance(data, LinePeriods)
+
+    @pytest.mark.parametrize("method_name", ["moneyline", "spread", "total"])
+    @pytest.mark.vcr()
+    def test_bad_line_ids(self, rundown, method_name):
+        method = getattr(rundown, method_name)
+        lines = method("foobar")
+        assert lines is None
+
+        lines = method("foobar", "all_periods")
+        assert lines is None
 
     @pytest.mark.parametrize(
         "sport, date_from, limit", [(6, "2021-04-05", 10), ("UFC", "2021-04-05", 10)]
