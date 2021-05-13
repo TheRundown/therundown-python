@@ -442,12 +442,17 @@ class TestRundown:
             assert isinstance(e, Event)
 
     @pytest.mark.parametrize(
-        "event_id",
-        [("3bd014c6b6ce2931653a057ba89237ef")],  # Tampa vs. Detroit NHL 2021-04-03
+
+    @pytest.mark.parametrize(
+        "event_id, include",
+        [
+            ("3bd014c6b6ce2931653a057ba89237ef", []),  # Tampa vs Detroit NHL 2021-04-05
+            ("3bd014c6b6ce2931653a057ba89237ef", ["all_periods"]),
+        ],
     )
     @pytest.mark.vcr()
-    def test_event(self, rundown, event_id):
-        data = rundown.event(event_id)
+    def test_event(self, rundown, event_id, include):
+        data = rundown.event(event_id, *include)
         assert isinstance(data, Event)
 
     @pytest.mark.vcr()
