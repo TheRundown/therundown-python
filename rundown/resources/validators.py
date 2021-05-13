@@ -1,3 +1,4 @@
+from math import floor
 from typing import Union, Optional
 import arrow
 
@@ -31,7 +32,11 @@ def make_none_if_not_published(line: Union[int, float]) -> Optional[Union[int, f
     Returns:
         The line if it doesn't have the 'Not Published' marker, otherwise None.
     """
-    if line == 0.0001:
+    # TODO: handle the case where event_delta is 0, but the event line is a bad decimal.
+    bad_decimals = [0.4999, 0.5001, 0.0001, 0.9999]
+
+    decimal = round(abs(line) - floor(abs(line)), 4)
+    if line == 0.0001 or decimal in bad_decimals:
         return None
     else:
         return line
