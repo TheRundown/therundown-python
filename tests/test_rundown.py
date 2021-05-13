@@ -11,6 +11,7 @@ from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.sport import Sport
 from rundown.resources.date import Date, Epoch
+from rundown.resources.schedule import Schedule
 
 
 def test_auth_factory():
@@ -482,8 +483,12 @@ class TestRundown:
         else:
             assert isinstance(data, LinePeriods)
 
-    @pytest.mark.parametrize("sport_id, date_from, limit", [(6, "2021-04-05", 10)])
+    @pytest.mark.parametrize(
+        "sport, date_from, limit", [(6, "2021-04-05", 10), ("UFC", "2021-04-05", 10)]
+    )
     @pytest.mark.vcr()
-    def test_schedule(self, rundown, sport_id, date_from, limit):
-        data = rundown.schedule(sport_id, date_from, limit)
+    def test_schedule(self, rundown, sport, date_from, limit):
+        data = rundown.schedule(sport, date_from, limit)
+        for sched in data:
+            assert isinstance(sched, Schedule)
         assert len(data) > 0
