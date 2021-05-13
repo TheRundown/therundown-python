@@ -1,6 +1,7 @@
 import pytest
 import arrow
 from deepdiff import DeepDiff
+from pydantic import ValidationError
 
 from rundown.rundown import _Base, _RundownBase, _RapidAPIBase
 from rundown.resources.events import Events
@@ -337,6 +338,14 @@ class TestRundown:
     def test_dates_bad_sport_id(self, rundown):
         dates = rundown.dates(42)
         assert len(dates) == 0
+
+    @pytest.mark.parametrize(
+        "offset, format", [(42000, "date"), (0, "foobar"), (42000, "foobar")]
+    )
+    @pytest.mark.vcr()
+    def test_bad_dates(self, rundown, offset, format):
+        with pytest.raises(ValidationError):
+            rundown.dates("MLB", offset=offset, format=format)
 
     @pytest.mark.vcr()
     def test_dates_offset(self, rundown):
