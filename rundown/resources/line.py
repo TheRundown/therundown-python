@@ -1,8 +1,8 @@
-from typing import Optional, Union
+from typing import Union
 
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, validator, StrictInt, StrictFloat
 
-from rundown.resources.validators import change_timezone
+from rundown.resources.validators import change_timezone, make_none_if_not_published
 
 
 class Line(BaseModel):
@@ -21,12 +21,22 @@ class ExtendedLine(Line):
 
 
 class Moneyline(Line):
-    moneyline_away: Optional[Union[int, float]] = Field(...)
-    moneyline_away_delta: Optional[int] = Field(...)
-    moneyline_home: Optional[int] = Field(...)
-    moneyline_home_delta: Optional[int] = Field(...)
-    moneyline_draw: Optional[int] = Field(...)
-    moneyline_draw_delta: Optional[int] = Field(...)
+    moneyline_away: Union[StrictInt, StrictFloat] = None
+    moneyline_away_delta: Union[StrictInt, StrictFloat] = None
+    moneyline_home: Union[StrictInt, StrictFloat] = None
+    moneyline_home_delta: Union[StrictInt, StrictFloat] = None
+    moneyline_draw: Union[StrictInt, StrictFloat] = None
+    moneyline_draw_delta: Union[StrictInt, StrictFloat] = None
+
+    _make_none_if_not_published = validator(
+        "moneyline_away",
+        "moneyline_away_delta",
+        "moneyline_home",
+        "moneyline_home_delta",
+        "moneyline_draw",
+        "moneyline_draw_delta",
+        allow_reuse=True,
+    )(make_none_if_not_published)
 
 
 class MoneylinePeriod(Moneyline):
@@ -36,26 +46,50 @@ class MoneylinePeriod(Moneyline):
 
 class SpreadElement(BaseModel):
     affiliate_id: int
-    point_spread_away: Optional[float]
-    point_spread_away_delta: Optional[float]
-    point_spread_home: Optional[float]
-    point_spread_home_delta: Optional[float]
-    point_spread_away_money: Optional[int]
-    point_spread_away_money_delta: Optional[int]
-    point_spread_home_money: Optional[int]
-    point_spread_home_money_delta: Optional[int]
+    point_spread_away: Union[StrictInt, StrictFloat] = None
+    point_spread_away_delta: Union[StrictInt, StrictFloat] = None
+    point_spread_home: Union[StrictInt, StrictFloat] = None
+    point_spread_home_delta: Union[StrictInt, StrictFloat] = None
+    point_spread_away_money: Union[StrictInt, StrictFloat] = None
+    point_spread_away_money_delta: Union[StrictInt, StrictFloat] = None
+    point_spread_home_money: Union[StrictInt, StrictFloat] = None
+    point_spread_home_money_delta: Union[StrictInt, StrictFloat] = None
+
+    _make_none_if_not_published = validator(
+        "point_spread_away",
+        "point_spread_away_delta",
+        "point_spread_home",
+        "point_spread_home_delta",
+        "point_spread_away_money",
+        "point_spread_away_money_delta",
+        "point_spread_home_money",
+        "point_spread_home_money_delta",
+        allow_reuse=True,
+    )(make_none_if_not_published)
 
 
 class Spread(ExtendedLine):
-    point_spread_away: Optional[float] = Field(...)
-    point_spread_away_delta: Optional[float] = Field(...)
-    point_spread_home: Optional[float] = Field(...)
-    point_spread_home_delta: Optional[float] = Field(...)
-    point_spread_away_money: Optional[int] = Field(...)
-    point_spread_away_money_delta: Optional[int] = Field(...)
-    point_spread_home_money: Optional[int] = Field(...)
-    point_spread_home_money_delta: Optional[int] = Field(...)
+    point_spread_away: Union[StrictInt, StrictFloat] = None
+    point_spread_away_delta: Union[StrictInt, StrictFloat] = None
+    point_spread_home: Union[StrictInt, StrictFloat] = None
+    point_spread_home_delta: Union[StrictInt, StrictFloat] = None
+    point_spread_away_money: Union[StrictInt, StrictFloat] = None
+    point_spread_away_money_delta: Union[StrictInt, StrictFloat] = None
+    point_spread_home_money: Union[StrictInt, StrictFloat] = None
+    point_spread_home_money_delta: Union[StrictInt, StrictFloat] = None
     extended_spreads: list[SpreadElement] = []
+
+    _make_none_if_not_published = validator(
+        "point_spread_away",
+        "point_spread_away_delta",
+        "point_spread_home",
+        "point_spread_home_delta",
+        "point_spread_away_money",
+        "point_spread_away_money_delta",
+        "point_spread_home_money",
+        "point_spread_home_money_delta",
+        allow_reuse=True,
+    )(make_none_if_not_published)
 
 
 class SpreadPeriod(Spread):
@@ -65,26 +99,50 @@ class SpreadPeriod(Spread):
 
 class TotalElement(BaseModel):
     affiliate_id: int
-    total_over: Optional[float]
-    total_over_delta: Optional[float]
-    total_under: Optional[float]
-    total_under_delta: Optional[float]
-    total_over_money: Optional[int]
-    total_over_money_delta: Optional[int]
-    total_under_money: Optional[int]
-    total_under_money_delta: Optional[int]
+    total_over: Union[StrictInt, StrictFloat] = None
+    total_over_delta: Union[StrictInt, StrictFloat] = None
+    total_under: Union[StrictInt, StrictFloat] = None
+    total_under_delta: Union[StrictInt, StrictFloat] = None
+    total_over_money: Union[StrictInt, StrictFloat] = None
+    total_over_money_delta: Union[StrictInt, StrictFloat] = None
+    total_under_money: Union[StrictInt, StrictFloat] = None
+    total_under_money_delta: Union[StrictInt, StrictFloat] = None
+
+    _make_none_if_not_published = validator(
+        "total_over",
+        "total_over_delta",
+        "total_under",
+        "total_under_delta",
+        "total_over_money",
+        "total_over_money_delta",
+        "total_under_money",
+        "total_under_money_delta",
+        allow_reuse=True,
+    )(make_none_if_not_published)
 
 
 class Total(ExtendedLine):
-    total_over: Optional[float] = Field(...)
-    total_over_delta: Optional[float] = Field(...)
-    total_under: Optional[float] = Field(...)
-    total_under_delta: Optional[float] = Field(...)
-    total_over_money: Optional[int] = Field(...)
-    total_over_money_delta: Optional[int] = Field(...)
-    total_under_money: Optional[int] = Field(...)
-    total_under_money_delta: Optional[int] = Field(...)
+    total_over: Union[StrictInt, StrictFloat] = None
+    total_over_delta: Union[StrictInt, StrictFloat] = None
+    total_under: Union[StrictInt, StrictFloat] = None
+    total_under_delta: Union[StrictInt, StrictFloat] = None
+    total_over_money: Union[StrictInt, StrictFloat] = None
+    total_over_money_delta: Union[StrictInt, StrictFloat] = None
+    total_under_money: Union[StrictInt, StrictFloat] = None
+    total_under_money_delta: Union[StrictInt, StrictFloat] = None
     extended_totals: list[TotalElement] = []
+
+    _make_none_if_not_published = validator(
+        "total_over",
+        "total_over_delta",
+        "total_under",
+        "total_under_delta",
+        "total_over_money",
+        "total_over_money_delta",
+        "total_under_money",
+        "total_under_money_delta",
+        allow_reuse=True,
+    )(make_none_if_not_published)
 
 
 class TotalPeriod(Total):
