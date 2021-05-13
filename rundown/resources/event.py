@@ -2,11 +2,12 @@ from typing import Optional
 
 from pydantic import BaseModel, validator
 
-from rundown.resources.team import TeamDeprecated, TeamNormalized
+from rundown.resources.team import TeamDeprecated, Team
 from rundown.resources.schedule import BaseSchedule
 from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.validators import change_timezone
+from rundown.static.sportsbooks import sportsbook_dict
 
 
 class SportsbookLines(BaseModel):
@@ -64,9 +65,17 @@ class Event(BaseModel):
     score: Optional[Score] = None
     # 'teams' not populated for games 3 days in advance.
     teams: Optional[list[TeamDeprecated]] = None
-    teams_normalized: list[TeamNormalized]
+    teams_normalized: list[Team]
     schedule: BaseSchedule
-    lines: Optional[dict[int, SportsbookLines]] = None
-    line_periods: Optional[dict[int, SportsbookLinePeriods]] = None
+    lines: Optional[dict[str, SportsbookLines]] = None
+    line_periods: Optional[dict[str, SportsbookLinePeriods]] = None
 
     _change_timezone = validator("event_date", allow_reuse=True)(change_timezone)
+
+    @validator("lines", "line_periods")
+    def use_sportsbook_names(cls, old_dict):
+        if old_dict is None:
+            return
+
+        new_dict = {sportsbook_dict[k]: v for k, v in old_dict.items()}
+        return new_dict
