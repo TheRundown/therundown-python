@@ -1,3 +1,4 @@
+from typing import Union, Optional
 import arrow
 
 from rundown.usercontext import context_timezone
@@ -19,3 +20,18 @@ def change_timezone(dt_str: str) -> str:
     dt = arrow.get(dt_str)
     new_dt = dt.to(timezone)
     return str(new_dt)
+
+
+def make_none_if_not_published(line: Union[int, float]) -> Optional[Union[int, float]]:
+    """Pydantic validator that looks for 'Not Published' marker and changes to None.
+
+    Args:
+        line: The line to check.
+
+    Returns:
+        The line if it doesn't have the 'Not Published' marker, otherwise None.
+    """
+    if line == 0.0001:
+        return None
+    else:
+        return line
