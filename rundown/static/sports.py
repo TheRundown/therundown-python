@@ -38,6 +38,6 @@ def build_sports_dict():
         if "sport_alt_names" in s:
             names += s["sport_alt_names"]
         for name in names:
-            sports_dict[name] = s["sport_id"]
+            sports_dict[name.lower()] = s["sport_id"]
 
     return sports_dict

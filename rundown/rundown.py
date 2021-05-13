@@ -148,11 +148,11 @@ class Rundown:
             sport_id = (
                 sport
                 if isinstance(sport, int) or sport is None
-                else self.sport_names[sport]
+                else self.sport_names[sport.lower()]
             )
         except KeyError:
             raise KeyError(
-                f"{sport} is not a valid sport name. Valid examples: 'NHL', 'NBA', MLB', 'NCAAF'."  # noqa E501
+                f"{sport} is not a valid sport name. Valid examples: 'NHL', 'nhl', 'MLB', 'NCAAF'."  # noqa E501
             )
 
         return sport_id
