@@ -1,11 +1,12 @@
 from typing import Union, Optional, Literal
 from collections.abc import Callable
 from functools import wraps
+from pathlib import Path
 
 import requests
 from pydantic import parse_obj_as
 
-from rundown.utils import utc_shift, utc_shift_to_tz
+from rundown.utils import utc_shift, utc_shift_to_tz, write_yaml
 from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.sport import Sport
 from rundown.resources.date import Date, Epoch
@@ -16,7 +17,7 @@ from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.lineperiods import LinePeriods
 from rundown.resources.schedule import Schedule
 from rundown.usercontext import user_context
-from rundown.static.sports import build_sports_dict
+from rundown.static.static import build_sports_dict
 
 """Module containing classes allowing the user to access the Rundown API."""
 
@@ -85,6 +86,7 @@ class Rundown:
         api_key: str,
         api_provider: Literal["rapidapi", "rundown"] = "rapidapi",
         timezone: str = "local",
+        refresh_cached_data: bool = False,
     ):
         self._auth = _Base.factory(api_provider.lower(), api_key)
         self._session = requests.session()
@@ -92,8 +94,14 @@ class Rundown:
 
         self._json = {}
 
-        self.sport_names = build_sports_dict()
         self.timezone = timezone
+
+        self.sport_names = {}
+        if refresh_cached_data:
+            self.refresh_sportsbooks()
+            self.refresh_sports()
+        else:
+            self.sport_names = build_sports_dict()
 
     def _build_url(self, *segments: Union[str, int]) -> str:
         """Build URL without query parameters."""
@@ -155,6 +163,7 @@ class Rundown:
                 else self.sport_names[sport.lower()]
             )
         except KeyError:
+            # TODO
             raise KeyError(
                 f"{sport} is not a valid sport name. Valid examples: 'NHL', 'nhl', 'MLB', 'NCAAF'."  # noqa E501
             )
@@ -194,7 +203,16 @@ class Rundown:
             ):
                 return f(self, *args, **kwargs)
 
-        return inner
+    def refresh_sportsbooks(self):
+        data = self._build_url_and_get_json("affiliates")
+        parent = Path(__file__).resolve().parent
+        write_yaml(data, parent / "static/sportsbooks.yaml")
+
+    def refresh_sports(self):
+        data = self._build_url_and_get_json("sports")
+        parent = Path(__file__).resolve().parent
+        write_yaml(data, parent / "static/sports.yaml")
+        self.sport_names = build_sports_dict()
 
     def sports(self) -> list[Sport]:
         """Get available sports.
