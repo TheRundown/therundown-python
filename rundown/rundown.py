@@ -203,6 +203,8 @@ class Rundown:
             ):
                 return f(self, *args, **kwargs)
 
+        return inner
+
     def refresh_sportsbooks(self):
         data = self._build_url_and_get_json("affiliates")
         parent = Path(__file__).resolve().parent
