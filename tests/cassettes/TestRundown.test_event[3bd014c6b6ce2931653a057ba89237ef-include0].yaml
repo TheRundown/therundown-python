@@ -1,0 +1,109 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/events/3bd014c6b6ce2931653a057ba89237ef
+  response:
+    body:
+      string: !!binary |
+        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
+        gZWnp+ybn7LvLIsmMz9ZrZ7+D4iD9XqjTgAA
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e89b07af2c3995-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '2307'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 May 2021 02:55:02 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=7NTsbpBv0mabKorcExW6Wj8y3FcI2nClMAb3Bbr6GtMyFmuVYjHvGY4kMiqx03gdwokXS47iFb5oDHuKru1WdNmdxUT4Bc60RSZqjaDZ"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9941'
+      X-RateLimit-requests-Reset:
+      - '74660'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a053f38cd00003995a1178000000001
+    status:
+      code: 200
+      message: OK
+version: 1

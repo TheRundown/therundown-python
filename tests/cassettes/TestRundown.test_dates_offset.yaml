@@ -1,0 +1,138 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/4/dates?offset=420&format=date
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWSkksSS1WsopWMjIwMtQ1MNU1NAwxNLMyMAAibQMgUNJBSBnhljJGk4qtBQCG
+        kd7MXAAAAA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64dcb89dba89091f-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '64'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 11 May 2021 16:18:05 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=nn4TijbS%2Bt1gDbLLMuLT9wG5ga%2FFhMQXiK0stxeeimI27mEErnuckTLlDxZ7qCxfPXIIuJpTdlRfEsKbzc4tod0jzPgAD1dw73fBAT8J"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9919'
+      X-RateLimit-requests-Reset:
+      - '26477'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 09fdd1b68e0000091fa8976000000001
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/4/dates?offset=-300&format=date
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWSkksSS1WsopWMjIwMtQ1MNU1NAoxMLEyMAAibQMgUNJBSBnjljJBk4qtBQDn
+        XuhXXAAAAA==
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64dcb89eeac739b4-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '64'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 11 May 2021 16:18:05 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=reEq0QNgIQfH1%2FFXjNlpGnrs84GoBHLxzELV6kNtAgkckMfaoFnmOHBjWJxA4gHYOn%2FFJXVEbXCTrHAAkcn5xIAHPUBdO9T1UHwhRS%2Fu"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9918'
+      X-RateLimit-requests-Reset:
+      - '26477'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 09fdd1b757000039b4a81ce000000001
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,131 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/foobar/total
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWSi0qyi9SslJQ8ssvUXDLL81LUaoFANjXhoUWAAAA
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e7cba19b6139b4-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '42'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 May 2021 00:33:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=fsIWzBkrpePc1xEyiIu8rhuFUMeGBlKvNMpL7NGD0PNyQFkFNz112P6Wcd64u0ouY%2FbWBMQJTlf8Gw%2Flrjc1VNkYQNrkXGdv%2F%2B86%2BunU"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9984'
+      X-RateLimit-requests-Reset:
+      - '83155'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a04bd9900000039b46c939000000001
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/foobar/total?include=all_periods
+  response:
+    body:
+      string: '{"totals": []}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e7cba2fa31399b-SEA
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '14'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 13 May 2021 00:33:27 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=FXDhk4htwTS9%2BBLT%2BKWWhg0a7ApHL2ctTsJR%2FwgBqck3KNQzmksHW4HxRgS%2FyqvyzRKoxaBb4jAze0A4uU2aJxxUag5w5kjfij3PfM7D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9983'
+      X-RateLimit-requests-Reset:
+      - '83155'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a04bd99dc0000399b8a9ef000000001
+    status:
+      code: 200
+      message: OK
+version: 1

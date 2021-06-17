@@ -1,0 +1,46 @@
+version: 2.1
+
+jobs:
+  build-and-test:
+    # Build test suite docker image.
+    docker:
+      - image: circleci/python:3.9.2
+
+    # Default WD.
+    working_directory: ~/project
+
+    steps:
+      # Get code from Github.
+      - checkout
+
+      # Restore cache whenever poetry.lock changes.
+      - restore_cache:
+          keys:
+            - deps-({ checksum "poetry.lock" })
+
+      # Install project dependencies.
+      - run:
+          name: Install Dependencies
+          command: |
+            poetry install
+
+      # Save path as cache - Now CircleCI uses cached dependencies as long as there are
+      # no changes to poetry.lock.
+      - save_cache:
+          key: deps-({ checksum "poetry.lock" })
+          paths:
+            - /home/circleci/.cache/pypoetry/virtualenvs
+
+      # Run linter and test suite with code coverage report.
+      # `--vcr-record=none` - do not make any get requests from test suite. Use only
+      # recorded API calls.
+      - run:
+          name: Run Tests
+          command: |
+            poetry run flake8 --max-line-length 88 --per-file-ignores="__init__.py:F401"
+            poetry run pytest -v --cov rundown --vcr-record=none
+
+workflows:
+  build-and-test-workflow:
+    jobs:
+      - build-and-test

@@ -1,0 +1,95 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/lines/14525462/total
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64e6b447dcbde466-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1536'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 21:22:45 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=kA7T3vptQvDvX3jg9WDrmNL7mVfj76wisOqVbHdlpH4HdFOkA1MEnHHcr4vVk9I4Z4DrI1Txjkpqm0y3PSO1P%2BXTorDyMF5CHMho7ZaN"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9862'
+      X-RateLimit-requests-Reset:
+      - '8197'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 0a040f00e70000e46699237000000001
+    status:
+      code: 200
+      message: OK
+version: 1

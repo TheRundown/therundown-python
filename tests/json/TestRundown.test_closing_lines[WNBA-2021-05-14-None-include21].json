@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "delta_last_id": "11eb-b2b8-e1efaa2a-8e96-10e3af67a93f"
+  },
+  "events": [
+    {
+      "event_id": "19ebdea2926a06b11742d83f40f4e4b2",
+      "event_uuid": "11eb-b508-1c0e5800-80c8-ceedfd5808e2",
+      "sport_id": 8,
+      "event_date": "2021-05-14T23:00:00Z",
+      "score": {
+        "event_id": "19ebdea2926a06b11742d83f40f4e4b2",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Barclays Center",
+        "venue_location": "Brooklyn, NY",
+        "game_clock": 0,
+        "display_clock": "0.0",
+        "game_period": 0,
+        "broadcast": "NBATV",
+        "event_status_detail": "5/14 - 7:00 PM EDT"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 1728,
+          "name": "Indiana",
+          "mascot": "Fever",
+          "abbreviation": "IND",
+          "ranking": 0,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1729,
+          "name": "New York",
+          "mascot": "Liberty",
+          "abbreviation": "NYL",
+          "ranking": 0,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Indiana at New York - 2021-05-14",
+        "attendance": "0"
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "34d301c9a0448247263ae31e3791f3e9",
+      "event_uuid": "11eb-b50c-4cf08c00-884b-79f9c39e5107",
+      "sport_id": 8,
+      "event_date": "2021-05-14T23:30:00Z",
+      "score": {
+        "event_id": "34d301c9a0448247263ae31e3791f3e9",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Gateway Center",
+        "venue_location": "College Park, GA",
+        "game_clock": 0,
+        "display_clock": "0.0",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "5/14 - 7:30 PM EDT"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 1727,
+          "name": "Connecticut",
+          "mascot": "Sun",
+          "abbreviation": "CONN",
+          "ranking": 0,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1725,
+          "name": "Atlanta",
+          "mascot": "Dream",
+          "abbreviation": "ATL",
+          "ranking": 0,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Connecticut at Atlanta - 2021-05-14",
+        "attendance": "0"
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "d82113dfcf8b4c2364bcd28c42497ff9",
+      "event_uuid": "11eb-b518-df972800-8a5a-7abd3e5d753b",
+      "sport_id": 8,
+      "event_date": "2021-05-15T01:00:00Z",
+      "score": {
+        "event_id": "d82113dfcf8b4c2364bcd28c42497ff9",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Target Center",
+        "venue_location": "Minneapolis, MN",
+        "game_clock": 0,
+        "display_clock": "0.0",
+        "game_period": 0,
+        "broadcast": "CBSSN",
+        "event_status_detail": "5/14 - 9:00 PM EDT"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 1735,
+          "name": "Phoenix",
+          "mascot": "Mercury",
+          "abbreviation": "PHX",
+          "ranking": 0,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1734,
+          "name": "Minnesota",
+          "mascot": "Lynx",
+          "abbreviation": "MIN",
+          "ranking": 0,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Phoenix at Minnesota - 2021-05-15",
+        "attendance": "0"
+      },
+      "line_periods": {}
+    },
+    {
+      "event_id": "5b173f290bcc0e057791f6cfc044477f",
+      "event_uuid": "11eb-b525-723dc400-82d2-f3433ef3be1f",
+      "sport_id": 8,
+      "event_date": "2021-05-15T02:30:00Z",
+      "score": {
+        "event_id": "5b173f290bcc0e057791f6cfc044477f",
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away_by_period": [],
+        "score_home_by_period": [],
+        "venue_name": "Los Angeles Convention Center",
+        "venue_location": "Los Angeles, CA",
+        "game_clock": 0,
+        "display_clock": "0.0",
+        "game_period": 0,
+        "broadcast": "",
+        "event_status_detail": "5/14 - 10:30 PM EDT"
+      },
+      "teams_normalized": [
+        {
+          "team_id": 1731,
+          "name": "Dallas",
+          "mascot": "Wings",
+          "abbreviation": "DAL",
+          "ranking": 0,
+          "record": "",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 1733,
+          "name": "Los Angeles",
+          "mascot": "Sparks",
+          "abbreviation": "LA",
+          "ranking": 0,
+          "record": "",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "season_type": "Regular Season",
+        "season_year": 2021,
+        "event_name": "Dallas at Los Angeles - 2021-05-15",
+        "attendance": "0"
+      },
+      "line_periods": {}
+    }
+  ]
+}

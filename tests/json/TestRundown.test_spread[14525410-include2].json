@@ -1,0 +1,19 @@
+{
+  "spreads": [
+    {
+      "line_id": 14525410,
+      "event_id": "2eebc22bd71550fb5b0c2f83ea66be74",
+      "affiliate_id": 0,
+      "point_spread_away": 0.0001,
+      "point_spread_away_delta": 0,
+      "point_spread_home": 0.0001,
+      "point_spread_home_delta": 0,
+      "point_spread_away_money": 0.0001,
+      "point_spread_away_money_delta": 0,
+      "point_spread_home_money": 0.0001,
+      "point_spread_home_money_delta": 0,
+      "date_updated": "2021-05-09T16:22:23.487546Z",
+      "format": "American"
+    }
+  ]
+}

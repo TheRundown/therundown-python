@@ -1,0 +1,86 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+      X-RapidAPI-Host:
+      - therundown-therundown-v1.p.rapidapi.com
+      x-rapidapi-key:
+      - DUMMY
+    method: GET
+    uri: https://therundown-therundown-v1.p.rapidapi.com/sports/8/openers/2021-05-14?offset=420
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA82X227bOBCGX0XQtbVLkVQk+c6xs20A2xvU7m7TohB4GDlCZMqgpKbeIO++pGw5
+        ct24ThAUAXIRHobzc2Y+DX3vLqFibv/elZBXLMlZWSWZdPuu7wP3OOaRxwBYmALzojTkXiACQmOM
+        OIqo+9Bz4RuoqnT7X+43/26tY+ASGI7xGUNn3PdDimVEUopSCpRjd2uY1HXHW4AizxcIggghL0Ii
+        8gSATKUZR2BtylWhNx6i9gDJKjAHYIR9DwWeT+eY9BEyf5+tgSg02Ou9RFtZsao2V3Nn88H84yyZ
+        Dd9fjD6OL0btwQm7Y2u3j9rhTbGEZniXKQX6cXk73q0/Wid8naxAZ4VR9uVr96AfV4ykGhLF7BHu
+        OdMiZ+vSGRqhoN12OS8Eq7JC2S26KG7zteo502uzvjCGiTDrt40CmZUrc0A746I/ULupdWp2cV0w
+        KUxNmB3T88H8nx9ik0hTPVluVoM/fep4Tmji7lxNnIvR3BZHBWxZJqrQS5Zn/4FsysRONpnwQ2zS
+        uL3RpZIZU8w4WDITBOvxL+PKXo1xruFb1l7scmoToJm6zdSikanBRM2m1sxn5Tbsla6hGW6inrK8
+        hIfevvt4534Kd851oW+7/scZB12tDxVMr8enKGhcdiRYRQ9Njm9A1nlTlyWwslBJtV5ZFR9gUedM
+        O7Nm1pbZZnkNTLt9W+Nt/Pej5rDKaW9gsvAIg9VeVaAkU8LuRzYreabaLJvqVnWe27h0CCFUEuSL
+        mCFKI0xDfEYYEB9IGPspgfgpeoVHRYoiYemNKPfCOI0FiSHwUfgMeskxek/W9obpfWdubayPwDss
+        8hwW4Fwxfdtz3g1eA+Bfs0uexW64g2dYmACJKhN11eVnVqtDdoZ/T6evhW+wUzCocqaqva/HSJud
+        h/4H87fCbidqlt/tFV4BXxlh3ycyFWnEqcDkjHIhcSQopnGYpk/h60eeTGPzTbb4soB5IeOSQCDD
+        gPDT8A3myD/efE/W9obxnTO9gOoIvRPrka2KPCt7zmT6GvAOz2ez6a8Ijp/XfckjP1c3Bajse5ef
+        CWhR6590v6v3n14JYEJ3ApqQlcU+wuO1+n7of3J50gfkNxC8jZqld6e/y2/wMn4DbkKT4hhxYR7D
+        KAhtazsTqTAtj4Zh+gS/OPBCTKSgll8ssZcSSgikhIOfnswvPt5+T9b2hvkdF6UzUAvIwbyfC2Xl
+        mso6wnPHoOcMf0sz9tHzujHxdyiNWG5+xnU5+teAUh6CNBqc1ApPAZnsvHditfcWWJmXzE80jAdv
+        hOVN1CzK3fJ4CcxfH/4HodpLYFYPAAA=
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 64df83edcce53a0e-SEA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '992'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 12 May 2021 00:26:24 GMT
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=yOwf7utiJH41LnJFQsyYOpG95xDkQc1HeF28iTOvBsU%2F0Zwkh06kApn8lBpZNQR%2F3Wh%2BBanD3CowAgV7xZ5e68G4FUybXv9HA1suEBBV"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - RapidAPI-1.2.8
+      Vary:
+      - Accept-Encoding
+      X-RapidAPI-Region:
+      - AWS - us-west-2
+      X-RapidAPI-Version:
+      - 1.2.8
+      X-RateLimit-requests-Limit:
+      - '10000'
+      X-RateLimit-requests-Remaining:
+      - '9943'
+      X-RateLimit-requests-Reset:
+      - '83578'
+      alt-svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+      cf-request-id:
+      - 09ff90c89e00003a0e51a18000000001
+    status:
+      code: 200
+      message: OK
+version: 1
