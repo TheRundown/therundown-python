@@ -1,4 +1,5 @@
 import arrow
+import yaml
 
 
 def utc_offset(timezone: str) -> int:
@@ -51,3 +52,14 @@ def utc_shift_to_tz(shift: int) -> str:
     # Need to use the absolute value because of the way Python does modular arithmetic.
     hours, minutes = divmod(abs(shift), 60)
     return f"{sign}{hours:02d}:{minutes:02d}"
+
+
+def write_yaml(obj, fname):
+    with open(fname, "w") as f:
+        yaml.dump(obj, f)
+
+
+def read_yaml(fname):
+    with open(fname, "r") as f:
+        obj = yaml.safe_load(f)
+    return obj

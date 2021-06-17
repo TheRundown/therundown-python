@@ -9,6 +9,7 @@ python = "^3.9"
 requests = "^2.25.1"
 arrow = "^1.0.3"
 pydantic = "^1.8.1"
+PyYAML = "^5.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
