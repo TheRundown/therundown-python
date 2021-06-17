@@ -16,8 +16,8 @@ def build_sports_dict():
 
     parent = Path(__file__).resolve().parent
     sports = read_yaml(parent / "sports.yaml")["sports"]
-    sports_dict = {x["sport_name"]: x["sport_id"] for x in sports}
-    sports_dict.update(alternate_names)
+    sports_dict = {x["sport_name"].lower(): x["sport_id"] for x in sports}
+    sports_dict.update({k.lower(): v for k, v in alternate_names.items()})
     return sports_dict
 
 
