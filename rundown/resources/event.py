@@ -7,7 +7,7 @@ from rundown.resources.schedule import BaseSchedule
 from rundown.resources.line import Moneyline, Spread, Total
 from rundown.resources.sportsbook import Sportsbook
 from rundown.resources.validators import change_timezone
-from rundown.static.sportsbooks import sportsbook_dict
+from rundown.static.static import sportsbook_dict
 
 """Module for resources used by Rundown events."""
 
@@ -86,10 +86,11 @@ class Event(BaseModel):
             old_dict: The dict with ID keys.
 
         Returns:
-            The dict with sportsbook names as keys.
+            The dict with sportsbook names as keys. If a sportsbook name is not found
+            the key defaults to the original ID.
         """
         if old_dict is None:
             return
 
-        new_dict = {sportsbook_dict[k]: v for k, v in old_dict.items()}
+        new_dict = {sportsbook_dict.get(k, k): v for k, v in old_dict.items()}
         return new_dict
