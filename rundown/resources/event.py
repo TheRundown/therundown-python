@@ -1,6 +1,6 @@
 from typing import Optional, Union
 
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, validator, Field
 
 from rundown.resources.team import TeamDeprecated, Team
 from rundown.resources.schedule import BaseSchedule
@@ -68,8 +68,8 @@ class Event(BaseModel):
     # 'score' may not be populated for games >100 days in advance.
     score: Optional[Score] = None
     # 'teams' not populated for games 3 days in advance.
-    teams: Optional[list[TeamDeprecated]] = None
-    teams_normalized: list[Team]
+    teams_deprecated: Optional[list[TeamDeprecated]] = Field(None, alias="teams")
+    teams: list[Team] = Field(alias="teams_normalized")
     schedule: BaseSchedule
     lines: Optional[dict[str, SportsbookLines]] = None
     line_periods: Optional[dict[str, SportsbookLinePeriods]] = None
