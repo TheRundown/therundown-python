@@ -13,6 +13,15 @@ from rundown.static.static import sportsbook_dict
 
 
 class SportsbookLines(BaseModel):
+    """
+    attributes:
+        line_id: Line ID
+        moneyline: Moneyline
+        spread: Spread
+        total: Total
+        affiliate: Sportsbook
+    """
+
     line_id: int
     moneyline: Moneyline
     spread: Spread
@@ -21,11 +30,31 @@ class SportsbookLines(BaseModel):
 
 
 class SportsbookLinePeriod(SportsbookLines):
+    """
+    Inherits from SportsbookLines.
+
+    attributes:
+        period_id: Period ID
+        period_description: Period description
+    """
+
     period_id: Optional[int]
     period_description: str
 
 
 class SportsbookLinePeriods(BaseModel):
+    """
+    attributes:
+        period_full_game: SportsbookLinePeriod
+        period_first_half: SportsbookLinePeriod
+        period_second_half: SportsbookLinePeriod
+        period_first_period: SportsbookLinePeriod
+        period_second_period: SportsbookLinePeriod
+        period_third_period: SportsbookLinePeriod
+        period_fourth_period: SportsbookLinePeriod
+        period_live_full_game: SportsbookLinePeriod
+    """
+
     period_full_game: SportsbookLinePeriod
     period_first_half: SportsbookLinePeriod
     period_second_half: SportsbookLinePeriod
@@ -37,6 +66,25 @@ class SportsbookLinePeriods(BaseModel):
 
 
 class Score(BaseModel):
+    """
+    attributes:
+        event_id: Event ID
+        event_status: Event status
+        score_away: Away team score
+        score_home: Home team score
+        winner_away: 1 if away won, 0 otherwise
+        winner_home: 1 if home won, 0 otherwise
+        score_away_by_period: Away team score by period
+        score_home_by_period: Home team score by period
+        venue_name: Venue name
+        venue_location: Venue location
+        game_clock: Game clock
+        display_clock: Display clock
+        game_period: Game period
+        broadcast: Broadcast
+        event_status_detail: Event status detail
+    """
+
     event_id: str
     event_status: str
     score_away: int
@@ -55,7 +103,22 @@ class Score(BaseModel):
 
 
 class Event(BaseModel):
-    """Event class describing an available event or game."""
+    """Event class describing an available event or game.
+
+    attributes:
+        event_id: Event ID
+        event_uuid: Event UUID
+        sport_id: Sport ID
+        event_date: Event date
+        rotation_number_away: Away team rotation number
+        rotation_number_home: Home team rotation number
+        score: Score
+        teams_deprecated: list of TeamDeprecated
+        teams: list of Team
+        schedule: Schedule
+        lines: dict of SportsbookLines
+        line_periods: dict of SportsbookLinePeriods
+    """
 
     event_id: str
     # Some NCAAF and old NHL events don't have uuid.

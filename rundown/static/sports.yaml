@@ -15,7 +15,7 @@ sports:
   sport_name: UFC/MMA
 - sport_id: 8
   sport_name: WNBA
-- sport_id: 9
-  sport_name: CFL
 - sport_id: 10
   sport_name: MLS
+- sport_id: 11
+  sport_name: EPL

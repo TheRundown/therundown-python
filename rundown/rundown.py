@@ -63,22 +63,6 @@ class Rundown:
     """The Rundown REST API client class supporting user configuration.
 
     Both RapidAPI.com and TheRundown.io are supported.
-
-    Args:
-        api_key: The API key to use.
-        api_provider: The API provider. Must be either 'rundown' or 'rapidapi'
-            (case insensitive).
-        timezone: Your preferred timezone.
-            The following formats are accepted:
-            - A str describing a timezone, similar to ‘US/Pacific’, or ‘Europe/Berlin’.
-            - A str in ISO 8601 style, as in ‘+07:00’.
-            - A str, one of the following: ‘local’, ‘utc’, ‘UTC’.
-
-    timezone will be used to format responses from the API.
-
-    Attributes:
-        sport_names (dict[str, int]): Sports names and their IDs.
-        timezone (str): Your preferred timezone.
     """
 
     def __init__(
@@ -88,6 +72,23 @@ class Rundown:
         timezone: str = "local",
         refresh_cached_data: bool = False,
     ):
+        """
+        Args:
+            api_key: The API key to use.
+            api_provider: The API provider. Must be either 'rundown' or 'rapidapi'
+                (case insensitive).
+            timezone: Your preferred timezone.
+                The following formats are accepted:
+                - A str describing a timezone, similar to ‘US/Pacific’, or ‘Europe/Berlin’.
+                - A str in ISO 8601 style, as in ‘+07:00’.
+                - A str, one of the following: ‘local’, ‘utc’, ‘UTC’.
+
+        timezone will be used to format responses from the API.
+
+        Attributes:
+            sport_names (dict[str, int]): Sports names and their IDs.
+            timezone (str): Your preferred timezone.
+        """
         self._auth = _Base.factory(api_provider.lower(), api_key)
         self._session = requests.session()
         self._session.headers.update(self._auth.headers)
