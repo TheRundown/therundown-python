@@ -4,7 +4,14 @@ from pydantic import BaseModel
 
 
 class BaseTeam(BaseModel):
-    """Base team class used by Rundown.team."""
+    """Base team class used by Rundown.team.
+
+    attributes:
+        team_id: Team ID
+        name: Team name
+        mascot: Mascot
+        abbreviation: Team abbreviation
+    """
 
     team_id: int
     name: str
@@ -14,7 +21,13 @@ class BaseTeam(BaseModel):
 
 class Team(BaseTeam):
     """Extended team class used by the 'teams_normalized' attribute in the Event
-    resource.
+    resource. Inherits from BaseTeam.
+
+    attributes:
+        ranking: Ranking
+        record: Record
+        is_away: Is away
+        is_home: Is home
     """
 
     ranking: int
@@ -24,7 +37,14 @@ class Team(BaseTeam):
 
 
 class TeamDeprecated(BaseModel):
-    """Deprecated team class used by the 'team' attribute in the Event resource."""
+    """Deprecated team class used by the 'team' attribute in the Event resource.
+
+    attributes:
+        team_id: Team ID
+        team_normalized_id: Team Normalized ID
+        name: Team name
+        is_away: Is away
+    """
 
     team_id: int
     team_normalized_id: int

@@ -7,7 +7,11 @@ from rundown.usercontext import context_timezone
 
 
 class Date(BaseModel):
-    """Date class for returning dates in ISO 8601 string format."""
+    """Date class for returning dates in ISO 8601 string format.
+
+    attributes:
+        date: ISO 8601 date
+    """
 
     date: str
 
@@ -25,6 +29,10 @@ class Date(BaseModel):
 
 
 class Epoch(BaseModel):
-    """Epoch class for returning dates in timestamp format."""
+    """Epoch class for returning dates in timestamp format.
+
+    attributes:
+        timestamp: Epoch timestamp
+    """
 
     timestamp: int

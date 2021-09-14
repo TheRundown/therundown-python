@@ -10,7 +10,18 @@ from rundown.resources.line import MoneylinePeriod, SpreadPeriod, TotalPeriod
 
 
 class LinePeriods(BaseModel):
-    """Class used to aggregate lines for different periods of a game or event."""
+    """Class used to aggregate lines for different periods of a game or event.
+
+    attributes:
+        period_full_game: list of Period subclass
+        period_first_half: list of Period subclass
+        period_second_half: list of Period subclass
+        period_first_period: list of Period subclass
+        period_second_period: list of Period subclass
+        period_third_period: list of Period subclass
+        period_fourth_period: list of Period subclass
+        period_live_full_game: list of Period subclass
+    """
 
     period_full_game: list[Union[MoneylinePeriod, SpreadPeriod, TotalPeriod]]
     period_first_half: list[Union[MoneylinePeriod, SpreadPeriod, TotalPeriod]] = []

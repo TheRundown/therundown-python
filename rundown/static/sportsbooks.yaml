@@ -1,7 +1,7 @@
 affiliates:
 - affiliate_id: 1
   affiliate_name: 5Dimes
-  affiliate_url: https://www.5dimes.eu/
+  affiliate_url: https://bit.ly/3rKIuBh
 - affiliate_id: 3
   affiliate_name: Pinnacle
   affiliate_url: https://www.pinnacle.com/en/rtn
@@ -13,7 +13,7 @@ affiliates:
   affiliate_url: https://sportsbook.draftkings.com/
 - affiliate_id: 6
   affiliate_name: BetOnline
-  affiliate_url: https://betonline.ag/
+  affiliate_url: http://bit.ly/3oogty4
 - affiliate_id: 20
   affiliate_name: Pointsbet
   affiliate_url: https://pointsbet.com/
@@ -31,22 +31,22 @@ affiliates:
   affiliate_url: https://www.justbet.co/sportsbook-betting
 - affiliate_id: 4
   affiliate_name: SportsBetting
-  affiliate_url: https://www.sportsbetting.ag/
+  affiliate_url: http://bit.ly/2JT73M1
 - affiliate_id: 9
   affiliate_name: betcris
-  affiliate_url: https://www.betcris.com/en/sportsbook
-- affiliate_id: 15
-  affiliate_name: TigerGaming
-  affiliate_url: https://sportsbook.tigergaming.com/
+  affiliate_url: http://bit.ly/3rAZdGQ
 - affiliate_id: 14
   affiliate_name: Intertops
-  affiliate_url: https://sports.intertops.eu/
+  affiliate_url: http://bit.ly/2XkXdpa
 - affiliate_id: 12
   affiliate_name: Bodog
-  affiliate_url: https://www.bodog.eu/
+  affiliate_url: https://bit.ly/2Z5uFkw
 - affiliate_id: 18
   affiliate_name: YouWager
-  affiliate_url: https://www.youwager.eu/sportsbook
-- affiliate_id: 17
-  affiliate_name: RedZone
-  affiliate_url: https://www.redzonesports.bet/en/sports/
+  affiliate_url: http://bit.ly/2Z1s37j
+- affiliate_id: 21
+  affiliate_name: Unibet
+  affiliate_url: https://www.unibet.com/
+- affiliate_id: 22
+  affiliate_name: BetMGM
+  affiliate_url: https://promo.nj.betmgm.com/en/promo/geolocator?orh=sports.betmgm.com

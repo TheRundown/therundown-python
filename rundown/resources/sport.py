@@ -4,7 +4,12 @@ from pydantic import BaseModel
 
 
 class Sport(BaseModel):
-    """Sport class returned by Rundown.sports."""
+    """Sport class returned by Rundown.sports.
+
+    attributes:
+        sport_name: Sport name
+        sport_id: Sport ID
+    """
 
     sport_name: str
     sport_id: int

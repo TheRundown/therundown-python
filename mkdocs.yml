@@ -1,0 +1,32 @@
+site_name: TheRundown Python
+site_url: https://example.com/
+
+theme:
+  name: material
+  favicon: favicon.png
+  # logo: favicon.png
+  palette:
+    scheme: slate
+    primary: black
+    accent: deep orange
+
+repo_name: therundown-python
+repo_url: https://github.com/TheRundown/therundown-python
+
+plugins:
+- search
+- mkdocstrings
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Overview & Installation: index.md
+  - usage.md
+  - Documentation:
+    - Rundown API Client: code-reference/rundown.md
+    - Resources: code-reference/resources.md
+
+# extra:
+#   generator: false

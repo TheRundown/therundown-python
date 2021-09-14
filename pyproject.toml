@@ -10,6 +10,8 @@ requests = "^2.25.1"
 arrow = "^1.0.3"
 pydantic = "^1.8.1"
 PyYAML = "^5.4.1"
+mkdocs-material = "^7.1.8"
+mkdocstrings = "^0.15.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
@@ -21,6 +23,8 @@ python-dotenv = "^0.16.0"
 ipykernel = "^5.5.3"
 pytest-vcr = "^1.0.2"
 deepdiff = "^5.5.0"
+pymdown-extensions = "^8.2"
+blacken-docs = "^1.10.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
