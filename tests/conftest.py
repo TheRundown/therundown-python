@@ -1,9 +1,21 @@
 import os
 import json
+import socket
 
 import pytest
 
 from rundown.rundown import Rundown
+
+
+@pytest.fixture(autouse=True)
+def no_network(monkeypatch):
+    """Fail closed if any test escapes its HTTP mock or VCR recording."""
+
+    def fail(*args, **kwargs):
+        raise AssertionError("Tests must use recorded fixtures, not network access")
+
+    monkeypatch.setattr(socket.socket, "connect", fail)
+    monkeypatch.setattr(socket.socket, "connect_ex", fail)
 
 
 @pytest.fixture(scope="module")
