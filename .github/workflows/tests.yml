@@ -1,0 +1,25 @@
+name: SDK fixture tests
+
+on: pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    env:
+      RAPIDAPI_KEY: DUMMY
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9.25"
+      - name: Install locked dependencies
+        run: |
+          python -m pip install 'poetry==1.1.15' 'urllib3==1.26.20'
+          poetry install --no-interaction
+      - name: Lint and replay fixtures
+        run: |
+          poetry run flake8 --max-line-length 88 --per-file-ignores="__init__.py:F401"
+          poetry run pytest -v --cov rundown --vcr-record=none

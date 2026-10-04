@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "delta_last_id": "193500000"
+  },
+  "events": [
+    {
+      "event_id": "816efd1e5767d7133b5bc70c77173a18",
+      "sport_id": 4,
+      "event_uuid": "11f1-197d-e93ea800-8c2a-ef6a554ca62d",
+      "event_date": "2026-01-15T00:00:00Z",
+      "score": {
+        "event_status": "STATUS_SCHEDULED",
+        "score_away": 0,
+        "score_home": 0,
+        "game_period": 0,
+        "game_clock": 0
+      },
+      "teams": [
+        {
+          "team_id": 145,
+          "name": "Los Angeles",
+          "mascot": "Lakers",
+          "abbreviation": "LAL",
+          "record": "38-18",
+          "is_away": true,
+          "is_home": false
+        },
+        {
+          "team_id": 153,
+          "name": "Boston",
+          "mascot": "Celtics",
+          "abbreviation": "BOS",
+          "record": "42-14",
+          "is_away": false,
+          "is_home": true
+        }
+      ],
+      "schedule": {
+        "event_name": "Los Angeles Lakers at Boston Celtics",
+        "season_type": "Regular Season",
+        "season_year": 2026
+      },
+      "markets": [
+        {
+          "market_id": 1,
+          "period_id": 0,
+          "name": "moneyline",
+          "participants": [
+            {
+              "id": 145,
+              "type": "TYPE_TEAM",
+              "name": "Los Angeles Lakers",
+              "lines": [
+                {
+                  "value": "",
+                  "prices": {
+                    "19": {
+                      "price": 150,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:30:00Z"
+                    },
+                    "23": {
+                      "price": 155,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:28:00Z"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": 153,
+              "type": "TYPE_TEAM",
+              "name": "Boston Celtics",
+              "lines": [
+                {
+                  "value": "",
+                  "prices": {
+                    "19": {
+                      "price": -180,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:30:00Z"
+                    },
+                    "23": {
+                      "price": -185,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:28:00Z"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "market_id": 2,
+          "period_id": 0,
+          "name": "handicap",
+          "participants": [
+            {
+              "id": 145,
+              "type": "TYPE_TEAM",
+              "name": "Los Angeles Lakers",
+              "lines": [
+                {
+                  "value": "4.5",
+                  "prices": {
+                    "19": {
+                      "price": -110,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:30:00Z"
+                    },
+                    "23": {
+                      "price": -108,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:28:00Z"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": 153,
+              "type": "TYPE_TEAM",
+              "name": "Boston Celtics",
+              "lines": [
+                {
+                  "value": "-4.5",
+                  "prices": {
+                    "19": {
+                      "price": -110,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:30:00Z"
+                    },
+                    "23": {
+                      "price": -112,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:28:00Z"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "market_id": 3,
+          "period_id": 0,
+          "name": "totals",
+          "participants": [
+            {
+              "id": 1001,
+              "type": "TYPE_RESULT",
+              "name": "Over",
+              "lines": [
+                {
+                  "value": "224.5",
+                  "prices": {
+                    "19": {
+                      "price": -110,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:30:00Z"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": 1002,
+              "type": "TYPE_RESULT",
+              "name": "Under",
+              "lines": [
+                {
+                  "value": "224.5",
+                  "prices": {
+                    "19": {
+                      "price": -110,
+                      "is_main_line": true,
+                      "updated_at": "2026-01-14T22:30:00Z"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
