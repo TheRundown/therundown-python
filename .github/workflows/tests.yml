@@ -17,7 +17,8 @@ jobs:
           python-version: "3.9.25"
       - name: Install locked dependencies
         run: |
-          python -m pip install 'poetry==1.1.15' 'urllib3==1.26.20'
+          # Poetry 1.1 requires packaging<21, incompatible with setuptools>=71.
+          python -m pip install 'setuptools==70.3.0' 'poetry==1.1.15' 'urllib3==1.26.20'
           poetry install --no-interaction
       - name: Lint and replay fixtures
         run: |
